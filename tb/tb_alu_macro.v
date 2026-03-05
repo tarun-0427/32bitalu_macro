@@ -105,36 +105,44 @@ integer error_count;
 
 reg [31:0] exp_result_d1;
 reg exp_zero_d1;
+reg valid_d1;
 
+reg [31:0] exp_result_d2;
+reg exp_zero_d2;
+reg valid_d2;
 
 always @(posedge clk)
 begin
 
+    // expected pipeline stage 1
     exp_result_d1 <= expected_result;
     exp_zero_d1   <= expected_zero;
+    valid_d1      <= valid_i;
 
-    if(valid_o)
+    // expected pipeline stage 2
+    exp_result_d2 <= exp_result_d1;
+    exp_zero_d2   <= exp_zero_d1;
+    valid_d2      <= valid_d1;
+
+    if(valid_o && valid_d2)
     begin
-
         test_count = test_count + 1;
 
-        if(result_o !== exp_result_d1)
+        if(result_o !== exp_result_d2)
         begin
-            $display("ERROR: result mismatch  expected=%h  got=%h",
-                     exp_result_d1,result_o);
+            $display("ERROR: result mismatch expected=%h got=%h",
+                     exp_result_d2, result_o);
             error_count = error_count + 1;
         end
 
-        if(zero_o !== exp_zero_d1)
+        if(zero_o !== exp_zero_d2)
         begin
             $display("ERROR: zero flag mismatch");
             error_count = error_count + 1;
         end
-
     end
 
 end
-
 
 
 /* =========================

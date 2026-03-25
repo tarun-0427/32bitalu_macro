@@ -1,0 +1,4 @@
+ read_verilog rtl/macro_rtl.v
+ hierarchy -check -top alu_32bit
+    proc
+tee -o reports/lint/lint_report.rpt check 

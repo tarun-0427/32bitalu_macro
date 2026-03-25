@@ -1,0 +1,10 @@
+magic -T $PDK_ROOT/sky130A/libs.tech/magic/sky130A.tech -rcfile $PDK_ROOT/sky130A/libs.tech/magic/sky130A.magicrc 
+read def routing/routed.def
+load alu_32bit
+select top cell 
+expand
+what
+extract do local
+extracr all
+
+

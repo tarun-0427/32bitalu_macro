@@ -1,0 +1,56 @@
+read_verilog -lib ~/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd__blackbox.v
+
+read_verilog synthesis/mapped_net.v
+rename alu_32bit gate 
+opt 
+clean
+
+techmap -map abstraction/sky130_comb_abstraction.v
+techmap
+opt 
+clean
+simplemap
+
+techmap -map abstraction/sky130_ff_abstraction.v
+opt
+clean
+
+setundef -undriven -zero
+async2sync
+clk2fflogic
+opt -fast
+clean
+design -save gate
+
+read_verilog rtl/macro_rtl.v
+rename alu_32bit gold
+proc
+opt
+clean
+
+setundef -undriven -zero
+async2sync
+clk2fflogic
+opt
+clean
+design -save gold
+
+
+equiv_make gold gate equiv
+hierarchy -check
+flatten
+equiv_mark
+opt
+
+
+
+equiv_struct
+equiv_simple
+equiv_induct
+equiv_purge
+equiv_status
+
+
+tee -o reports/fec_mapped/equiv_status.rpt equiv_status
+tee -o reports/fec_mapped/equiv_check.rpt equiv_check
+tee -o reports/fec_mapped/equiv_purge.rpt equiv_purge

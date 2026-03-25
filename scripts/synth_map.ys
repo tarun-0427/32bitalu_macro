@@ -1,0 +1,31 @@
+# Read Liberty Library
+read_liberty -lib -ignore_miss_func /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+# Read RTL
+read_verilog rtl/macro_rtl.v
+# Set top module
+synth -top alu_32bit
+# Process behavioral logic
+#proc
+#opt
+#techmap
+#opt
+# Map flip-flops (important step)
+dfflibmap -liberty /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+# Map combinational logic
+abc -liberty /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib -D 9.0
+
+setundef -zero
+
+# Cleanup
+opt
+clean -purge
+# Write netlist
+write_verilog  synthesis/mapped_net.v
+# Design sanity check
+tee -o  reports/synth_map/design_check.rpt check
+# Basic synthesis statistics
+tee -o  reports/synth_map/stats.rpt stat
+# Longest logic path (topological)
+tee -o  reports/synth_map/longest_path.rpt ltp
+#Area Metric
+tee -o reports/synth_map/area_stats.rpt stat -liberty ~/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib

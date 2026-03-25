@@ -1,0 +1,150 @@
+read_verilog -lib ~/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd__blackbox.v
+
+read_verilog ../synthesis/mapped_net.v
+rename alu_32bit gate
+
+stat
+ls
+select -count t:sky130_fd_sc_hd__*
+select -count t:$_FF_
+select -count t:$_MUX_
+select -count t:$_AND_
+select -count t:$_OR_
+
+opt
+clean
+
+techmap -map ../abstraction/sky130_comb_abstraction.v
+
+stat
+select -count t:sky130_fd_sc_hd__*
+select -count t:$_AND_
+select -count t:$_MUX_
+select -count t:$_OR_
+select -count t:$_NOT_
+
+opt
+clean
+
+simplemap
+
+stat
+select -count t:$*
+select -count t:$_AND_
+select -count t:$_MUX_
+select -count t:$_OR_
+select -count t:$_NOT_
+
+techmap -map ../abstraction/sky130_ff_abstraction.v
+
+stat
+select -count t:sky130_fd_sc_hd__dfrtp_1
+select -count t:$_DFF*
+select -count t:$_FF_
+
+opt
+clean
+
+setundef -undriven -zero
+
+async2sync
+
+stat
+select -count t:$_DFF*
+select -count t:$_FF_
+
+clk2fflogic
+
+stat
+select -count t:$_FF_
+select -count t:$ff
+
+opt -fast
+clean
+
+stat
+select -count t:$_FF_
+select -count t:sky130_fd_sc_hd__*
+
+design -save gate
+
+read_verilog ../rtl/macro_rtl.v
+rename alu_32bit gold
+
+proc
+opt
+clean
+
+stat
+select -count t:$ff
+select -count t:$mux
+select -count t:$add
+select -count t:$xor
+
+setundef -undriven -zero
+async2sync
+clk2fflogic
+opt
+clean
+
+stat
+select -count t:$ff
+select -count t:$_FF_
+
+design -save gold
+
+design -load gate
+design -load gold
+
+ls
+stat
+
+equiv_make gold gate equiv
+
+ls
+stat
+select -count t:$equiv
+
+hierarchy -top equiv
+hierarchy -check
+
+ls
+stat
+select -count t:$equiv
+
+flatten
+
+stat
+select -count t:$equiv
+
+equiv_mark
+
+stat
+select -count t:$equiv
+
+opt
+
+stat
+select -count t:$equiv
+
+equiv_struct
+
+stat
+select -count t:$equiv
+
+equiv_simple
+
+stat
+select -count t:$equiv
+
+equiv_induct
+
+stat
+select -count t:$equiv
+
+equiv_purge
+
+stat
+select -count t:$equiv
+
+equiv_status

@@ -1,0 +1,24 @@
+# Read Liberty Library
+read_liberty -lib -ignore_miss_func /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+# Read RTL
+read_verilog rtl/macro_rtl.v
+# Set top module
+hierarchy -top alu_32bit
+# Process behavioral logic
+proc
+opt
+memory
+opt
+techmap
+opt
+clean
+
+#write generic_netlist
+write_verilog synthesis/generic_net.v
+
+# Design sanity check# Design sanity check
+tee -o  reports/synth_gen/design_check.rpt check
+# Basic synthesis statistics
+tee -o  reports/synth_gen/stats.rpt stat
+# Longest logic path (topological)
+tee -o  reports/synth_gen/longest_path.rpt ltp

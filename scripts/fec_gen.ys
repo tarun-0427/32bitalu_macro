@@ -1,0 +1,51 @@
+# load RTL
+read_verilog rtl/macro_rtl.v
+rename alu_32bit gold
+
+proc
+memory
+opt
+async2sync
+opt
+techmap
+opt
+clean
+
+# load synthesized generic netlist
+read_verilog synthesis/generic_net.v
+rename alu_32bit gate
+
+proc
+memory
+async2sync
+opt
+clean
+
+# build equivalence
+equiv_make gold gate equiv
+hierarchy -top equiv
+opt
+
+# prove
+equiv_simple
+equiv_struct
+equiv_induct
+
+# report
+#equiv_status
+#equiv_status -assert
+#stat -top equiv
+#check
+# --- report section ---
+
+# 1. Capture the definitive Pass/Fail status
+# This is the "Equivalence successfully proven" message
+tee -o reports/fec_gen/equiv_status.rpt equiv_status
+
+# 2. Capture the Miter circuit statistics 
+# (Shows how many AIG nodes/latches were compared)
+tee -o reports/fec_gen/miter_stats.rpt stat -top equiv
+
+# 3. Design check (Sanity check for the combined miter)
+tee -o reports/fec_gen/fec_check.rpt check
+tee -o reports/fec_gen/fec_assert.rpt  equiv_status -assert

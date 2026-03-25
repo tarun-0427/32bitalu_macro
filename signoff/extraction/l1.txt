@@ -1,0 +1,1 @@
+.subckt alu_32bit carry_o clk opcode[0] opcode[1] opcode[2] opcode[3] operand_a[0]

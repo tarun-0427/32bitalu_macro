@@ -1,0 +1,1841 @@
+* NGSPICE file created from alu_32bit.ext - technology: sky130A
+
+.global VGND VNB VPB VPWR
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o22ai_1 abstract view
+.subckt sky130_fd_sc_hd__o22ai_1 A1 A2 B1 B2 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dfrtp_1 abstract view
+.subckt sky130_fd_sc_hd__dfrtp_1 CLK D RESET_B VGND VNB VPB VPWR Q
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand2_1 abstract view
+.subckt sky130_fd_sc_hd__nand2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21oi_1 abstract view
+.subckt sky130_fd_sc_hd__a21oi_1 A1 A2 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__tapvpwrvgnd_1 abstract view
+.subckt sky130_fd_sc_hd__tapvpwrvgnd_1 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21ai_0 abstract view
+.subckt sky130_fd_sc_hd__o21ai_0 A1 A2 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a211oi_1 abstract view
+.subckt sky130_fd_sc_hd__a211oi_1 A1 A2 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a311oi_1 abstract view
+.subckt sky130_fd_sc_hd__a311oi_1 A1 A2 A3 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor2_1 abstract view
+.subckt sky130_fd_sc_hd__nor2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and2_0 abstract view
+.subckt sky130_fd_sc_hd__and2_0 A B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a31oi_1 abstract view
+.subckt sky130_fd_sc_hd__a31oi_1 A1 A2 A3 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand3_1 abstract view
+.subckt sky130_fd_sc_hd__nand3_1 A B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or3_1 abstract view
+.subckt sky130_fd_sc_hd__or3_1 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21boi_0 abstract view
+.subckt sky130_fd_sc_hd__a21boi_0 A1 A2 B1_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o211ai_1 abstract view
+.subckt sky130_fd_sc_hd__o211ai_1 A1 A2 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_4 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_4 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand3b_1 abstract view
+.subckt sky130_fd_sc_hd__nand3b_1 A_N B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__lpflow_isobufsrc_1 abstract view
+.subckt sky130_fd_sc_hd__lpflow_isobufsrc_1 A SLEEP VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux2i_1 abstract view
+.subckt sky130_fd_sc_hd__mux2i_1 A0 A1 S VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand2b_1 abstract view
+.subckt sky130_fd_sc_hd__nand2b_1 A_N B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and3_1 abstract view
+.subckt sky130_fd_sc_hd__and3_1 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor3_1 abstract view
+.subckt sky130_fd_sc_hd__nor3_1 A B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__xor2_1 abstract view
+.subckt sky130_fd_sc_hd__xor2_1 A B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__lpflow_inputiso1p_1 abstract view
+.subckt sky130_fd_sc_hd__lpflow_inputiso1p_1 A SLEEP VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__xnor2_1 abstract view
+.subckt sky130_fd_sc_hd__xnor2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o221ai_1 abstract view
+.subckt sky130_fd_sc_hd__o221ai_1 A1 A2 B1 B2 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a221o_1 abstract view
+.subckt sky130_fd_sc_hd__a221o_1 A1 A2 B1 B2 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux2_1 abstract view
+.subckt sky130_fd_sc_hd__mux2_1 A0 A1 S VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21a_1 abstract view
+.subckt sky130_fd_sc_hd__o21a_1 A1 A2 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o211a_1 abstract view
+.subckt sky130_fd_sc_hd__o211a_1 A1 A2 B1 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor4_1 abstract view
+.subckt sky130_fd_sc_hd__nor4_1 A B C D VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o31ai_1 abstract view
+.subckt sky130_fd_sc_hd__o31ai_1 A1 A2 A3 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkinv_2 abstract view
+.subckt sky130_fd_sc_hd__clkinv_2 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a31o_1 abstract view
+.subckt sky130_fd_sc_hd__a31o_1 A1 A2 A3 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a221oi_1 abstract view
+.subckt sky130_fd_sc_hd__a221oi_1 A1 A2 B1 B2 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkinv_1 abstract view
+.subckt sky130_fd_sc_hd__clkinv_1 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21bo_1 abstract view
+.subckt sky130_fd_sc_hd__a21bo_1 A1 A2 B1_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a211o_1 abstract view
+.subckt sky130_fd_sc_hd__a211o_1 A1 A2 B1 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o311ai_0 abstract view
+.subckt sky130_fd_sc_hd__o311ai_0 A1 A2 A3 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__bufinv_16 abstract view
+.subckt sky130_fd_sc_hd__bufinv_16 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor3b_1 abstract view
+.subckt sky130_fd_sc_hd__nor3b_1 A B C_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkinv_4 abstract view
+.subckt sky130_fd_sc_hd__clkinv_4 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21bai_1 abstract view
+.subckt sky130_fd_sc_hd__o21bai_1 A1 A2 B1_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a311o_1 abstract view
+.subckt sky130_fd_sc_hd__a311o_1 A1 A2 A3 B1 C1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkinvlp_4 abstract view
+.subckt sky130_fd_sc_hd__clkinvlp_4 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a2111oi_0 abstract view
+.subckt sky130_fd_sc_hd__a2111oi_0 A1 A2 B1 C1 D1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_1 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_1 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o22a_1 abstract view
+.subckt sky130_fd_sc_hd__o22a_1 A1 A2 B1 B2 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o2111ai_1 abstract view
+.subckt sky130_fd_sc_hd__o2111ai_1 A1 A2 B1 C1 D1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21o_1 abstract view
+.subckt sky130_fd_sc_hd__a21o_1 A1 A2 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand4_1 abstract view
+.subckt sky130_fd_sc_hd__nand4_1 A B C D VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor2b_1 abstract view
+.subckt sky130_fd_sc_hd__nor2b_1 A B_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or4_1 abstract view
+.subckt sky130_fd_sc_hd__or4_1 A B C D VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o31a_1 abstract view
+.subckt sky130_fd_sc_hd__o31a_1 A1 A2 A3 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux4_2 abstract view
+.subckt sky130_fd_sc_hd__mux4_2 A0 A1 A2 A3 S0 S1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a22o_1 abstract view
+.subckt sky130_fd_sc_hd__a22o_1 A1 A2 B1 B2 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or4b_1 abstract view
+.subckt sky130_fd_sc_hd__or4b_1 A B C D_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and4_1 abstract view
+.subckt sky130_fd_sc_hd__and4_1 A B C D VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a22oi_1 abstract view
+.subckt sky130_fd_sc_hd__a22oi_1 A1 A2 B1 B2 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__maj3_1 abstract view
+.subckt sky130_fd_sc_hd__maj3_1 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a2111o_1 abstract view
+.subckt sky130_fd_sc_hd__a2111o_1 A1 A2 B1 C1 D1 VGND VNB VPB VPWR X
+.ends
+
+.subckt alu_32bit carry_o clk opcode[0] opcode[1] opcode[2] opcode[3] operand_a[0]
++ operand_a[10] operand_a[11] operand_a[12] operand_a[13] operand_a[14] operand_a[15]
++ operand_a[16] operand_a[17] operand_a[18] operand_a[19] operand_a[1] operand_a[20]
++ operand_a[21] operand_a[22] operand_a[23] operand_a[24] operand_a[25] operand_a[26]
++ operand_a[27] operand_a[28] operand_a[29] operand_a[2] operand_a[30] operand_a[31]
++ operand_a[3] operand_a[4] operand_a[5] operand_a[6] operand_a[7] operand_a[8] operand_a[9]
++ operand_b[0] operand_b[10] operand_b[11] operand_b[12] operand_b[13] operand_b[14]
++ operand_b[15] operand_b[16] operand_b[17] operand_b[18] operand_b[19] operand_b[1]
++ operand_b[20] operand_b[21] operand_b[22] operand_b[23] operand_b[24] operand_b[25]
++ operand_b[26] operand_b[27] operand_b[28] operand_b[29] operand_b[2] operand_b[30]
++ operand_b[31] operand_b[3] operand_b[4] operand_b[5] operand_b[6] operand_b[7] operand_b[8]
++ operand_b[9] overflow_o result_o[0] result_o[10] result_o[11] result_o[12] result_o[13]
++ result_o[14] result_o[15] result_o[16] result_o[17] result_o[18] result_o[19] result_o[1]
++ result_o[20] result_o[21] result_o[22] result_o[23] result_o[24] result_o[25] result_o[26]
++ result_o[27] result_o[28] result_o[29] result_o[2] result_o[30] result_o[31] result_o[3]
++ result_o[4] result_o[5] result_o[6] result_o[7] result_o[8] result_o[9] rst_n valid_i
++ valid_o zero_o
+X_2037_ _1041_/Y _1282_/Y _2049_/B _1042_/A VGND VGND _2077_/VPB _2077_/VPB _2037_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_2106_ clkload6/A _2106_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[20] sky130_fd_sc_hd__dfrtp_1
+X_1270_ _2154_/Q _2151_/Q VGND VGND _2033_/VPB _2033_/VPB _1271_/B sky130_fd_sc_hd__nand2_1
+X_1399_ _2155_/Q _1228_/Y _1398_/Y VGND VGND _1545_/VPB _2006_/VPB _1545_/B sky130_fd_sc_hd__a21oi_1
+X_1606_ _1602_/Y _1605_/Y _2158_/Q VGND VGND _2036_/VPB _2036_/VPB _1611_/A sky130_fd_sc_hd__a21oi_1
+X_1468_ _1152_/X _1466_/A _1467_/Y VGND VGND _2007_/VPB _2007_/VPB _1469_/B sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_12_54 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1537_ _1537_/A _1537_/B VGND VGND _1560_/VPB _2177_/VPB _1537_/Y sky130_fd_sc_hd__nand2_1
+X_1322_ _2154_/Q _2152_/Q _1321_/X VGND VGND _1432_/VPB _2032_/VPWR _1432_/B sky130_fd_sc_hd__a21oi_1
+X_1253_ _2155_/Q _1249_/Y _1252_/Y VGND VGND _2048_/VPB _2048_/VPB _1481_/B sky130_fd_sc_hd__o21ai_0
+X_1184_ _1183_/A _1183_/B _1904_/A _1884_/A VGND VGND _2040_/VPB _2040_/VPB _1919_/C
++ sky130_fd_sc_hd__a211oi_1
+XTAP_TAPCELL_ROW_23_97 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1871_ _2156_/Q _1796_/B _1870_/Y VGND VGND _2053_/VPB _2053_/VPB _1872_/B sky130_fd_sc_hd__a21oi_1
+X_1940_ _1922_/A _1922_/B _1922_/C _1919_/A _1942_/A VGND VGND _1955_/VPB _1955_/VPB
++ _1961_/B sky130_fd_sc_hd__a311oi_1
+X_1305_ _2155_/Q _1449_/B VGND VGND _2048_/VPB _2048_/VPB _1305_/Y sky130_fd_sc_hd__nor2_1
+X_1236_ _2154_/Q _2135_/Q VGND VGND _2053_/VPB _2053_/VPB _1237_/B sky130_fd_sc_hd__nand2_1
+X_1167_ _1769_/A _1167_/B VGND VGND _2190_/VPB _2190_/VPB _1785_/B sky130_fd_sc_hd__nand2_1
+X_1098_ _1098_/A _1098_/B VGND VGND _2176_/VPB _2176_/VPB _1747_/A sky130_fd_sc_hd__nand2_1
+X_2070_ _2070_/A _2070_/B VGND VGND _2144_/VPB _2144_/VPB _2070_/X sky130_fd_sc_hd__and2_0
+X_1219_ _1964_/S _1215_/Y _1218_/X VGND VGND _2006_/VPB _2006_/VPB _1483_/B sky130_fd_sc_hd__a21oi_1
+X_1923_ _1922_/A _1922_/B _1922_/C _1919_/A VGND VGND _1955_/VPB _1955_/VPB _1923_/Y
++ sky130_fd_sc_hd__a31oi_1
+XTAP_TAPCELL_ROW_20_87 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1854_ _2142_/Q _2174_/Q _1854_/C VGND VGND _2077_/VPB _2077_/VPB _1854_/Y sky130_fd_sc_hd__nand3_1
+X_1785_ _1788_/A _1785_/B VGND VGND _1785_/VPB _2190_/VPB _1785_/Y sky130_fd_sc_hd__nand2_1
+X_1570_ _2156_/Q _1570_/B VGND VGND _2033_/VPB _2033_/VPB _1570_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_36_148 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2053_ _1586_/B _2048_/X _2052_/Y VGND VGND _2053_/VPB _2053_/VPB _2053_/Y sky130_fd_sc_hd__o21ai_0
+X_2122_ clkload4/A operand_a[0] rst_n VGND VGND _2187_/VPB _2187_/VPB _2122_/Q sky130_fd_sc_hd__dfrtp_1
+X_1906_ _1307_/Y _1311_/A _2155_/Q VGND VGND _2048_/VPB _2048_/VPB _1906_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_27_115 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1837_ _1440_/X _1836_/Y _2158_/Q VGND VGND _1837_/VPB _1955_/VPB _1841_/A sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_2_13 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1768_ _2137_/Q _2169_/Q _1748_/B VGND VGND _2184_/VPB _2184_/VPB _1769_/C sky130_fd_sc_hd__a21oi_1
+X_1699_ _1720_/C _1959_/A _1699_/C VGND VGND _2144_/VPB _2144_/VPB _1719_/A sky130_fd_sc_hd__or3_1
+XTAP_TAPCELL_ROW_15_65 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1622_ _2001_/A _1361_/Y _1214_/Y VGND VGND _2048_/VPB _2048_/VPB _1622_/Y sky130_fd_sc_hd__a21oi_1
+X_1484_ _2156_/Q _1234_/B _1483_/Y VGND VGND _1545_/VPB _2006_/VPB _1484_/Y sky130_fd_sc_hd__a21oi_1
+X_1553_ _2154_/Q _2127_/Q _1218_/B VGND VGND _1597_/VPB _2053_/VPB _1597_/B sky130_fd_sc_hd__a21boi_0
+X_2036_ _2001_/A _1889_/Y _2035_/Y _1367_/B VGND VGND _2036_/VPB _2036_/VPB _2040_/B
++ sky130_fd_sc_hd__o211ai_1
+X_2105_ clkload0/A _2105_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[19] sky130_fd_sc_hd__dfrtp_1
+Xclkbuf_3_6__f_clk clkbuf_0_clk/X VGND VGND _2184_/VPB _2184_/VPB clkload5/A sky130_fd_sc_hd__clkbuf_4
+X_1605_ _1605_/A _1605_/B VGND VGND _2006_/VPB _2006_/VPB _1605_/Y sky130_fd_sc_hd__nand2_1
+X_1398_ _1218_/B _1596_/A _2155_/Q VGND VGND _1597_/VPB _2053_/VPB _1398_/Y sky130_fd_sc_hd__a21oi_1
+X_1467_ _1152_/X _1466_/A _1828_/A VGND VGND _2007_/VPB _2007_/VPB _1467_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_12_55 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1536_ _1550_/A _1536_/B _1536_/C VGND VGND _1560_/VPB _2177_/VPB _1537_/B sky130_fd_sc_hd__nand3b_1
+X_2019_ _2155_/Q _2019_/B VGND VGND _2019_/VPB _2047_/VPB _2019_/X sky130_fd_sc_hd__and2_0
+X_1321_ _2151_/Q _2154_/Q VGND VGND _2047_/VPB _2047_/VPB _1321_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1252_ _2155_/Q _1252_/B VGND VGND _2006_/VPB _2006_/VPB _1252_/Y sky130_fd_sc_hd__nand2_1
+X_1183_ _1183_/A _1183_/B VGND VGND _2077_/VPB _2077_/VPB _1881_/B sky130_fd_sc_hd__nand2_1
+X_1519_ _1306_/Y _1360_/Y _1982_/S VGND VGND _1519_/VPB _2035_/VPB _1519_/Y sky130_fd_sc_hd__mux2i_1
+XTAP_TAPCELL_ROW_23_98 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1870_ _2156_/Q _1870_/B VGND VGND _2053_/VPB _2053_/VPB _1870_/Y sky130_fd_sc_hd__nor2_1
+X_1304_ _2154_/Q _2142_/Q _1303_/X VGND VGND _2053_/VPB _2053_/VPB _1304_/Y sky130_fd_sc_hd__a21oi_1
+X_1235_ _2154_/Q _2134_/Q VGND VGND _2053_/VPB _2053_/VPB _1687_/B sky130_fd_sc_hd__nand2b_1
+X_1999_ _2150_/Q _2182_/Q _1462_/A VGND VGND _2018_/VPB _2040_/VPB _1999_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_18_76 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1166_ _1766_/B _1766_/C VGND VGND _2184_/VPB _2184_/VPB _1167_/B sky130_fd_sc_hd__nand2_1
+X_1097_ _2137_/Q _2169_/Q VGND VGND _2176_/VPB _2176_/VPB _1098_/B sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_5_24 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1922_ _1922_/A _1922_/B _1922_/C VGND VGND _1955_/VPB _1955_/VPB _1922_/Y sky130_fd_sc_hd__nand3_1
+X_1853_ _2157_/Q _1851_/Y _1852_/Y _1367_/B VGND VGND _2007_/VPB _2007_/VPB _1858_/B
++ sky130_fd_sc_hd__o211ai_1
+X_1784_ _1788_/B _1771_/Y _1783_/Y _1767_/Y VGND VGND _2184_/VPB _2184_/VPB _2102_/D
++ sky130_fd_sc_hd__o211ai_1
+X_1218_ _2155_/Q _1218_/B _1596_/A VGND VGND _1597_/VPB _2053_/VPB _1218_/X sky130_fd_sc_hd__and3_1
+X_1149_ _2123_/Q _2155_/Q VGND VGND _1422_/VPB _2007_/VPB _1420_/B sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_36_149 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2052_ _1804_/A _1757_/B _1757_/C _2051_/Y _1772_/B VGND VGND _2053_/VPB _2053_/VPB
++ _2052_/Y sky130_fd_sc_hd__a311oi_1
+X_2121_ clkload3/A _2121_/D rst_n VGND VGND _2185_/VPB _2185_/VPB zero_o sky130_fd_sc_hd__dfrtp_1
+X_1905_ _2157_/Q _1905_/B VGND VGND _1955_/VPB _1955_/VPB _1905_/Y sky130_fd_sc_hd__nand2_1
+X_1836_ _2157_/Q _1834_/Y _1835_/Y _1805_/B VGND VGND _1837_/VPB _1955_/VPB _1836_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1767_ _1785_/B _1828_/A _1767_/C VGND VGND _2184_/VPB _2184_/VPB _1767_/Y sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_15_66 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1698_ _1700_/A _1698_/B _1698_/C VGND VGND _2177_/VPB _2177_/VPB _1699_/C sky130_fd_sc_hd__nor3_1
+XTAP_TAPCELL_ROW_2_14 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1621_ _2157_/Q _1621_/B VGND VGND _1621_/VPB _2033_/VPB _1621_/Y sky130_fd_sc_hd__nand2_1
+X_2035_ _2156_/Q _2033_/Y _2034_/Y _2001_/A VGND VGND _2035_/VPB _2035_/VPB _2035_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1483_ _2156_/Q _1483_/B VGND VGND _2006_/VPB _2006_/VPB _1483_/Y sky130_fd_sc_hd__nor2_1
+X_2104_ clkload6/A _2104_/D rst_n VGND VGND _2182_/VPB _2182_/VPB result_o[18] sky130_fd_sc_hd__dfrtp_1
+X_1552_ _1130_/Y _2049_/B _1550_/Y _1551_/Y VGND VGND _2144_/VPB _2144_/VPB _1552_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1819_ _2157_/Q _1818_/X _1805_/B VGND VGND _1955_/VPB _1955_/VPB _1819_/Y sky130_fd_sc_hd__o21ai_0
+X_1604_ _2157_/Q _1243_/Y _1603_/Y VGND VGND _2006_/VPB _2006_/VPB _1605_/B sky130_fd_sc_hd__o21ai_0
+X_1535_ _1134_/X _1506_/Y _1550_/A VGND VGND _1560_/VPB _2177_/VPB _1537_/A sky130_fd_sc_hd__o21ai_0
+X_1397_ _2158_/Q _1397_/B VGND VGND _2006_/VPB _2006_/VPB _1397_/Y sky130_fd_sc_hd__nand2_1
+X_1466_ _1466_/A _1496_/B VGND VGND _2025_/VPB _2025_/VPB _1466_/X sky130_fd_sc_hd__xor2_1
+X_2018_ _2013_/A _1462_/A _2049_/B _2029_/A VGND VGND _2018_/VPB _2040_/VPB _2018_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1320_ _2155_/Q _1319_/X _1318_/Y VGND VGND _1432_/VPB _2032_/VPWR _1510_/B sky130_fd_sc_hd__a21oi_1
+X_1251_ _2154_/Q _2141_/Q _1250_/X VGND VGND _2006_/VPB _2006_/VPB _1252_/B sky130_fd_sc_hd__a21oi_1
+X_1182_ _2143_/Q _1034_/Y _1181_/Y VGND VGND _2077_/VPB _2077_/VPB _1183_/B sky130_fd_sc_hd__a21oi_1
+X_1518_ _1573_/B _1514_/Y _1517_/Y _1572_/B VGND VGND _2033_/VPB _2033_/VPB _1518_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1449_ _2155_/Q _1449_/B VGND VGND _2048_/VPB _2048_/VPB _1449_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_23_99 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1234_ _2156_/Q _1234_/B VGND VGND _2006_/VPB _2006_/VPB _1234_/Y sky130_fd_sc_hd__nor2_1
+X_1303_ _2141_/Q _2154_/Q VGND VGND _2006_/VPB _2006_/VPB _1303_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+XTAP_TAPCELL_ROW_18_77 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_1_8 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1165_ _1743_/B _1743_/C _1747_/A VGND VGND _2184_/VPB _2184_/VPB _1766_/C sky130_fd_sc_hd__o21ai_0
+X_1096_ _2137_/Q _2169_/Q VGND VGND _2176_/VPB _2176_/VPB _1098_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1998_ _1998_/A _1998_/B VGND VGND _2007_/VPB _2007_/VPB _1998_/Y sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_5_25 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1921_ _2145_/Q _2177_/Q _2176_/Q _2144_/Q VGND VGND _1921_/VPB _1955_/VPB _1922_/C
++ sky130_fd_sc_hd__o211ai_1
+X_1783_ _1783_/A _1783_/B _1783_/C VGND VGND _1837_/VPB _1955_/VPB _1783_/Y sky130_fd_sc_hd__nor3_1
+X_1852_ _2157_/Q _1852_/B VGND VGND _2007_/VPB _2007_/VPB _1852_/Y sky130_fd_sc_hd__nand2_1
+X_1217_ _2154_/Q _2129_/Q VGND VGND _2053_/VPB _2053_/VPB _1596_/A sky130_fd_sc_hd__nand2_1
+X_1148_ _2123_/Q _2155_/Q VGND VGND _1955_/VPB _1955_/VPB _1148_/Y sky130_fd_sc_hd__nor2_1
+X_1079_ _2143_/Q _2175_/Q VGND VGND _2077_/VPB _2077_/VPB _1079_/Y sky130_fd_sc_hd__xnor2_1
+X_2120_ clkload2/A _2120_/D rst_n VGND VGND _2184_/VPB _2184_/VPB overflow_o sky130_fd_sc_hd__dfrtp_1
+X_1835_ _2157_/Q _1835_/B VGND VGND _1835_/VPB _1955_/VPB _1835_/Y sky130_fd_sc_hd__nand2_1
+X_1904_ _1904_/A _1904_/B VGND VGND _2007_/VPB _2007_/VPB _1904_/X sky130_fd_sc_hd__xor2_1
+X_2051_ _1036_/Y _1282_/Y _1756_/Y _1998_/B _2050_/Y VGND VGND _2051_/VPB _2040_/VPB
++ _2051_/Y sky130_fd_sc_hd__o221ai_1
+X_1697_ _1680_/Y _1681_/Y _1696_/Y VGND VGND _2177_/VPB _2177_/VPB _2098_/D sky130_fd_sc_hd__o21ai_0
+X_1766_ _1766_/A _1766_/B _1766_/C VGND VGND _2184_/VPB _2184_/VPB _1767_/C sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_15_67 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_2_15 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1620_ _1329_/Y _1662_/B _1757_/B _1326_/Y _1576_/X VGND VGND _2047_/VPB _2047_/VPB
++ _1620_/X sky130_fd_sc_hd__a221o_1
+X_2034_ _2156_/Q _2034_/B VGND VGND _2035_/VPB _2035_/VPB _2034_/Y sky130_fd_sc_hd__nand2_1
+X_1482_ _2156_/Q _1242_/Y _1481_/Y VGND VGND _2006_/VPB _2006_/VPB _1482_/Y sky130_fd_sc_hd__o21ai_0
+X_2103_ clkload4/A _2103_/D rst_n VGND VGND _2182_/VPB _2182_/VPB result_o[17] sky130_fd_sc_hd__dfrtp_1
+X_1551_ _2128_/Q _2160_/Q _1281_/X VGND VGND _2144_/VPB _2144_/VPB _1551_/Y sky130_fd_sc_hd__o21ai_0
+X_1749_ _2157_/Q _1749_/B VGND VGND _2048_/VPB _2048_/VPB _1749_/Y sky130_fd_sc_hd__nand2_1
+X_1818_ _1727_/B _1888_/B _1982_/S VGND VGND _2036_/VPB _2036_/VPB _1818_/X sky130_fd_sc_hd__mux2_1
+X_1396_ _1573_/B _1393_/Y _1395_/Y _1572_/B VGND VGND _2035_/VPB _2035_/VPB _1397_/B
++ sky130_fd_sc_hd__o22ai_1
+X_1603_ _2157_/Q _1603_/B VGND VGND _2006_/VPB _2006_/VPB _1603_/Y sky130_fd_sc_hd__nand2_1
+X_1465_ _1465_/A _1465_/B VGND VGND _2007_/VPB _2007_/VPB _1496_/B sky130_fd_sc_hd__nor2_1
+X_2017_ _1045_/Y _1282_/Y _2040_/A VGND VGND _2025_/VPB _2025_/VPB _2017_/Y sky130_fd_sc_hd__o21ai_0
+X_1534_ _1561_/C _1959_/A _1534_/C VGND VGND _1560_/VPB _2177_/VPB _1534_/Y sky130_fd_sc_hd__nor3_1
+XTAP_TAPCELL_ROW_8_36 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1517_ _2157_/Q _1516_/Y _1512_/Y VGND VGND _2047_/VPB _2047_/VPB _1517_/Y sky130_fd_sc_hd__a21oi_1
+X_1448_ _2156_/Q _1448_/B VGND VGND _1519_/VPB _2035_/VPB _1448_/Y sky130_fd_sc_hd__nor2_1
+X_1250_ _2140_/Q _2154_/Q VGND VGND _2006_/VPB _2006_/VPB _1250_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1181_ _1865_/C _1861_/C VGND VGND _2177_/VPB _2177_/VPB _1181_/Y sky130_fd_sc_hd__nor2_1
+X_1379_ _1420_/B _2049_/B _1378_/Y _1148_/Y VGND VGND _2007_/VPB _2007_/VPB _1380_/B
++ sky130_fd_sc_hd__o22ai_1
+X_1302_ _1793_/A _1302_/B VGND VGND _2006_/VPB _2006_/VPB _1449_/B sky130_fd_sc_hd__nand2_1
+X_1233_ _2155_/Q _1228_/Y _1232_/Y VGND VGND _1545_/VPB _2006_/VPB _1234_/B sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_1_9 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1095_ _2169_/Q _2137_/Q VGND VGND _2184_/VPB _2184_/VPB _1766_/B sky130_fd_sc_hd__nand2b_1
+X_1164_ _1720_/B _1720_/C _1720_/A VGND VGND _2184_/VPB _2184_/VPB _1743_/C sky130_fd_sc_hd__o21a_1
+X_1997_ _1997_/A _1997_/B VGND VGND _2077_/VPB _2077_/VPB _1997_/Y sky130_fd_sc_hd__xnor2_1
+XTAP_TAPCELL_ROW_18_78 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_5_26 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1851_ _2156_/Q _1849_/X _1850_/Y VGND VGND _1888_/VPB _2053_/VPB _1851_/Y sky130_fd_sc_hd__o21ai_0
+X_1920_ _1884_/B _1884_/C _1904_/A _1884_/A VGND VGND _2040_/VPB _2040_/VPB _1922_/B
++ sky130_fd_sc_hd__o211ai_1
+X_1216_ _2154_/Q _2128_/Q VGND VGND _1597_/VPB _2053_/VPB _1218_/B sky130_fd_sc_hd__nand2b_1
+X_1782_ _1804_/A _1291_/Y _1805_/B _1781_/Y VGND VGND _2036_/VPB _2036_/VPB _1783_/C
++ sky130_fd_sc_hd__o211a_1
+X_1147_ _2122_/Q _2154_/Q VGND VGND _1955_/VPB _1955_/VPB _1375_/A sky130_fd_sc_hd__nand2b_1
+X_1078_ _2143_/Q _2175_/Q VGND VGND _2144_/VPB _2144_/VPB _1865_/C sky130_fd_sc_hd__xor2_1
+X_1834_ _1753_/Y _1833_/Y _1982_/S VGND VGND _2036_/VPB _2036_/VPB _1834_/Y sky130_fd_sc_hd__mux2i_1
+X_1903_ _1903_/A _1903_/B VGND VGND _1903_/VPB _2025_/VPB _1904_/B sky130_fd_sc_hd__nand2_1
+X_1696_ _1696_/A _1696_/B _1696_/C _1696_/D VGND VGND _1696_/VPB _2040_/VPB _1696_/Y
++ sky130_fd_sc_hd__nor4_1
+X_2050_ _2079_/A _1550_/B _2049_/Y VGND VGND _2051_/VPB _2040_/VPB _2050_/Y sky130_fd_sc_hd__a21oi_1
+X_1765_ _1743_/Y _1744_/Y _1764_/Y VGND VGND _2184_/VPB _2184_/VPB _2101_/D sky130_fd_sc_hd__o21ai_0
+X_2179_ clkload4/A operand_b[25] rst_n VGND VGND _2189_/VPB _2189_/VPB _2179_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2033_ _2155_/Q _2002_/Y _2032_/Y VGND VGND _2033_/VPB _2033_/VPB _2033_/Y sky130_fd_sc_hd__a21oi_1
+X_1481_ _2156_/Q _1481_/B VGND VGND _2048_/VPB _2048_/VPB _1481_/Y sky130_fd_sc_hd__nand2_1
+X_2102_ clkload1/A _2102_/D rst_n VGND VGND _2182_/VPB _2182_/VPB result_o[16] sky130_fd_sc_hd__dfrtp_1
+X_1550_ _1550_/A _1550_/B VGND VGND _2144_/VPB _2144_/VPB _1550_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_32_132 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1817_ _2155_/Q _1815_/Y _1816_/Y VGND VGND _1888_/VPB _2053_/VPB _1888_/B sky130_fd_sc_hd__o21ai_0
+X_1679_ _1680_/B _1680_/C _1680_/D _1680_/A VGND VGND _2177_/VPB _2177_/VPB _1700_/C
++ sky130_fd_sc_hd__o31ai_1
+X_1748_ _1943_/A _1748_/B VGND VGND _2176_/VPB _2176_/VPB _1748_/Y sky130_fd_sc_hd__nor2_1
+X_1395_ _2157_/Q _1394_/X _1387_/Y VGND VGND _2035_/VPB _2035_/VPB _1395_/Y sky130_fd_sc_hd__a21oi_1
+X_1602_ _2157_/Q _1600_/Y _1601_/Y _1805_/B VGND VGND _2036_/VPB _2036_/VPB _1602_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1464_ _2157_/Q _1586_/B _1838_/B _1463_/Y VGND VGND _2025_/VPB _2025_/VPB _1464_/Y
++ sky130_fd_sc_hd__o31ai_1
+X_2016_ _2016_/A _2074_/A _2029_/C VGND VGND _2077_/VPB _2077_/VPB _2016_/Y sky130_fd_sc_hd__nand3_1
+X_1533_ _1550_/A _1533_/B _1533_/C VGND VGND _2177_/VPB _2177_/VPB _1534_/C sky130_fd_sc_hd__and3_1
+XTAP_TAPCELL_ROW_8_37 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1516_ _2156_/Q _1328_/Y _1437_/Y VGND VGND _1516_/VPB _2032_/VPWR _1516_/Y sky130_fd_sc_hd__o21ai_0
+X_1180_ _2174_/Q _2142_/Q VGND VGND _2177_/VPB _2177_/VPB _1861_/C sky130_fd_sc_hd__nand2b_1
+X_1447_ _2155_/Q _1359_/B _1446_/Y VGND VGND _1447_/VPB _2048_/VPB _1448_/B sky130_fd_sc_hd__a21oi_1
+X_1378_ _1420_/B _1550_/B _1281_/X VGND VGND _2007_/VPB _2007_/VPB _1378_/Y sky130_fd_sc_hd__a21oi_1
+X_1301_ _2154_/Q _2140_/Q VGND VGND _2006_/VPB _2006_/VPB _1302_/B sky130_fd_sc_hd__nand2_1
+X_1232_ _2155_/Q _1232_/B VGND VGND _2006_/VPB _2006_/VPB _1232_/Y sky130_fd_sc_hd__nand2_1
+X_1996_ _1996_/A _1996_/B _1996_/C VGND VGND _2077_/VPB _2077_/VPB _1997_/B sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_18_79 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1094_ _2138_/Q _2170_/Q VGND VGND _2184_/VPB _2184_/VPB _1769_/A sky130_fd_sc_hd__xnor2_1
+X_1163_ _1698_/B _1698_/C _1700_/A VGND VGND _2144_/VPB _2144_/VPB _1720_/C sky130_fd_sc_hd__o21a_1
+XTAP_TAPCELL_ROW_5_27 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkload0 clkload0/A VGND VGND _2189_/VPB _2189_/VPB clkload0/Y sky130_fd_sc_hd__clkinv_2
+X_1215_ _2126_/Q _2127_/Q _2154_/Q VGND VGND _2006_/VPB _2006_/VPB _1215_/Y sky130_fd_sc_hd__mux2i_1
+X_1850_ _2156_/Q _1850_/B VGND VGND _1888_/VPB _2053_/VPB _1850_/Y sky130_fd_sc_hd__nand2_1
+X_1781_ _2157_/Q _1779_/Y _1780_/Y VGND VGND _2036_/VPB _2036_/VPB _1781_/Y sky130_fd_sc_hd__o21ai_0
+X_1146_ _2124_/Q _2156_/Q VGND VGND _1420_/VPB _2025_/VPB _1420_/A sky130_fd_sc_hd__xnor2_1
+X_1077_ _2143_/Q _2175_/Q VGND VGND _2077_/VPB _2077_/VPB _1882_/A sky130_fd_sc_hd__nand2_1
+X_1979_ _2149_/Q _2148_/Q _2154_/Q VGND VGND _2033_/VPB _2033_/VPB _2019_/B sky130_fd_sc_hd__mux2i_1
+X_1833_ _2155_/Q _1794_/B _1832_/Y VGND VGND _2006_/VPB _2006_/VPB _1833_/Y sky130_fd_sc_hd__a21oi_1
+X_1902_ _1904_/A _1902_/B VGND VGND _1918_/VPB _2077_/VPB _1902_/X sky130_fd_sc_hd__xor2_1
+X_1764_ _1745_/Y _1769_/B _1748_/Y _1763_/Y VGND VGND _2176_/VPB _2176_/VPB _1764_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_1695_ _1700_/B _2049_/B _1586_/B _1998_/A VGND VGND _1696_/VPB _2040_/VPB _1696_/D
++ sky130_fd_sc_hd__o22ai_1
+X_2178_ clkload5/A operand_b[24] rst_n VGND VGND _2190_/VPB _2190_/VPB _2178_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1129_ _2128_/Q _2160_/Q VGND VGND _2176_/VPB _2176_/VPB _1561_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+XTAP_TAPCELL_ROW_21_90 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1480_ _2158_/Q _1480_/B VGND VGND _2040_/VPB _2040_/VPB _1503_/A sky130_fd_sc_hd__nand2_1
+Xclkbuf_3_1__f_clk clkbuf_0_clk/X VGND VGND _2189_/VPB _2189_/VPB clkload1/A sky130_fd_sc_hd__clkbuf_4
+X_2032_ _2155_/Q _2032_/B VGND VGND _2032_/VPB _2032_/VPWR _2032_/Y sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_32_133 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1816_ _2155_/Q _1816_/B VGND VGND _1888_/VPB _2053_/VPB _1816_/Y sky130_fd_sc_hd__nand2_1
+X_1678_ _1698_/C _1959_/A _1678_/C VGND VGND _2077_/VPB _2077_/VPB _1696_/A sky130_fd_sc_hd__nor3_1
+X_2101_ _2184_/CLK _2101_/D rst_n VGND VGND _2182_/VPB _2182_/VPB result_o[15] sky130_fd_sc_hd__dfrtp_1
+X_1747_ _1747_/A _1747_/B VGND VGND _2184_/VPB _2184_/VPB _1748_/B sky130_fd_sc_hd__nor2_1
+X_1394_ _2155_/Q _2156_/Q _2153_/Q _1638_/A VGND VGND _2035_/VPB _2035_/VPB _1394_/X
++ sky130_fd_sc_hd__a31o_1
+X_1601_ _2156_/Q _1291_/C _2157_/Q VGND VGND _2036_/VPB _2036_/VPB _1601_/Y sky130_fd_sc_hd__o21ai_0
+X_1463_ _1854_/C _1459_/Y _1461_/B _1281_/X _1462_/Y VGND VGND _2025_/VPB _2025_/VPB
++ _1463_/Y sky130_fd_sc_hd__a221oi_1
+X_2015_ _2150_/Q _2182_/Q _2079_/C VGND VGND _2077_/VPB _2077_/VPB _2029_/C sky130_fd_sc_hd__nand3_1
+X_1532_ _1504_/Y _1505_/Y _1509_/Y _1531_/Y VGND VGND _2077_/VPB _2077_/VPB _2091_/D
++ sky130_fd_sc_hd__o211ai_1
+XTAP_TAPCELL_ROW_8_38 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1515_ _2155_/Q _2156_/Q _2153_/Q VGND VGND _2047_/VPB _2047_/VPB _1515_/Y sky130_fd_sc_hd__o21ai_0
+X_1446_ _2155_/Q _1446_/B VGND VGND _1519_/VPB _2035_/VPB _1446_/Y sky130_fd_sc_hd__nor2_1
+X_1377_ _1368_/Y _1372_/Y _1376_/Y VGND VGND _1422_/VPB _2007_/VPB _1380_/A sky130_fd_sc_hd__o21ai_0
+X_1429_ _2155_/Q _1318_/B _1428_/Y VGND VGND _2033_/VPB _2033_/VPB _1429_/Y sky130_fd_sc_hd__a21oi_1
+X_1300_ _2154_/Q _2139_/Q VGND VGND _2006_/VPB _2006_/VPB _1793_/A sky130_fd_sc_hd__nand2b_1
+X_1231_ _2154_/Q _2133_/Q _1229_/X VGND VGND _2053_/VPB _2053_/VPB _1232_/B sky130_fd_sc_hd__a21oi_1
+X_1995_ _2149_/Q _2181_/Q _1059_/A VGND VGND _2077_/VPB _2077_/VPB _1996_/C sky130_fd_sc_hd__o21ai_0
+X_1162_ _1677_/B _1677_/C _1680_/A VGND VGND _2077_/VPB _2077_/VPB _1698_/C sky130_fd_sc_hd__a21oi_1
+X_1093_ _1791_/B _1092_/Y VGND VGND _2176_/VPB _2176_/VPB _1766_/A sky130_fd_sc_hd__lpflow_isobufsrc_1
+Xclkload1 clkload1/A VGND VGND _2189_/VPB _2189_/VPB clkload1/Y sky130_fd_sc_hd__clkinv_2
+X_1214_ _1804_/A _1605_/A VGND VGND _2006_/VPB _2006_/VPB _1214_/Y sky130_fd_sc_hd__nand2_1
+X_1780_ _2157_/Q _1600_/Y _2158_/Q VGND VGND _2036_/VPB _2036_/VPB _1780_/Y sky130_fd_sc_hd__a21oi_1
+X_1145_ _1145_/A VGND VGND _2025_/VPB _2025_/VPB _1465_/A sky130_fd_sc_hd__clkinv_1
+X_1978_ _1577_/Y _1662_/Y _1663_/Y _2158_/Q VGND VGND _2006_/VPB _2006_/VPB _1978_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_1076_ _1884_/A VGND VGND _1918_/VPB _2077_/VPB _1881_/A sky130_fd_sc_hd__clkinv_1
+X_1832_ _2155_/Q _1868_/B VGND VGND _2006_/VPB _2006_/VPB _1832_/Y sky130_fd_sc_hd__nor2_1
+X_1901_ _1881_/A _1881_/B _1072_/Y VGND VGND _1918_/VPB _2077_/VPB _1902_/B sky130_fd_sc_hd__a21bo_1
+X_1059_ _1059_/A _1058_/B VGND VGND _1977_/VPB _2007_/VPB _1962_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1763_ _1586_/B _1756_/Y _1762_/Y VGND VGND _2025_/VPB _2025_/VPB _1763_/Y sky130_fd_sc_hd__o21ai_0
+X_1694_ _1108_/Y _1684_/Y _1683_/Y VGND VGND _2025_/VPB _2025_/VPB _1696_/C sky130_fd_sc_hd__o21ai_0
+X_2177_ clkload5/A operand_b[23] rst_n VGND VGND _2177_/VPB _2177_/VPB _2177_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1128_ _1126_/Y _1593_/B VGND VGND _2144_/VPB _2144_/VPB _1561_/A sky130_fd_sc_hd__nand2b_1
+XTAP_TAPCELL_ROW_21_91 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2031_ _2154_/Q _2151_/Q _1272_/X VGND VGND _2047_/VPB _2047_/VPB _2032_/B sky130_fd_sc_hd__a21oi_1
+X_1815_ _2154_/Q _2139_/Q _1250_/X VGND VGND _2006_/VPB _2006_/VPB _1815_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_32_134 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1677_ _1680_/A _1677_/B _1677_/C VGND VGND _2077_/VPB _2077_/VPB _1678_/C sky130_fd_sc_hd__and3_1
+X_2100_ _2184_/CLK _2100_/D rst_n VGND VGND _2182_/VPB _2182_/VPB result_o[14] sky130_fd_sc_hd__dfrtp_1
+X_1746_ _1701_/Y _1721_/X _1747_/A _1720_/A VGND VGND _2176_/VPB _2176_/VPB _1769_/B
++ sky130_fd_sc_hd__a211o_1
+X_1393_ _2157_/Q _1638_/A _1387_/Y VGND VGND _2035_/VPB _2035_/VPB _1393_/Y sky130_fd_sc_hd__a21oi_1
+X_1600_ _2156_/Q _1690_/B _1599_/Y VGND VGND _2036_/VPB _2036_/VPB _1600_/Y sky130_fd_sc_hd__o21ai_0
+X_1462_ _1462_/A _1466_/A VGND VGND _2025_/VPB _2025_/VPB _1462_/Y sky130_fd_sc_hd__nor2_1
+X_1531_ _2158_/Q _1518_/Y _1522_/Y _1530_/Y VGND VGND _2040_/VPB _2040_/VPB _1531_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1729_ _2157_/Q _1890_/B _1805_/B VGND VGND _1955_/VPB _1955_/VPB _1729_/Y sky130_fd_sc_hd__o21ai_0
+X_2014_ _1997_/A _1997_/B _2013_/Y VGND VGND _2077_/VPB _2077_/VPB _2014_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_8_39 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1514_ _2157_/Q _1713_/A _1512_/Y VGND VGND _2047_/VPB _2047_/VPB _1514_/Y sky130_fd_sc_hd__a21oi_1
+X_1445_ _1982_/S _1444_/Y _1442_/Y VGND VGND _1445_/VPB _2048_/VPB _1445_/Y sky130_fd_sc_hd__o21ai_0
+X_1376_ _1828_/A _1376_/B VGND VGND _1422_/VPB _2007_/VPB _1376_/Y sky130_fd_sc_hd__nand2_1
+X_1230_ _2154_/Q _2133_/Q VGND VGND _2053_/VPB _2053_/VPB _1687_/A sky130_fd_sc_hd__nand2_1
+X_1994_ _1961_/A _1961_/B _1961_/C _1957_/A _1977_/A VGND VGND _2007_/VPB _2007_/VPB
++ _1996_/B sky130_fd_sc_hd__o311ai_0
+X_1161_ _1655_/B _1655_/C _1660_/A VGND VGND _2040_/VPB _2040_/VPB _1677_/C sky130_fd_sc_hd__o21ai_0
+X_1092_ _2138_/Q _2170_/Q VGND VGND _2176_/VPB _2176_/VPB _1092_/Y sky130_fd_sc_hd__nor2_1
+X_1428_ _2155_/Q _1428_/B VGND VGND _2033_/VPB _2033_/VPB _1428_/Y sky130_fd_sc_hd__nor2_1
+X_1359_ _2155_/Q _1359_/B VGND VGND _1519_/VPB _2035_/VPB _1359_/Y sky130_fd_sc_hd__nor2_1
+Xclkload2 clkload2/A VGND VGND _2190_/VPB _2190_/VPB clkload2/Y sky130_fd_sc_hd__bufinv_16
+X_1213_ _1573_/B _1572_/B _2158_/Q VGND VGND _2006_/VPB _2006_/VPB _1772_/A sky130_fd_sc_hd__a21oi_1
+X_1977_ _1977_/A _1977_/B VGND VGND _1977_/VPB _2007_/VPB _1977_/Y sky130_fd_sc_hd__xnor2_1
+X_1144_ _2124_/Q _2156_/Q VGND VGND _2025_/VPB _2025_/VPB _1145_/A sky130_fd_sc_hd__nand2_1
+X_1075_ _2144_/Q _2176_/Q VGND VGND _2040_/VPB _2040_/VPB _1884_/A sky130_fd_sc_hd__xor2_1
+XTAP_TAPCELL_ROW_19_80 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1762_ _1749_/Y _1750_/Y _1761_/Y VGND VGND _1762_/VPB _2048_/VPB _1762_/Y sky130_fd_sc_hd__a21oi_1
+X_1831_ _2154_/Q _2140_/Q _1303_/X VGND VGND _2006_/VPB _2006_/VPB _1868_/B sky130_fd_sc_hd__a21oi_1
+X_1058_ _1059_/A _1058_/B VGND VGND _1977_/VPB _2007_/VPB _1957_/A sky130_fd_sc_hd__nor2_1
+X_1693_ _2157_/Q _1500_/C _1692_/Y VGND VGND _2007_/VPB _2007_/VPB _1998_/A sky130_fd_sc_hd__a21oi_1
+X_1900_ _1959_/A _1881_/Y _1899_/Y VGND VGND _2177_/VPB _2177_/VPB _2108_/D sky130_fd_sc_hd__o21ai_0
+X_1127_ _2129_/Q _2161_/Q VGND VGND _2144_/VPB _2144_/VPB _1593_/B sky130_fd_sc_hd__nand2_1
+X_2176_ clkload5/A operand_b[22] rst_n VGND VGND _2176_/VPB _2176_/VPB _2176_/Q
++ sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_41_168 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_26_110 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_32_135 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2030_ _2079_/B _2030_/B VGND VGND _2041_/VPB _2077_/VPB _2030_/X sky130_fd_sc_hd__xor2_1
+X_1745_ _1747_/A _1747_/B _1745_/C VGND VGND _2176_/VPB _2176_/VPB _1745_/Y sky130_fd_sc_hd__nand3_1
+X_1814_ _1943_/A _1844_/B _1813_/Y VGND VGND _2176_/VPB _2176_/VPB _1814_/Y sky130_fd_sc_hd__nor3b_1
+X_1676_ _1655_/Y _1656_/Y _1675_/Y VGND VGND _2077_/VPB _2077_/VPB _2097_/D sky130_fd_sc_hd__o21ai_0
+X_2159_ _2184_/CLK operand_b[5] rst_n VGND VGND _2184_/VPB _2184_/VPB _2159_/Q sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_16_70 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1392_ _2156_/Q _1540_/B _1391_/Y VGND VGND _2033_/VPB _2033_/VPB _1638_/A sky130_fd_sc_hd__a21oi_1
+X_1461_ _1496_/A _1461_/B VGND VGND _2025_/VPB _2025_/VPB _1466_/A sky130_fd_sc_hd__nand2_1
+X_1530_ _2157_/Q _1586_/B _1874_/B _1529_/Y VGND VGND _2040_/VPB _2040_/VPB _1530_/Y
++ sky130_fd_sc_hd__o31ai_1
+X_1728_ _2156_/Q _1644_/B _1727_/Y VGND VGND _2036_/VPB _2036_/VPB _1890_/B sky130_fd_sc_hd__a21oi_1
+X_2013_ _2013_/A _2013_/B VGND VGND _2018_/VPB _2040_/VPB _2013_/Y sky130_fd_sc_hd__nand2_1
+X_1659_ _1635_/B _1635_/C _1635_/D _1635_/A _1660_/A VGND VGND _2040_/VPB _2040_/VPB
++ _1680_/C sky130_fd_sc_hd__a311oi_1
+X_1513_ _2156_/Q _1513_/B VGND VGND _2047_/VPB _2047_/VPB _1713_/A sky130_fd_sc_hd__nor2_1
+X_1444_ _2155_/Q _1346_/Y _1443_/Y VGND VGND _1452_/VPB _2048_/VPB _1444_/Y sky130_fd_sc_hd__a21oi_1
+X_1375_ _1375_/A _1375_/B VGND VGND _1375_/VPB _2007_/VPB _1376_/B sky130_fd_sc_hd__xnor2_1
+X_1160_ _1633_/B _1633_/C _1635_/A VGND VGND _2077_/VPB _2077_/VPB _1655_/C sky130_fd_sc_hd__o21a_1
+X_1993_ _2079_/D _1993_/B VGND VGND _2177_/VPB _2177_/VPB _1993_/Y sky130_fd_sc_hd__nand2_1
+Xclkbuf_3_7__f_clk clkbuf_0_clk/X VGND VGND _2182_/VPB _2182_/VPB clkload6/A sky130_fd_sc_hd__clkbuf_4
+X_1091_ _2138_/Q _2170_/Q VGND VGND _2176_/VPB _2176_/VPB _1791_/B sky130_fd_sc_hd__nand2_1
+X_1427_ _2156_/Q _1566_/B VGND VGND _2035_/VPB _2035_/VPB _1427_/Y sky130_fd_sc_hd__nor2_1
+X_1358_ _2154_/Q _2138_/Q _1356_/X VGND VGND _2006_/VPB _2006_/VPB _1358_/Y sky130_fd_sc_hd__a21oi_1
+X_1289_ _2186_/Q _2187_/Q _1370_/A VGND VGND _2025_/VPB _2025_/VPB _1854_/C sky130_fd_sc_hd__and3_1
+Xclkload3 clkload3/A VGND VGND _2185_/VPB _2185_/VPB clkload3/Y sky130_fd_sc_hd__clkinv_4
+X_1212_ _1573_/B _1572_/B VGND VGND _2006_/VPB _2006_/VPB _1605_/A sky130_fd_sc_hd__nand2_1
+X_1976_ _1962_/A _1962_/B _1059_/A VGND VGND _2025_/VPB _2025_/VPB _1977_/B sky130_fd_sc_hd__o21bai_1
+X_1074_ _2144_/Q _2176_/Q VGND VGND _1903_/VPB _2025_/VPB _1903_/A sky130_fd_sc_hd__nand2_1
+X_1143_ _2125_/Q _2157_/Q VGND VGND _2040_/VPB _2040_/VPB _1143_/Y sky130_fd_sc_hd__nand2b_1
+XTAP_TAPCELL_ROW_19_81 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1761_ _1761_/A _2040_/A _1761_/C VGND VGND _2053_/VPB _2053_/VPB _1761_/Y sky130_fd_sc_hd__nand3_1
+X_1692_ _2157_/Q _1852_/B VGND VGND _2007_/VPB _2007_/VPB _1692_/Y sky130_fd_sc_hd__nor2_1
+X_2175_ clkload6/A operand_b[21] rst_n VGND VGND _2182_/VPB _2182_/VPB _2175_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1830_ _1830_/A _1830_/B VGND VGND _2176_/VPB _2176_/VPB _1830_/Y sky130_fd_sc_hd__xnor2_1
+X_1126_ _2129_/Q _2161_/Q VGND VGND _2144_/VPB _2144_/VPB _1126_/Y sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_35_144 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_26_111 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1959_ _1959_/A _1975_/C VGND VGND _2040_/VPB _2040_/VPB _1960_/B sky130_fd_sc_hd__nor2_1
+X_1057_ _2148_/Q _2180_/Q VGND VGND _2077_/VPB _2077_/VPB _1058_/B sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_41_169 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkbuf_0_clk clk VGND VGND _2190_/VPB _2190_/VPB clkbuf_0_clk/X sky130_fd_sc_hd__clkbuf_4
+X_1675_ _1675_/A _1675_/B _1675_/C _1675_/D VGND VGND _2007_/VPB _2007_/VPB _1675_/Y
++ sky130_fd_sc_hd__nor4_1
+X_1109_ _1700_/B _1108_/Y VGND VGND _2077_/VPB _2077_/VPB _1680_/A sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_2089_ clkload1/A _2089_/D rst_n VGND VGND _2187_/VPB _2187_/VPB result_o[3] sky130_fd_sc_hd__dfrtp_1
+X_1744_ _1766_/C _1828_/A VGND VGND _2184_/VPB _2184_/VPB _1744_/Y sky130_fd_sc_hd__nand2_1
+X_1813_ _1813_/A _1813_/B _1813_/C VGND VGND _2176_/VPB _2176_/VPB _1813_/Y sky130_fd_sc_hd__nand3_1
+X_2158_ _2184_/CLK operand_b[4] rst_n VGND VGND _2176_/VPB _2176_/VPB _2158_/Q sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_16_71 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1391_ _2156_/Q _1391_/B VGND VGND _2033_/VPB _2033_/VPB _1391_/Y sky130_fd_sc_hd__nor2_1
+X_1727_ _2156_/Q _1727_/B VGND VGND _2036_/VPB _2036_/VPB _1727_/Y sky130_fd_sc_hd__nor2_1
+X_1460_ _2125_/Q _2157_/Q VGND VGND _2025_/VPB _2025_/VPB _1461_/B sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1658_ _1658_/A _1658_/B VGND VGND _2040_/VPB _2040_/VPB _1661_/B sky130_fd_sc_hd__nor2_1
+X_2012_ _1996_/A _1996_/B _1996_/C _1051_/Y _2013_/A VGND VGND _2040_/VPB _2040_/VPB
++ _2074_/A sky130_fd_sc_hd__a311o_1
+X_1589_ _1593_/B _2049_/B _1588_/Y VGND VGND _2144_/VPB _2144_/VPB _1589_/Y sky130_fd_sc_hd__o21ai_0
+X_1512_ _2157_/Q _1711_/B VGND VGND _2047_/VPB _2047_/VPB _1512_/Y sky130_fd_sc_hd__nor2_1
+X_1443_ _2155_/Q _1443_/B VGND VGND _1445_/VPB _2048_/VPB _1443_/Y sky130_fd_sc_hd__nor2_1
+X_1374_ _2187_/Q _1373_/B VGND VGND _2074_/VPB _2040_/VPB _1959_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+XTAP_TAPCELL_ROW_9_40 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1090_ _2139_/Q _2171_/Q VGND VGND _2190_/VPB _2190_/VPB _1791_/A sky130_fd_sc_hd__xnor2_1
+X_1426_ _1304_/Y _1308_/Y _2155_/Q VGND VGND _2035_/VPB _2035_/VPB _1566_/B sky130_fd_sc_hd__mux2_1
+X_1357_ _2154_/Q _2138_/Q VGND VGND _2006_/VPB _2006_/VPB _1793_/B sky130_fd_sc_hd__nand2_1
+X_1288_ _2186_/Q _1370_/A VGND VGND _2074_/VPB _2040_/VPB _1373_/B sky130_fd_sc_hd__nand2_1
+X_1992_ _1997_/A _1196_/X _1959_/A VGND VGND _2177_/VPB _2177_/VPB _1993_/B sky130_fd_sc_hd__a21oi_1
+Xclkload4 clkload4/A VGND VGND _2189_/VPB _2189_/VPB clkload4/Y sky130_fd_sc_hd__clkinvlp_4
+X_1211_ _2188_/Q _2189_/Q _1370_/B VGND VGND _1296_/VPB _2007_/VPB _1572_/B sky130_fd_sc_hd__nand3b_1
+X_1073_ _1904_/A _1072_/Y _1069_/Y VGND VGND _1903_/VPB _2025_/VPB _1919_/B sky130_fd_sc_hd__o21ai_0
+X_1975_ _1975_/A _1975_/B _1975_/C VGND VGND _2040_/VPB _2040_/VPB _1975_/X sky130_fd_sc_hd__or3_1
+X_1142_ _2125_/Q _2157_/Q VGND VGND _2040_/VPB _2040_/VPB _1142_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1409_ _1409_/A VGND VGND _1447_/VPB _2048_/VPB _1410_/B sky130_fd_sc_hd__clkinv_1
+XTAP_TAPCELL_ROW_19_82 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1691_ _2156_/Q _1689_/Y _1690_/Y VGND VGND _2036_/VPB _2036_/VPB _1852_/B sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_29_120 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_6_30 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1760_ _1098_/A _1281_/X _1759_/Y VGND VGND _2144_/VPB _2144_/VPB _1761_/C sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_35_145 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1889_ _2156_/Q _1887_/Y _1888_/Y VGND VGND _2036_/VPB _2036_/VPB _1889_/Y sky130_fd_sc_hd__o21ai_0
+X_1958_ _1957_/B _1957_/C _1957_/A VGND VGND _2025_/VPB _2025_/VPB _1975_/C sky130_fd_sc_hd__a21oi_1
+X_1056_ _2148_/Q _2180_/Q VGND VGND _2040_/VPB _2040_/VPB _1059_/A sky130_fd_sc_hd__and2_0
+X_2174_ _2184_/CLK operand_b[20] rst_n VGND VGND _2184_/VPB _2184_/VPB _2174_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1125_ _1125_/A _2161_/Q VGND VGND _1560_/VPB _2177_/VPB _1591_/B sky130_fd_sc_hd__nor2_1
+X_1674_ _1680_/B _1854_/C _1367_/B _1672_/Y _1673_/Y VGND VGND _2007_/VPB _2007_/VPB
++ _1675_/D sky130_fd_sc_hd__a221o_1
+X_1108_ _2134_/Q _2166_/Q VGND VGND _2077_/VPB _2077_/VPB _1108_/Y sky130_fd_sc_hd__nor2_1
+X_1039_ _2152_/Q _2184_/Q VGND VGND _2177_/VPB _2177_/VPB _2082_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_2088_ clkload1/A _2088_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[2] sky130_fd_sc_hd__dfrtp_1
+X_2157_ clkload4/A operand_b[3] rst_n VGND VGND _2187_/VPB _2187_/VPB _2157_/Q sky130_fd_sc_hd__dfrtp_1
+X_1743_ _1747_/A _1743_/B _1743_/C VGND VGND _2190_/VPB _2190_/VPB _1743_/Y sky130_fd_sc_hd__nor3_1
+X_1812_ _1813_/B _1813_/C _1813_/A VGND VGND _2176_/VPB _2176_/VPB _1844_/B sky130_fd_sc_hd__a21oi_1
+X_1390_ _2155_/Q _1267_/Y _1389_/Y VGND VGND _2033_/VPB _2033_/VPB _1391_/B sky130_fd_sc_hd__o21ai_0
+X_2011_ _2079_/C _1048_/Y _2079_/D _1959_/A VGND VGND _2177_/VPB _2177_/VPB _2011_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_1726_ _2155_/Q _1724_/Y _1725_/Y VGND VGND _2053_/VPB _2053_/VPB _1727_/B sky130_fd_sc_hd__o21ai_0
+X_1588_ _2158_/Q _1580_/Y _1586_/Y _1587_/Y _1569_/Y VGND VGND _2007_/VPB _2007_/VPB
++ _1588_/Y sky130_fd_sc_hd__a2111oi_0
+X_1657_ _1660_/A _1660_/B VGND VGND _2025_/VPB _2025_/VPB _1658_/B sky130_fd_sc_hd__nand2_1
+X_1511_ _2156_/Q _1313_/Y _1510_/Y VGND VGND _2033_/VPB _2033_/VPB _1711_/B sky130_fd_sc_hd__o21ai_0
+X_1442_ _1964_/S _1334_/Y _1441_/Y _1982_/S VGND VGND _1445_/VPB _2048_/VPB _1442_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1373_ _2187_/Q _1373_/B VGND VGND _2074_/VPB _2040_/VPB _1828_/A sky130_fd_sc_hd__nor2_1
+X_1709_ _2135_/Q _2167_/Q _1281_/X VGND VGND _2144_/VPB _2144_/VPB _1709_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_9_41 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1356_ _2137_/Q _2154_/Q VGND VGND _2006_/VPB _2006_/VPB _1356_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1425_ _1214_/Y _1410_/Y _1411_/Y _1424_/Y _1397_/Y VGND VGND _2006_/VPB _2006_/VPB
++ _2088_/D sky130_fd_sc_hd__o311ai_0
+X_1287_ _1283_/Y _1286_/Y _1281_/X VGND VGND _1296_/VPB _2007_/VPB _1287_/Y sky130_fd_sc_hd__a21oi_1
+X_1991_ _1943_/A _1977_/Y _1990_/Y VGND VGND _2040_/VPB _2040_/VPB _2113_/D sky130_fd_sc_hd__o21ai_0
+Xclkload5 clkload5/A VGND VGND _2184_/VPB _2184_/VPB clkload5/X sky130_fd_sc_hd__clkbuf_1
+X_1210_ _2186_/Q _2187_/Q VGND VGND _2025_/VPB _2025_/VPB _1370_/B sky130_fd_sc_hd__nor2_1
+X_1141_ _1141_/A VGND VGND _2040_/VPB _2040_/VPB _1141_/Y sky130_fd_sc_hd__clkinv_1
+X_1974_ _1975_/B _1975_/C _1975_/A VGND VGND _1974_/VPB _2077_/VPB _1974_/Y sky130_fd_sc_hd__o21ai_0
+X_1072_ _2176_/Q _2144_/Q VGND VGND _1918_/VPB _2077_/VPB _1072_/Y sky130_fd_sc_hd__nand2b_1
+X_2190_ clkload2/A valid_i rst_n VGND VGND _2190_/VPB _2190_/VPB _2190_/Q sky130_fd_sc_hd__dfrtp_1
+X_1408_ _2156_/Q _1404_/Y _1407_/Y VGND VGND _2006_/VPB _2006_/VPB _1409_/A sky130_fd_sc_hd__o21ai_0
+X_1339_ _2123_/Q _2154_/Q VGND VGND _2036_/VPB _2036_/VPB _1339_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+XTAP_TAPCELL_ROW_19_83 VGND _2077_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1690_ _2156_/Q _1690_/B VGND VGND _2036_/VPB _2036_/VPB _1690_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_29_121 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_6_31 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_35_146 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1888_ _2156_/Q _1888_/B VGND VGND _1888_/VPB _2053_/VPB _1888_/Y sky130_fd_sc_hd__nand2_1
+X_1957_ _1957_/A _1957_/B _1957_/C VGND VGND _2025_/VPB _2025_/VPB _1960_/A sky130_fd_sc_hd__nand3_1
+X_1055_ _2149_/Q _2181_/Q VGND VGND _1985_/VPB _2025_/VPB _1975_/A sky130_fd_sc_hd__xnor2_1
+X_2173_ clkload2/A operand_b[19] rst_n VGND VGND _2190_/VPB _2190_/VPB _2173_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1124_ _2130_/Q _2162_/Q VGND VGND _2176_/VPB _2176_/VPB _1593_/A sky130_fd_sc_hd__xnor2_1
+X_1673_ _1113_/A _1282_/Y _1462_/A _1660_/A VGND VGND _1673_/VPB _2025_/VPB _1673_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1742_ _1743_/C _1959_/A _1720_/Y _1741_/Y VGND VGND _2190_/VPB _2190_/VPB _2100_/D
++ sky130_fd_sc_hd__o31ai_1
+X_1811_ _2139_/Q _2171_/Q _1791_/Y VGND VGND _2176_/VPB _2176_/VPB _1813_/C sky130_fd_sc_hd__a21oi_1
+X_1107_ _2134_/Q _2166_/Q VGND VGND _2077_/VPB _2077_/VPB _1700_/B sky130_fd_sc_hd__nand2_1
+X_2156_ clkload5/A operand_b[2] rst_n VGND VGND _2177_/VPB _2177_/VPB _2156_/Q sky130_fd_sc_hd__dfrtp_1
+X_1038_ _2153_/Q _2079_/A VGND VGND _2177_/VPB _2177_/VPB _2083_/A sky130_fd_sc_hd__nand2_1
+X_2087_ clkload0/A _2087_/D rst_n VGND VGND _2187_/VPB _2187_/VPB result_o[1] sky130_fd_sc_hd__dfrtp_1
+X_2010_ _1943_/A _1997_/Y _2009_/Y _1993_/Y VGND VGND _2077_/VPB _2077_/VPB _2114_/D
++ sky130_fd_sc_hd__o211ai_1
+X_1725_ _2155_/Q _1725_/B VGND VGND _2053_/VPB _2053_/VPB _1725_/Y sky130_fd_sc_hd__nand2_1
+X_1656_ _1677_/C _1828_/A VGND VGND _2040_/VPB _2040_/VPB _1656_/Y sky130_fd_sc_hd__nand2_1
+X_2139_ clkload3/A operand_a[17] rst_n VGND VGND _2190_/VPB _2190_/VPB _2139_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1587_ _1126_/Y _1282_/Y _1462_/A _1561_/A VGND VGND _2144_/VPB _2144_/VPB _1587_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1510_ _2156_/Q _1510_/B VGND VGND _2047_/VPB _2047_/VPB _1510_/Y sky130_fd_sc_hd__nand2_1
+X_1441_ _1964_/S _1441_/B VGND VGND _2048_/VPB _2048_/VPB _1441_/Y sky130_fd_sc_hd__nand2_1
+X_1708_ _1874_/B _1707_/Y _2001_/A VGND VGND _1835_/VPB _1955_/VPB _1708_/X sky130_fd_sc_hd__mux2_1
+X_1372_ _2016_/A _1420_/C VGND VGND _1422_/VPB _2007_/VPB _1372_/Y sky130_fd_sc_hd__nand2_1
+X_1639_ _1394_/X _1662_/B _1576_/X VGND VGND _2035_/VPB _2035_/VPB _1640_/B sky130_fd_sc_hd__a21oi_1
+X_1355_ _1703_/B _1355_/B VGND VGND _2006_/VPB _2006_/VPB _1359_/B sky130_fd_sc_hd__nand2_1
+X_1424_ _1424_/A _1424_/B _1424_/C VGND VGND _2007_/VPB _2007_/VPB _1424_/Y sky130_fd_sc_hd__nor3_1
+X_1990_ _1828_/A _1974_/Y _1975_/X _1989_/X VGND VGND _2040_/VPB _2040_/VPB _1990_/Y
++ sky130_fd_sc_hd__a31oi_1
+XTAP_TAPCELL_ROW_9_42 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1286_ _2187_/Q _2188_/Q _2189_/Q _1462_/A VGND VGND _2025_/VPB _2025_/VPB _1286_/Y
++ sky130_fd_sc_hd__o31ai_1
+Xclkload6 clkload6/A VGND VGND _2185_/VPB _2185_/VPB clkload6/X sky130_fd_sc_hd__clkbuf_1
+X_1071_ _2145_/Q _2177_/Q VGND VGND _1921_/VPB _1955_/VPB _1904_/A sky130_fd_sc_hd__xor2_1
+X_1140_ _1508_/B _1140_/B VGND VGND _2040_/VPB _2040_/VPB _1141_/A sky130_fd_sc_hd__and2_0
+X_1269_ _2154_/Q _2150_/Q VGND VGND _2047_/VPB _2047_/VPB _2002_/B sky130_fd_sc_hd__nand2b_1
+X_1338_ _1964_/S _1334_/Y _1337_/Y VGND VGND _1338_/VPB _2035_/VPB _1338_/Y sky130_fd_sc_hd__a21oi_1
+X_1407_ _2156_/Q _1407_/B VGND VGND _2006_/VPB _2006_/VPB _1407_/Y sky130_fd_sc_hd__nand2_1
+X_1973_ _1943_/A _1962_/Y _1972_/Y _1960_/Y VGND VGND _2025_/VPB _2025_/VPB _2112_/D
++ sky130_fd_sc_hd__o211ai_1
+XTAP_TAPCELL_ROW_29_122 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_35_147 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1887_ _2155_/Q _1926_/B _1886_/Y VGND VGND _1887_/VPB _2053_/VPB _1887_/Y sky130_fd_sc_hd__o21ai_0
+X_1956_ _1956_/A _1956_/B _1956_/C VGND VGND _2007_/VPB _2007_/VPB _2111_/D sky130_fd_sc_hd__nand3_1
+X_1054_ _1996_/A _1053_/Y VGND VGND _1985_/VPB _2025_/VPB _1977_/A sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_2172_ clkload5/A operand_b[18] rst_n VGND VGND _2190_/VPB _2190_/VPB _2172_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1123_ _2130_/Q _2162_/Q VGND VGND _2144_/VPB _2144_/VPB _1616_/B sky130_fd_sc_hd__nand2_1
+X_1672_ _1838_/B _1835_/B _2001_/A VGND VGND _2007_/VPB _2007_/VPB _1672_/Y sky130_fd_sc_hd__mux2i_1
+X_1810_ _1959_/A _1827_/C VGND VGND _2184_/VPB _2184_/VPB _1810_/Y sky130_fd_sc_hd__nor2_1
+X_1741_ _1745_/C _1723_/Y _1740_/Y VGND VGND _2184_/VPB _2184_/VPB _1741_/Y sky130_fd_sc_hd__a21oi_1
+X_1939_ _1957_/B _1939_/B _1939_/C VGND VGND _2025_/VPB _2025_/VPB _1956_/A sky130_fd_sc_hd__nand3_1
+X_1037_ _2070_/A _1036_/Y VGND VGND _2077_/VPB _2077_/VPB _2079_/A sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_2086_ clkload3/A _2086_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[0] sky130_fd_sc_hd__dfrtp_1
+X_2155_ _2184_/CLK operand_b[1] rst_n VGND VGND _2155_/VPB _2144_/VPB _2155_/Q sky130_fd_sc_hd__dfrtp_1
+X_1106_ _2134_/Q _2166_/Q VGND VGND _2144_/VPB _2144_/VPB _1698_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1724_ _2154_/Q _2135_/Q _1238_/X VGND VGND _2053_/VPB _2053_/VPB _1724_/Y sky130_fd_sc_hd__a21oi_1
+X_1586_ _2157_/Q _1586_/B _1912_/B VGND VGND _2007_/VPB _2007_/VPB _1586_/Y sky130_fd_sc_hd__nor3_1
+X_1655_ _1660_/A _1655_/B _1655_/C VGND VGND _2077_/VPB _2077_/VPB _1655_/Y sky130_fd_sc_hd__nor3_1
+X_2138_ clkload3/A operand_a[16] rst_n VGND VGND _2189_/VPB _2189_/VPB _2138_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2069_ _2153_/Q _2043_/B _1828_/A _2079_/A VGND VGND _2082_/VPB _2177_/VPB _2069_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1440_ _1573_/B _1436_/Y _1439_/Y _1572_/B VGND VGND _2033_/VPB _2033_/VPB _1440_/X
++ sky130_fd_sc_hd__o22a_1
+X_1371_ _2122_/Q _2154_/Q _1375_/B VGND VGND _1375_/VPB _2007_/VPB _1420_/C sky130_fd_sc_hd__nand3_1
+Xclkbuf_3_2__f_clk clkbuf_0_clk/X VGND VGND _2184_/VPB _2184_/VPB _2184_/CLK sky130_fd_sc_hd__clkbuf_4
+X_1638_ _1638_/A _1757_/B VGND VGND _2033_/VPB _2033_/VPB _1640_/A sky130_fd_sc_hd__nand2_1
+X_1569_ _2157_/Q _1567_/Y _1568_/Y _1214_/Y VGND VGND _2035_/VPB _2035_/VPB _1569_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1707_ _2156_/Q _1627_/X _1706_/Y VGND VGND _2036_/VPB _2036_/VPB _1707_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_9_43 VGND _2190_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1354_ _2154_/Q _2136_/Q VGND VGND _2006_/VPB _2006_/VPB _1355_/B sky130_fd_sc_hd__nand2_1
+X_1285_ _2187_/Q _1284_/B VGND VGND _2007_/VPB _2007_/VPB _1462_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1423_ _1959_/A _1419_/Y _1465_/B _1422_/Y VGND VGND _2025_/VPB _2025_/VPB _1424_/C
++ sky130_fd_sc_hd__o22ai_1
+X_1268_ _1264_/Y _1267_/Y _2155_/Q VGND VGND _2035_/VPB _2035_/VPB _1268_/Y sky130_fd_sc_hd__mux2i_1
+X_1406_ _2155_/Q _1249_/Y _1405_/Y VGND VGND _2006_/VPB _2006_/VPB _1407_/B sky130_fd_sc_hd__a21oi_1
+X_1337_ _1964_/S _1443_/B VGND VGND _1445_/VPB _2048_/VPB _1337_/Y sky130_fd_sc_hd__nor2_1
+X_1070_ _2145_/Q _2177_/Q VGND VGND _1921_/VPB _1955_/VPB _1922_/A sky130_fd_sc_hd__nand2_1
+X_1972_ _1804_/A _1640_/Y _1971_/Y VGND VGND _1972_/VPB _1955_/VPB _1972_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_38_156 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_29_123 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1199_ _2013_/A _1199_/B VGND VGND _2177_/VPB _2177_/VPB _1199_/Y sky130_fd_sc_hd__nand2_1
+X_1053_ _2149_/Q _2181_/Q VGND VGND _2025_/VPB _2025_/VPB _1053_/Y sky130_fd_sc_hd__nor2_1
+X_2171_ clkload2/A operand_b[17] rst_n VGND VGND _2182_/VPB _2182_/VPB _2171_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1122_ _2162_/Q _2130_/Q VGND VGND _1632_/VPB _2177_/VPB _1613_/B sky130_fd_sc_hd__nand2b_1
+X_1886_ _2155_/Q _1886_/B VGND VGND _1887_/VPB _2053_/VPB _1886_/Y sky130_fd_sc_hd__nand2_1
+X_1955_ _1804_/A _1620_/X _1954_/Y VGND VGND _1955_/VPB _1955_/VPB _1956_/C sky130_fd_sc_hd__a21oi_1
+X_1671_ _2156_/Q _1583_/Y _1670_/Y VGND VGND _1835_/VPB _1955_/VPB _1835_/B sky130_fd_sc_hd__a21oi_1
+X_1740_ _1747_/B _2049_/B _1733_/Y _1737_/Y _1739_/Y VGND VGND _2144_/VPB _2144_/VPB
++ _1740_/Y sky130_fd_sc_hd__o2111ai_1
+X_1869_ _2155_/Q _1867_/X _1868_/Y VGND VGND _2006_/VPB _2006_/VPB _1870_/B sky130_fd_sc_hd__o21ai_0
+X_1938_ _1938_/A _1959_/A VGND VGND _2025_/VPB _2025_/VPB _1939_/C sky130_fd_sc_hd__nor2_1
+X_2154_ _2184_/CLK operand_b[0] rst_n VGND VGND _2177_/VPB _2177_/VPB _2154_/Q sky130_fd_sc_hd__dfrtp_1
+X_1105_ _2135_/Q _2167_/Q VGND VGND _2176_/VPB _2176_/VPB _1700_/A sky130_fd_sc_hd__xnor2_1
+X_1036_ _2153_/Q _2185_/Q VGND VGND _2144_/VPB _2144_/VPB _1036_/Y sky130_fd_sc_hd__nor2_1
+X_2085_ _1943_/A _2077_/Y _2084_/Y VGND VGND _2177_/VPB _2177_/VPB _2119_/D sky130_fd_sc_hd__o21ai_0
+X_1585_ _2156_/Q _1583_/Y _1584_/Y VGND VGND _1955_/VPB _1955_/VPB _1912_/B sky130_fd_sc_hd__o21ai_0
+X_1654_ _1635_/Y _1637_/Y _1653_/Y _1634_/Y VGND VGND _2040_/VPB _2040_/VPB _2096_/D
++ sky130_fd_sc_hd__a211o_1
+X_1723_ _1720_/A _1701_/Y _1721_/X _1943_/A VGND VGND _2176_/VPB _2176_/VPB _1723_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_2137_ clkload5/A operand_a[15] rst_n VGND VGND _2184_/VPB _2184_/VPB _2137_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2068_ _2153_/Q _2043_/X VGND VGND _2144_/VPB _2144_/VPB _2068_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1370_ _1370_/A _1370_/B VGND VGND _2025_/VPB _2025_/VPB _1943_/A sky130_fd_sc_hd__nand2_1
+X_1568_ _2157_/Q _1568_/B VGND VGND _2035_/VPB _2035_/VPB _1568_/Y sky130_fd_sc_hd__nor2_1
+X_1706_ _2156_/Q _1706_/B VGND VGND _2036_/VPB _2036_/VPB _1706_/Y sky130_fd_sc_hd__nor2_1
+X_1637_ _1943_/A _1658_/A VGND VGND _2040_/VPB _2040_/VPB _1637_/Y sky130_fd_sc_hd__nor2_1
+X_1499_ _2016_/A _1508_/C VGND VGND _2040_/VPB _2040_/VPB _1499_/Y sky130_fd_sc_hd__nand2_1
+X_1353_ _2154_/Q _2135_/Q VGND VGND _2053_/VPB _2053_/VPB _1703_/B sky130_fd_sc_hd__nand2b_1
+X_1284_ _2187_/Q _1284_/B VGND VGND _2007_/VPB _2007_/VPB _1550_/B sky130_fd_sc_hd__nor2_1
+X_1422_ _2016_/A _1422_/B VGND VGND _1422_/VPB _2007_/VPB _1422_/Y sky130_fd_sc_hd__nand2_1
+X_1405_ _2155_/Q _1405_/B VGND VGND _1762_/VPB _2048_/VPB _1405_/Y sky130_fd_sc_hd__nor2_1
+X_1971_ _1586_/B _1967_/Y _1970_/Y VGND VGND _1972_/VPB _1955_/VPB _1971_/Y sky130_fd_sc_hd__o21ai_0
+X_1267_ _2154_/Q _2149_/Q _1265_/X VGND VGND _2033_/VPB _2033_/VPB _1267_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_38_157 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1336_ _2154_/Q _1125_/A _1626_/A VGND VGND _2053_/VPB _2053_/VPB _1443_/B sky130_fd_sc_hd__o21a_1
+X_1198_ _1997_/A _1196_/X _1048_/Y VGND VGND _2177_/VPB _2177_/VPB _1199_/B sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_10_44 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1052_ _2149_/Q _2181_/Q VGND VGND _1985_/VPB _2025_/VPB _1996_/A sky130_fd_sc_hd__nand2_1
+X_1121_ _1120_/A _1635_/B VGND VGND _2077_/VPB _2077_/VPB _1616_/A sky130_fd_sc_hd__nand2b_1
+X_2170_ clkload2/A operand_b[16] rst_n VGND VGND _2190_/VPB _2190_/VPB _2170_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1319_ _2149_/Q _2150_/Q _2154_/Q VGND VGND _2047_/VPB _2047_/VPB _1319_/X sky130_fd_sc_hd__mux2_1
+X_1885_ _1885_/A _1885_/B VGND VGND _2006_/VPB _2006_/VPB _1926_/B sky130_fd_sc_hd__nand2_1
+X_1954_ _1586_/B _1950_/Y _1953_/Y VGND VGND _1955_/VPB _1955_/VPB _1954_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_31_130 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1670_ _2156_/Q _1670_/B VGND VGND _1835_/VPB _1955_/VPB _1670_/Y sky130_fd_sc_hd__nor2_1
+X_1937_ _1937_/A _1937_/B _1937_/C VGND VGND _2025_/VPB _2025_/VPB _1939_/B sky130_fd_sc_hd__nand3_1
+X_2084_ _2079_/Y _2083_/Y _1828_/A VGND VGND _2177_/VPB _2177_/VPB _2084_/Y sky130_fd_sc_hd__o21ai_0
+X_2153_ clkload2/A operand_a[31] rst_n VGND VGND _2184_/VPB _2184_/VPB _2153_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1035_ _2153_/Q _2185_/Q VGND VGND _2144_/VPB _2144_/VPB _2070_/A sky130_fd_sc_hd__nand2_1
+X_1104_ _2135_/Q _2167_/Q VGND VGND _2144_/VPB _2144_/VPB _1104_/X sky130_fd_sc_hd__xor2_1
+X_1868_ _2155_/Q _1868_/B VGND VGND _2006_/VPB _2006_/VPB _1868_/Y sky130_fd_sc_hd__nand2_1
+X_1799_ _2157_/Q _1797_/Y _1798_/Y VGND VGND _1955_/VPB _1955_/VPB _1799_/Y sky130_fd_sc_hd__o21ai_0
+X_1584_ _2156_/Q _1584_/B VGND VGND _1955_/VPB _1955_/VPB _1584_/Y sky130_fd_sc_hd__nand2_1
+X_1653_ _1653_/A _1653_/B VGND VGND _2007_/VPB _2007_/VPB _1653_/Y sky130_fd_sc_hd__nand2_1
+X_1722_ _1701_/Y _1721_/X _1720_/A VGND VGND _2176_/VPB _2176_/VPB _1745_/C sky130_fd_sc_hd__a21o_1
+X_2067_ _2086_/D _2116_/D _2117_/D _2067_/D VGND VGND _2182_/VPB _2182_/VPB _2121_/D
++ sky130_fd_sc_hd__nor4_1
+X_2136_ clkload6/A operand_a[14] rst_n VGND VGND _2182_/VPB _2182_/VPB _2136_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1567_ _2156_/Q _1450_/Y _1566_/Y VGND VGND _2035_/VPB _2035_/VPB _1567_/Y sky130_fd_sc_hd__o21ai_0
+X_1705_ _2155_/Q _1703_/Y _1704_/Y VGND VGND _2036_/VPB _2036_/VPB _1706_/B sky130_fd_sc_hd__o21ai_0
+X_1498_ _1461_/B _1496_/Y _1141_/A VGND VGND _2025_/VPB _2025_/VPB _1498_/Y sky130_fd_sc_hd__a21oi_1
+X_1636_ _1635_/B _1635_/C _1635_/D _1635_/A VGND VGND _2040_/VPB _2040_/VPB _1658_/A
++ sky130_fd_sc_hd__a31oi_1
+X_2119_ _2184_/CLK _2119_/D rst_n VGND VGND _2185_/VPB _2185_/VPB carry_o sky130_fd_sc_hd__dfrtp_1
+X_1352_ _2156_/Q _1352_/B VGND VGND _2048_/VPB _2048_/VPB _1352_/Y sky130_fd_sc_hd__nor2_1
+X_1283_ _2122_/Q _2154_/Q VGND VGND _1296_/VPB _2007_/VPB _1283_/Y sky130_fd_sc_hd__nand2_1
+X_1421_ _1420_/B _1420_/C _1420_/A VGND VGND _2025_/VPB _2025_/VPB _1465_/B sky130_fd_sc_hd__a21oi_1
+X_1619_ _2016_/A _1619_/B _1635_/C _1635_/D VGND VGND _1632_/VPB _2177_/VPB _1632_/B
++ sky130_fd_sc_hd__nand4_1
+X_1970_ _1647_/Y _1804_/Y _1969_/Y VGND VGND _1972_/VPB _1955_/VPB _1970_/Y sky130_fd_sc_hd__a21oi_1
+X_1266_ _2154_/Q _2149_/Q VGND VGND _2047_/VPB _2047_/VPB _2002_/A sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_38_158 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1404_ _2155_/Q _1232_/B _1403_/Y VGND VGND _2006_/VPB _2006_/VPB _1404_/Y sky130_fd_sc_hd__o21ai_0
+X_1335_ _2154_/Q _2130_/Q VGND VGND _2036_/VPB _2036_/VPB _1626_/A sky130_fd_sc_hd__nand2_1
+X_1197_ _1997_/A _1196_/X VGND VGND _2177_/VPB _2177_/VPB _2079_/D sky130_fd_sc_hd__lpflow_inputiso1p_1
+XTAP_TAPCELL_ROW_10_45 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1318_ _2155_/Q _1318_/B VGND VGND _2047_/VPB _2047_/VPB _1318_/Y sky130_fd_sc_hd__nor2_1
+X_1953_ _1630_/Y _1804_/Y _1951_/X _1952_/Y VGND VGND _1955_/VPB _1955_/VPB _1953_/Y
++ sky130_fd_sc_hd__a211oi_1
+XTAP_TAPCELL_ROW_21_88 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1884_ _1884_/A _1884_/B _1884_/C VGND VGND _2040_/VPB _2040_/VPB _1884_/X sky130_fd_sc_hd__or3_1
+X_1051_ _2150_/Q _2182_/Q VGND VGND _2040_/VPB _2040_/VPB _1051_/Y sky130_fd_sc_hd__xnor2_1
+X_1120_ _1120_/A _1635_/B VGND VGND _2077_/VPB _2077_/VPB _1618_/C sky130_fd_sc_hd__nor2b_1
+X_1249_ _1776_/B _1249_/B VGND VGND _2006_/VPB _2006_/VPB _1249_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_40_164 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1034_ _2175_/Q VGND VGND _2077_/VPB _2077_/VPB _1034_/Y sky130_fd_sc_hd__clkinv_1
+X_2083_ _2083_/A _2083_/B _2083_/C VGND VGND _2177_/VPB _2177_/VPB _2083_/Y sky130_fd_sc_hd__nand3_1
+X_2152_ clkload1/A operand_a[30] rst_n VGND VGND _2187_/VPB _2187_/VPB _2152_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1103_ _2135_/Q _2167_/Q VGND VGND _2176_/VPB _2176_/VPB _1103_/Y sky130_fd_sc_hd__nand2_1
+X_1867_ _2143_/Q _2142_/Q _2154_/Q VGND VGND _2006_/VPB _2006_/VPB _1867_/X sky130_fd_sc_hd__mux2_1
+XTAP_TAPCELL_ROW_31_131 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1798_ _2157_/Q _1628_/Y _1804_/B VGND VGND _1955_/VPB _1955_/VPB _1798_/Y sky130_fd_sc_hd__a21oi_1
+X_1936_ _1923_/Y _1924_/Y _1935_/Y VGND VGND _2007_/VPB _2007_/VPB _2110_/D sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_0_0 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1721_ _1700_/A _1700_/B _1103_/Y VGND VGND _2144_/VPB _2144_/VPB _1721_/X sky130_fd_sc_hd__o21a_1
+X_1583_ _2155_/Q _1523_/Y _1582_/Y VGND VGND _1955_/VPB _1955_/VPB _1583_/Y sky130_fd_sc_hd__a21oi_1
+X_1652_ _2158_/Q _1640_/Y _1647_/Y _1367_/B _1651_/Y VGND VGND _2007_/VPB _2007_/VPB
++ _1653_/B sky130_fd_sc_hd__a221oi_1
+X_1919_ _1919_/A _1919_/B _1919_/C VGND VGND _2007_/VPB _2007_/VPB _1919_/X sky130_fd_sc_hd__or3_1
+X_2066_ _2113_/D _2114_/D _2115_/D _2066_/D VGND VGND _2185_/VPB _2185_/VPB _2067_/D
++ sky130_fd_sc_hd__or4_1
+X_2135_ clkload5/A operand_a[13] rst_n VGND VGND _2184_/VPB _2184_/VPB _2135_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1566_ _2156_/Q _1566_/B VGND VGND _2035_/VPB _2035_/VPB _1566_/Y sky130_fd_sc_hd__nand2_1
+X_1704_ _2155_/Q _1704_/B VGND VGND _2036_/VPB _2036_/VPB _1704_/Y sky130_fd_sc_hd__nand2_1
+X_1497_ _1465_/A _1465_/B _1459_/Y _1461_/B _1141_/A VGND VGND _2025_/VPB _2025_/VPB
++ _1508_/C sky130_fd_sc_hd__o311ai_0
+X_1635_ _1635_/A _1635_/B _1635_/C _1635_/D VGND VGND _2040_/VPB _2040_/VPB _1635_/Y
++ sky130_fd_sc_hd__nand4_1
+XTAP_TAPCELL_ROW_13_56 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2049_ _2070_/A _2049_/B VGND VGND _2077_/VPB _2077_/VPB _2049_/Y sky130_fd_sc_hd__nor2_1
+X_2118_ _2184_/CLK _2190_/Q rst_n VGND VGND _2184_/VPB _2184_/VPB valid_o sky130_fd_sc_hd__dfrtp_1
+X_1351_ _2155_/Q _1346_/Y _1350_/Y VGND VGND _2035_/VPB _2035_/VPB _1352_/B sky130_fd_sc_hd__o21ai_0
+X_1282_ _1293_/B _1370_/B VGND VGND _1296_/VPB _2007_/VPB _1282_/Y sky130_fd_sc_hd__nand2_1
+X_1420_ _1420_/A _1420_/B _1420_/C VGND VGND _1420_/VPB _2025_/VPB _1422_/B sky130_fd_sc_hd__nand3_1
+X_1549_ _2157_/Q _1548_/Y _1547_/Y VGND VGND _2006_/VPB _2006_/VPB _1549_/Y sky130_fd_sc_hd__a21oi_1
+X_1618_ _2130_/Q _2162_/Q _1618_/C VGND VGND _1632_/VPB _2177_/VPB _1635_/D sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_38_159 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1265_ _2148_/Q _2154_/Q VGND VGND _2033_/VPB _2033_/VPB _1265_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1334_ _2154_/Q _1027_/Y _1333_/Y VGND VGND _1445_/VPB _2048_/VPB _1334_/Y sky130_fd_sc_hd__o21ai_0
+X_1403_ _2155_/Q _1403_/B VGND VGND _2006_/VPB _2006_/VPB _1403_/Y sky130_fd_sc_hd__nand2_1
+X_1196_ _1977_/A _1957_/A _1957_/B _1195_/Y VGND VGND _2025_/VPB _2025_/VPB _1196_/X
++ sky130_fd_sc_hd__o31a_1
+XTAP_TAPCELL_ROW_10_46 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1952_ _1063_/B _1282_/Y _2040_/A VGND VGND _1955_/VPB _1955_/VPB _1952_/Y sky130_fd_sc_hd__o21ai_0
+X_1883_ _1884_/B _1884_/C _1884_/A VGND VGND _2040_/VPB _2040_/VPB _1903_/B sky130_fd_sc_hd__o21ai_0
+X_1050_ _2150_/Q _2182_/Q VGND VGND _2177_/VPB _2177_/VPB _1997_/A sky130_fd_sc_hd__xor2_1
+X_1317_ _2154_/Q _2148_/Q _1316_/X VGND VGND _2033_/VPB _2033_/VPB _1318_/B sky130_fd_sc_hd__a21oi_1
+X_1248_ _2154_/Q _2139_/Q VGND VGND _2006_/VPB _2006_/VPB _1249_/B sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_34_140 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_21_89 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1179_ _1169_/Y _1177_/Y _1079_/Y _1846_/A VGND VGND _2144_/VPB _2144_/VPB _1183_/A
++ sky130_fd_sc_hd__o211ai_1
+XTAP_TAPCELL_ROW_40_165 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2082_ _2079_/A _2082_/B VGND VGND _2082_/VPB _2177_/VPB _2083_/C sky130_fd_sc_hd__nand2b_1
+X_2151_ clkload3/A operand_a[29] rst_n VGND VGND _2182_/VPB _2182_/VPB _2151_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1102_ _2135_/Q _2167_/Q VGND VGND _2184_/VPB _2184_/VPB _1720_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1797_ _2156_/Q _1706_/B _1796_/Y VGND VGND _2036_/VPB _2036_/VPB _1797_/Y sky130_fd_sc_hd__a21oi_1
+X_1935_ _1937_/B _1828_/A _1919_/X _1934_/Y VGND VGND _2007_/VPB _2007_/VPB _1935_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_1033_ _2179_/Q VGND VGND _2040_/VPB _2040_/VPB _1033_/Y sky130_fd_sc_hd__clkinv_1
+X_1866_ _2016_/A _1882_/B VGND VGND _2177_/VPB _2177_/VPB _1866_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_0_1 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1582_ _2155_/Q _1582_/B VGND VGND _1582_/VPB _2036_/VPB _1582_/Y sky130_fd_sc_hd__nor2_1
+X_1651_ _1635_/A _1462_/A _2049_/B _1660_/B _1650_/Y VGND VGND _2025_/VPB _2025_/VPB
++ _1651_/Y sky130_fd_sc_hd__o221ai_1
+X_2134_ clkload1/A operand_a[12] rst_n VGND VGND _2182_/VPB _2182_/VPB _2134_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2065_ _2110_/D _2111_/D _2112_/D _2065_/D VGND VGND _2182_/VPB _2182_/VPB _2066_/D
++ sky130_fd_sc_hd__or4_1
+X_1720_ _1720_/A _1720_/B _1720_/C VGND VGND _2184_/VPB _2184_/VPB _1720_/Y sky130_fd_sc_hd__nor3_1
+X_1849_ _1815_/Y _1886_/B _1964_/S VGND VGND _2053_/VPB _2053_/VPB _1849_/X sky130_fd_sc_hd__mux2_1
+X_1918_ _1959_/A _1902_/X _1917_/Y VGND VGND _1918_/VPB _2077_/VPB _2109_/D sky130_fd_sc_hd__o21ai_0
+X_1703_ _1703_/A _1703_/B VGND VGND _2053_/VPB _2053_/VPB _1703_/Y sky130_fd_sc_hd__nand2_1
+X_1634_ _1655_/C _1959_/A _1634_/C VGND VGND _2077_/VPB _2077_/VPB _1634_/Y sky130_fd_sc_hd__nor3_1
+X_1565_ _1444_/Y _1448_/B _2156_/Q VGND VGND _2035_/VPB _2035_/VPB _1568_/B sky130_fd_sc_hd__mux2i_1
+X_2048_ _1833_/Y _1907_/Y _1981_/Y _2047_/X _1982_/S _2001_/A VGND VGND _2048_/VPB
++ _2048_/VPB _2048_/X sky130_fd_sc_hd__mux4_2
+X_1496_ _1496_/A _1496_/B VGND VGND _2025_/VPB _2025_/VPB _1496_/Y sky130_fd_sc_hd__nand2_1
+X_2117_ clkload3/A _2117_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[31] sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_13_57 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1350_ _2155_/Q _1446_/B VGND VGND _2035_/VPB _2035_/VPB _1350_/Y sky130_fd_sc_hd__nand2_1
+X_1281_ _1293_/B _1370_/B VGND VGND _2025_/VPB _2025_/VPB _1281_/X sky130_fd_sc_hd__and2_0
+X_1479_ _1573_/B _1476_/Y _1478_/Y _1572_/B VGND VGND _2035_/VPB _2035_/VPB _1480_/B
++ sky130_fd_sc_hd__o22ai_1
+X_1548_ _1383_/B _1407_/B _1982_/S VGND VGND _2006_/VPB _2006_/VPB _1548_/Y sky130_fd_sc_hd__mux2i_1
+X_1617_ _1593_/B _1593_/C _1616_/A _1593_/A VGND VGND _2144_/VPB _2144_/VPB _1635_/C
++ sky130_fd_sc_hd__a211o_1
+X_1264_ _2154_/Q _2147_/Q _1263_/X VGND VGND _2035_/VPB _2035_/VPB _1264_/Y sky130_fd_sc_hd__a21oi_1
+X_1402_ _2156_/Q _1545_/B VGND VGND _2053_/VPB _2053_/VPB _1402_/Y sky130_fd_sc_hd__nand2_1
+X_1333_ _2154_/Q _2128_/Q VGND VGND _1333_/VPB _2036_/VPB _1333_/Y sky130_fd_sc_hd__nand2_1
+X_1195_ _1975_/A _1975_/B _1194_/Y VGND VGND _2025_/VPB _2025_/VPB _1195_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_10_47 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1951_ _1937_/A _1550_/B _1854_/C _1961_/A VGND VGND _1955_/VPB _1955_/VPB _1951_/X
++ sky130_fd_sc_hd__a22o_1
+X_1882_ _1882_/A _1882_/B VGND VGND _2040_/VPB _2040_/VPB _1884_/C sky130_fd_sc_hd__nand2_1
+X_1316_ _2147_/Q _2154_/Q VGND VGND _2033_/VPB _2033_/VPB _1316_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+XTAP_TAPCELL_ROW_34_141 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1247_ _2154_/Q _2138_/Q VGND VGND _2006_/VPB _2006_/VPB _1776_/B sky130_fd_sc_hd__nand2b_1
+XTAP_TAPCELL_ROW_26_108 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1178_ _1169_/Y _1177_/Y _1846_/A VGND VGND _2144_/VPB _2144_/VPB _1861_/B sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_40_166 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1934_ _1804_/A _1602_/Y _1933_/Y VGND VGND _1934_/VPB _2036_/VPB _1934_/Y sky130_fd_sc_hd__o21ai_0
+X_1796_ _2156_/Q _1796_/B VGND VGND _2036_/VPB _2036_/VPB _1796_/Y sky130_fd_sc_hd__nor2_1
+X_1032_ _2158_/Q VGND VGND _2025_/VPB _2025_/VPB _1804_/A sky130_fd_sc_hd__clkinv_1
+X_1865_ _2142_/Q _2174_/Q _1865_/C VGND VGND _2177_/VPB _2177_/VPB _1882_/B sky130_fd_sc_hd__nand3_1
+X_2081_ _2081_/A _2081_/B VGND VGND _2177_/VPB _2177_/VPB _2083_/B sky130_fd_sc_hd__nand2_1
+X_2150_ clkload4/A operand_a[28] rst_n VGND VGND _2185_/VPB _2185_/VPB _2150_/Q
++ sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_0_2 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1101_ _2136_/Q _2168_/Q VGND VGND _2184_/VPB _2184_/VPB _1720_/A sky130_fd_sc_hd__xnor2_1
+XTAP_TAPCELL_ROW_16_68 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_3_16 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1581_ _2154_/Q _1125_/A _1333_/Y VGND VGND _1582_/VPB _2036_/VPB _1582_/B sky130_fd_sc_hd__o21ai_0
+X_1650_ _2132_/Q _2164_/Q _1281_/X VGND VGND _2025_/VPB _2025_/VPB _1650_/Y sky130_fd_sc_hd__o21ai_0
+X_2133_ clkload1/A operand_a[11] rst_n VGND VGND _2189_/VPB _2189_/VPB _2133_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2064_ _2106_/D _2109_/D _2064_/C _2063_/Y VGND VGND _2182_/VPB _2182_/VPB _2065_/D
++ sky130_fd_sc_hd__or4b_1
+X_1848_ _2154_/Q _2141_/Q _1254_/X VGND VGND _1848_/VPB _2053_/VPB _1886_/B sky130_fd_sc_hd__a21oi_1
+X_1779_ _1689_/Y _1850_/B _1982_/S VGND VGND _2036_/VPB _2036_/VPB _1779_/Y sky130_fd_sc_hd__mux2i_1
+X_1917_ _2016_/A _1904_/X _1912_/Y _1916_/Y VGND VGND _2007_/VPB _2007_/VPB _1917_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_2047_ _2155_/Q _2020_/Y _2046_/Y VGND VGND _2047_/VPB _2047_/VPB _2047_/X sky130_fd_sc_hd__a21o_1
+X_1495_ _1141_/Y _1153_/X _1494_/Y VGND VGND _2040_/VPB _2040_/VPB _1503_/C sky130_fd_sc_hd__o21ai_0
+X_1633_ _1635_/A _1633_/B _1633_/C VGND VGND _2077_/VPB _2077_/VPB _1634_/C sky130_fd_sc_hd__nor3_1
+X_1564_ _1561_/A _1130_/Y _1537_/A _1943_/A VGND VGND _2176_/VPB _2176_/VPB _1564_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_2116_ clkload0/A _2116_/D rst_n VGND VGND _2176_/VPB _2176_/VPB result_o[30] sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_13_58 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1702_ _1700_/A _1700_/B _2016_/A _1700_/Y _1701_/Y VGND VGND _2177_/VPB _2177_/VPB
++ _1719_/B sky130_fd_sc_hd__o2111ai_1
+X_1547_ _2157_/Q _1547_/B VGND VGND _2006_/VPB _2006_/VPB _1547_/Y sky130_fd_sc_hd__nor2_1
+X_1280_ _2122_/Q _2154_/Q VGND VGND _1296_/VPB _2007_/VPB _1280_/Y sky130_fd_sc_hd__nor2_1
+X_1616_ _1616_/A _1616_/B _1616_/C VGND VGND _1632_/VPB _2177_/VPB _1619_/B sky130_fd_sc_hd__nand3_1
+X_1478_ _2157_/Q _1477_/Y _1474_/Y VGND VGND _2035_/VPB _2035_/VPB _1478_/Y sky130_fd_sc_hd__a21oi_1
+X_1332_ _1332_/A VGND VGND _2033_/VPB _2033_/VPB _1332_/Y sky130_fd_sc_hd__clkinv_1
+X_1263_ _2146_/Q _2154_/Q VGND VGND _2035_/VPB _2035_/VPB _1263_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1401_ _2155_/Q _1221_/Y _1400_/X VGND VGND _2006_/VPB _2006_/VPB _1401_/Y sky130_fd_sc_hd__o21ai_0
+X_1194_ _1031_/Y _2181_/Q _1060_/Y _1957_/C VGND VGND _2025_/VPB _2025_/VPB _1194_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1950_ _2157_/Q _1797_/Y _1949_/Y VGND VGND _2036_/VPB _2036_/VPB _1950_/Y sky130_fd_sc_hd__a21oi_1
+X_1315_ _2157_/Q _1621_/B VGND VGND _2033_/VPB _2033_/VPB _1315_/Y sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_34_142 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1246_ _2158_/Q _1605_/A VGND VGND _2053_/VPB _2053_/VPB _1246_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_26_109 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1881_ _1881_/A _1881_/B VGND VGND _2177_/VPB _2177_/VPB _1881_/Y sky130_fd_sc_hd__xnor2_1
+X_1177_ _1177_/A VGND VGND _2176_/VPB _2176_/VPB _1177_/Y sky130_fd_sc_hd__clkinv_1
+XTAP_TAPCELL_ROW_40_167 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1795_ _2155_/Q _1752_/B _1794_/Y VGND VGND _2053_/VPB _2053_/VPB _1796_/B sky130_fd_sc_hd__a21oi_1
+X_1933_ _1772_/A _1608_/A _1930_/Y _1931_/Y _1932_/Y VGND VGND _1934_/VPB _2036_/VPB
++ _1933_/Y sky130_fd_sc_hd__a2111oi_0
+X_1031_ _2149_/Q VGND VGND _2040_/VPB _2040_/VPB _1031_/Y sky130_fd_sc_hd__clkinv_1
+X_1864_ _2142_/Q _2174_/Q _1865_/C _1847_/Y VGND VGND _2177_/VPB _2177_/VPB _1864_/Y
++ sky130_fd_sc_hd__a211oi_1
+XTAP_TAPCELL_ROW_0_3 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1100_ _2136_/Q _2168_/Q VGND VGND _2176_/VPB _2176_/VPB _1747_/B sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_16_69 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2080_ _2079_/C _1048_/Y _1043_/Y VGND VGND _2177_/VPB _2177_/VPB _2081_/B sky130_fd_sc_hd__o21ai_0
+X_1229_ _2132_/Q _2154_/Q VGND VGND _2053_/VPB _2053_/VPB _1229_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+XTAP_TAPCELL_ROW_3_17 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1580_ _1749_/B _1574_/Y _1579_/Y VGND VGND _1663_/VPB _2035_/VPB _1580_/Y sky130_fd_sc_hd__o21ai_0
+X_2132_ clkload1/A operand_a[10] rst_n VGND VGND _2185_/VPB _2185_/VPB _2132_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1778_ _2155_/Q _1724_/Y _1777_/Y VGND VGND _1888_/VPB _2053_/VPB _1850_/B sky130_fd_sc_hd__a21oi_1
+X_1916_ _2040_/A _1916_/B _1916_/C _1916_/D VGND VGND _2007_/VPB _2007_/VPB _1916_/Y
++ sky130_fd_sc_hd__nand4_1
+X_2063_ _2107_/D _2108_/D VGND VGND _2182_/VPB _2182_/VPB _2063_/Y sky130_fd_sc_hd__nor2_1
+X_1847_ _1846_/B _1846_/C _1846_/D _1846_/A VGND VGND _2144_/VPB _2144_/VPB _1847_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_2046_ _2154_/Q _2152_/Q _1578_/C _2155_/Q VGND VGND _2047_/VPB _2047_/VPB _2046_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1494_ _1504_/C _1959_/A VGND VGND _2077_/VPB _2077_/VPB _1494_/Y sky130_fd_sc_hd__nor2_1
+X_1701_ _1680_/B _1680_/C _1680_/D _1680_/A _1104_/X VGND VGND _2177_/VPB _2177_/VPB
++ _1701_/Y sky130_fd_sc_hd__o311ai_0
+X_1632_ _1632_/A _1632_/B _1632_/C _1632_/D VGND VGND _1632_/VPB _2177_/VPB _2095_/D
++ sky130_fd_sc_hd__nand4_1
+X_2115_ clkload0/A _2115_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[29] sky130_fd_sc_hd__dfrtp_1
+X_1563_ _1130_/Y _1537_/A _1561_/A VGND VGND _2144_/VPB _2144_/VPB _1593_/C sky130_fd_sc_hd__a21o_1
+XTAP_TAPCELL_ROW_13_59 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1477_ _2156_/Q _1475_/B _1437_/Y VGND VGND _2033_/VPB _2033_/VPB _1477_/Y sky130_fd_sc_hd__o21ai_0
+X_1546_ _2156_/Q _1404_/Y _1545_/Y VGND VGND _2006_/VPB _2006_/VPB _1547_/B sky130_fd_sc_hd__a21oi_1
+X_2029_ _2029_/A _2074_/A _2029_/C VGND VGND _2077_/VPB _2077_/VPB _2030_/B sky130_fd_sc_hd__nand3_1
+X_1615_ _1615_/A _1615_/B VGND VGND _2077_/VPB _2077_/VPB _1632_/A sky130_fd_sc_hd__nand2_1
+X_1331_ _1573_/B _1327_/Y _1330_/Y _1572_/B VGND VGND _2033_/VPB _2033_/VPB _1332_/A
++ sky130_fd_sc_hd__o22ai_1
+X_1400_ _1964_/S _1215_/Y _1982_/S VGND VGND _2006_/VPB _2006_/VPB _1400_/X sky130_fd_sc_hd__o21a_1
+X_1262_ _1481_/B _1472_/B _2156_/Q VGND VGND _2048_/VPB _2048_/VPB _1603_/B sky130_fd_sc_hd__mux2i_1
+X_1193_ _2148_/Q _2180_/Q VGND VGND _2040_/VPB _2040_/VPB _1975_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1529_ _1134_/X _1854_/C _1528_/Y VGND VGND _2077_/VPB _2077_/VPB _1529_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_6_28 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+Xclkbuf_3_3__f_clk clkbuf_0_clk/X VGND VGND _2190_/VPB _2190_/VPB clkload2/A sky130_fd_sc_hd__clkbuf_4
+X_1314_ _1306_/Y _1313_/Y _2156_/Q VGND VGND _2033_/VPB _2033_/VPB _1621_/B sky130_fd_sc_hd__mux2i_1
+X_1245_ _2157_/Q _1243_/Y _1244_/Y _1214_/Y VGND VGND _2006_/VPB _2006_/VPB _1245_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1880_ _1884_/B _1864_/Y _1866_/Y _1879_/Y _1862_/Y VGND VGND _2177_/VPB _2177_/VPB
++ _2107_/D sky130_fd_sc_hd__o311ai_0
+X_1176_ _1830_/A _1827_/B _1174_/X _1173_/Y VGND VGND _2184_/VPB _2184_/VPB _1177_/A
++ sky130_fd_sc_hd__a211oi_1
+XTAP_TAPCELL_ROW_34_143 VGND _2048_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1030_ _2157_/Q VGND VGND _1981_/VPB _2035_/VPB _2001_/A sky130_fd_sc_hd__clkinv_1
+X_1932_ _1066_/Y _1282_/Y _2040_/A VGND VGND _1934_/VPB _2036_/VPB _1932_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_0_4 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1863_ _1846_/B _1846_/C _1846_/D _1846_/A _1079_/Y VGND VGND _2144_/VPB _2144_/VPB
++ _1884_/B sky130_fd_sc_hd__a311oi_1
+X_1794_ _2155_/Q _1794_/B VGND VGND _2006_/VPB _2006_/VPB _1794_/Y sky130_fd_sc_hd__nor2_1
+X_1228_ _1596_/B _1228_/B VGND VGND _2053_/VPB _2053_/VPB _1228_/Y sky130_fd_sc_hd__nand2_1
+X_1159_ _1613_/B _1613_/C _1618_/C VGND VGND _1632_/VPB _2177_/VPB _1633_/C sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_3_18 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1777_ _2155_/Q _1816_/B VGND VGND _1888_/VPB _2053_/VPB _1777_/Y sky130_fd_sc_hd__nor2_1
+X_1915_ _1904_/A _1550_/B _1914_/Y VGND VGND _1921_/VPB _1955_/VPB _1916_/D sky130_fd_sc_hd__a21oi_1
+X_2131_ clkload0/A operand_a[9] rst_n VGND VGND _2187_/VPB _2187_/VPB _2131_/Q sky130_fd_sc_hd__dfrtp_1
+X_2062_ _2103_/D _2104_/D _2105_/D _2061_/Y VGND VGND _2182_/VPB _2182_/VPB _2064_/C
++ sky130_fd_sc_hd__or4b_1
+X_1846_ _1846_/A _1846_/B _1846_/C _1846_/D VGND VGND _2144_/VPB _2144_/VPB _1846_/X
++ sky130_fd_sc_hd__and4_1
+X_1631_ _2158_/Q _1620_/X _1630_/Y _1367_/B VGND VGND _1955_/VPB _1955_/VPB _1632_/D
++ sky130_fd_sc_hd__a22oi_1
+X_1493_ _2156_/Q _1291_/C _1492_/Y VGND VGND _1955_/VPB _1955_/VPB _1500_/C sky130_fd_sc_hd__a21oi_1
+X_2114_ clkload4/A _2114_/D rst_n VGND VGND _2187_/VPB _2187_/VPB result_o[28] sky130_fd_sc_hd__dfrtp_1
+X_1562_ _1591_/C _1959_/A _1562_/C VGND VGND _2176_/VPB _2176_/VPB _1562_/Y sky130_fd_sc_hd__nor3_1
+X_2045_ _2079_/A _2070_/B VGND VGND _2144_/VPB _2144_/VPB _2045_/Y sky130_fd_sc_hd__xnor2_1
+X_1700_ _1700_/A _1700_/B _1700_/C VGND VGND _2177_/VPB _2177_/VPB _1700_/Y sky130_fd_sc_hd__nand3_1
+X_1829_ _1829_/A _1844_/B VGND VGND _2176_/VPB _2176_/VPB _1830_/B sky130_fd_sc_hd__nor2_1
+X_1476_ _2157_/Q _1475_/Y _1474_/Y VGND VGND _2035_/VPB _2035_/VPB _1476_/Y sky130_fd_sc_hd__a21oi_1
+X_1545_ _2156_/Q _1545_/B VGND VGND _1545_/VPB _2006_/VPB _1545_/Y sky130_fd_sc_hd__nor2_1
+X_2028_ _2079_/B _1201_/B _1959_/A VGND VGND _2082_/VPB _2177_/VPB _2028_/X sky130_fd_sc_hd__a21o_1
+X_1614_ _1633_/C _1959_/A VGND VGND _1632_/VPB _2177_/VPB _1615_/B sky130_fd_sc_hd__nor2_1
+X_1330_ _2157_/Q _1329_/Y _1315_/Y VGND VGND _2033_/VPB _2033_/VPB _1330_/Y sky130_fd_sc_hd__a21oi_1
+X_1261_ _2155_/Q _1384_/B _1257_/Y VGND VGND _2048_/VPB _2048_/VPB _1472_/B sky130_fd_sc_hd__a21oi_1
+X_1192_ _2147_/Q _1033_/Y _1938_/A VGND VGND _2025_/VPB _2025_/VPB _1957_/C sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_37_152 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1459_ _1496_/A VGND VGND _2007_/VPB _2007_/VPB _1459_/Y sky130_fd_sc_hd__clkinv_1
+X_1528_ _1136_/A _1282_/Y _1462_/A _1508_/A VGND VGND _2077_/VPB _2077_/VPB _1528_/Y
++ sky130_fd_sc_hd__o22ai_1
+XTAP_TAPCELL_ROW_6_29 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1313_ _2155_/Q _1308_/Y _1312_/Y VGND VGND _2033_/VPB _2033_/VPB _1313_/Y sky130_fd_sc_hd__o21ai_0
+X_1244_ _2156_/Q _1483_/B _1225_/Y _2157_/Q VGND VGND _2006_/VPB _2006_/VPB _1244_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1175_ _2140_/Q _2172_/Q VGND VGND _2176_/VPB _2176_/VPB _1827_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1793_ _1793_/A _1793_/B VGND VGND _2006_/VPB _2006_/VPB _1794_/B sky130_fd_sc_hd__nand2_1
+X_1227_ _2154_/Q _2131_/Q VGND VGND _2053_/VPB _2053_/VPB _1228_/B sky130_fd_sc_hd__nand2_1
+X_1931_ _1919_/A _1462_/A _2049_/B _1942_/B VGND VGND _1934_/VPB _2036_/VPB _1931_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1862_ _1865_/C _1861_/C _1828_/A _1861_/Y _1183_/A VGND VGND _2177_/VPB _2177_/VPB
++ _1862_/Y sky130_fd_sc_hd__o2111ai_1
+XTAP_TAPCELL_ROW_0_5 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1089_ _2139_/Q _2171_/Q VGND VGND _1785_/VPB _2190_/VPB _1788_/A sky130_fd_sc_hd__xor2_1
+X_1158_ _1591_/B _1591_/C _1593_/A VGND VGND _2144_/VPB _2144_/VPB _1613_/C sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_22_92 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_3_19 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1776_ _1776_/A _1776_/B VGND VGND _2006_/VPB _2006_/VPB _1816_/B sky130_fd_sc_hd__nand2_1
+X_1914_ _1922_/A _2049_/B VGND VGND _1921_/VPB _1955_/VPB _1914_/Y sky130_fd_sc_hd__nor2_1
+X_2061_ _2100_/D _2101_/D _2102_/D _2061_/D VGND VGND _2190_/VPB _2190_/VPB _2061_/Y
++ sky130_fd_sc_hd__nor4_1
+X_2130_ clkload5/A operand_a[8] rst_n VGND VGND _2190_/VPB _2190_/VPB _2130_/Q sky130_fd_sc_hd__dfrtp_1
+X_1845_ _2141_/Q _2173_/Q _1829_/A VGND VGND _2144_/VPB _2144_/VPB _1846_/D sky130_fd_sc_hd__o21ai_0
+X_1492_ _2156_/Q _1599_/B VGND VGND _2036_/VPB _2036_/VPB _1492_/Y sky130_fd_sc_hd__nor2_1
+X_1630_ _2157_/Q _1628_/Y _1629_/Y VGND VGND _1955_/VPB _1955_/VPB _1630_/Y sky130_fd_sc_hd__o21ai_0
+X_1561_ _1561_/A _1561_/B _1561_/C VGND VGND _2144_/VPB _2144_/VPB _1562_/C sky130_fd_sc_hd__nor3_1
+X_2044_ _2079_/B _2030_/B _1042_/A VGND VGND _2077_/VPB _2077_/VPB _2070_/B sky130_fd_sc_hd__a21boi_0
+X_2113_ clkload6/A _2113_/D rst_n VGND VGND _2187_/VPB _2187_/VPB result_o[27] sky130_fd_sc_hd__dfrtp_1
+X_1759_ _1747_/A _1462_/A _2049_/B _1098_/B VGND VGND _2176_/VPB _2176_/VPB _1759_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1828_ _1828_/A _1828_/B _1828_/C VGND VGND _2176_/VPB _2176_/VPB _1828_/Y sky130_fd_sc_hd__nand3_1
+X_1544_ _1573_/B _1541_/Y _1543_/Y _1572_/B VGND VGND _2033_/VPB _2033_/VPB _1544_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1475_ _2156_/Q _1475_/B VGND VGND _2035_/VPB _2035_/VPB _1475_/Y sky130_fd_sc_hd__nor2_1
+X_2027_ _2014_/Y _2016_/Y _2026_/Y VGND VGND _2077_/VPB _2077_/VPB _2115_/D sky130_fd_sc_hd__o21ai_0
+X_1613_ _1618_/C _1613_/B _1613_/C VGND VGND _1632_/VPB _2177_/VPB _1615_/A sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_14_60 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1260_ _1885_/B _1260_/B VGND VGND _2048_/VPB _2048_/VPB _1384_/B sky130_fd_sc_hd__nand2_1
+X_1191_ _1937_/A _1937_/C VGND VGND _2025_/VPB _2025_/VPB _1938_/A sky130_fd_sc_hd__nor2_1
+X_1389_ _2155_/Q _1389_/B VGND VGND _2033_/VPB _2033_/VPB _1389_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_37_153 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1527_ _2156_/Q _1525_/Y _1526_/Y VGND VGND _1955_/VPB _1955_/VPB _1874_/B sky130_fd_sc_hd__o21ai_0
+X_1458_ _2125_/Q _2157_/Q VGND VGND _2007_/VPB _2007_/VPB _1496_/A sky130_fd_sc_hd__nand2_1
+X_1312_ _2155_/Q _1428_/B VGND VGND _2033_/VPB _2033_/VPB _1312_/Y sky130_fd_sc_hd__nand2_1
+X_1243_ _2156_/Q _1242_/Y _1234_/Y VGND VGND _2006_/VPB _2006_/VPB _1243_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_11_50 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1174_ _2141_/Q _2173_/Q VGND VGND _2176_/VPB _2176_/VPB _1174_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1226_ _2154_/Q _2130_/Q VGND VGND _2053_/VPB _2053_/VPB _1596_/B sky130_fd_sc_hd__nand2b_1
+X_1930_ _1586_/B _1602_/Y _1779_/Y _2157_/Q _1929_/Y VGND VGND _2036_/VPB _2036_/VPB
++ _1930_/Y sky130_fd_sc_hd__a221oi_1
+X_1861_ _1865_/C _1861_/B _1861_/C VGND VGND _2177_/VPB _2177_/VPB _1861_/Y sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_0_6 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1792_ _1791_/A _1791_/B _2016_/A _1789_/Y _1813_/B VGND VGND _2176_/VPB _2176_/VPB
++ _1807_/B sky130_fd_sc_hd__o2111ai_1
+X_1157_ _1561_/B _1561_/C _1561_/A VGND VGND _2144_/VPB _2144_/VPB _1591_/C sky130_fd_sc_hd__o21a_1
+XTAP_TAPCELL_ROW_22_93 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1088_ _1830_/A _1813_/A VGND VGND _2176_/VPB _2176_/VPB _1173_/A sky130_fd_sc_hd__nand2_1
+X_1913_ _2145_/Q _2177_/Q _1281_/X VGND VGND _2007_/VPB _2007_/VPB _1916_/C sky130_fd_sc_hd__o21ai_0
+X_2060_ _2097_/D _2098_/D _2099_/D _2060_/D VGND VGND _2190_/VPB _2190_/VPB _2061_/D
++ sky130_fd_sc_hd__or4_1
+X_1209_ _1573_/B VGND VGND _1663_/VPB _2035_/VPB _1209_/Y sky130_fd_sc_hd__clkinv_1
+X_2189_ clkload3/A opcode[3] rst_n VGND VGND _2189_/VPB _2189_/VPB _2189_/Q sky130_fd_sc_hd__dfrtp_1
+X_1775_ _1791_/B _2049_/B _1774_/Y _1092_/Y VGND VGND _2144_/VPB _2144_/VPB _1783_/B
++ sky130_fd_sc_hd__o22ai_1
+X_1844_ _1830_/A _1844_/B VGND VGND _2176_/VPB _2176_/VPB _1846_/C sky130_fd_sc_hd__nand2b_1
+X_1560_ _1943_/A _1537_/Y _1559_/Y VGND VGND _1560_/VPB _2177_/VPB _2092_/D sky130_fd_sc_hd__o21ai_0
+X_1758_ _2158_/Q _1772_/B VGND VGND _2053_/VPB _2053_/VPB _2040_/A sky130_fd_sc_hd__nand2_1
+X_1689_ _2155_/Q _1642_/B _1688_/Y VGND VGND _2053_/VPB _2053_/VPB _1689_/Y sky130_fd_sc_hd__a21oi_1
+X_1491_ _2155_/Q _1413_/B _1490_/Y VGND VGND _2036_/VPB _2036_/VPB _1599_/B sky130_fd_sc_hd__a21oi_1
+X_2112_ clkload6/A _2112_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[26] sky130_fd_sc_hd__dfrtp_1
+X_1827_ _1830_/A _1827_/B _1827_/C VGND VGND _2184_/VPB _2184_/VPB _1828_/C sky130_fd_sc_hd__or3_1
+X_2043_ _2079_/A _2043_/B VGND VGND _2082_/VPB _2177_/VPB _2043_/X sky130_fd_sc_hd__xor2_1
+X_1543_ _2157_/Q _1542_/Y _1539_/Y VGND VGND _2047_/VPB _2047_/VPB _1543_/Y sky130_fd_sc_hd__a21oi_1
+X_1474_ _2157_/Q _1474_/B VGND VGND _2048_/VPB _2048_/VPB _1474_/Y sky130_fd_sc_hd__nor2_1
+X_1612_ _1591_/Y _1592_/Y _1595_/Y _1611_/Y VGND VGND _2144_/VPB _2144_/VPB _2094_/D
++ sky130_fd_sc_hd__o211ai_1
+X_2026_ _1199_/Y _2011_/Y _2025_/Y VGND VGND _2077_/VPB _2077_/VPB _2026_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_14_61 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1190_ _2178_/Q _2146_/Q VGND VGND _2025_/VPB _2025_/VPB _1937_/C sky130_fd_sc_hd__nand2b_1
+X_1388_ _2155_/Q _1274_/B VGND VGND _2047_/VPB _2047_/VPB _1540_/B sky130_fd_sc_hd__lpflow_inputiso1p_1
+XTAP_TAPCELL_ROW_37_154 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1526_ _2156_/Q _1526_/B VGND VGND _2036_/VPB _2036_/VPB _1526_/Y sky130_fd_sc_hd__nand2_1
+X_1457_ _2156_/Q _1584_/B VGND VGND _1955_/VPB _1955_/VPB _1838_/B sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_2009_ _1804_/A _1683_/B _2008_/Y VGND VGND _2025_/VPB _2025_/VPB _2009_/Y sky130_fd_sc_hd__a21oi_1
+X_1311_ _1311_/A _1311_/B VGND VGND _2033_/VPB _2033_/VPB _1428_/B sky130_fd_sc_hd__nand2_1
+X_1242_ _2155_/Q _1405_/B _1241_/Y VGND VGND _2006_/VPB _2006_/VPB _1242_/Y sky130_fd_sc_hd__a21oi_1
+X_1173_ _1173_/A _1808_/C VGND VGND _2184_/VPB _2184_/VPB _1173_/Y sky130_fd_sc_hd__nor2_1
+X_1509_ _2016_/A _1536_/C _1509_/C VGND VGND _1560_/VPB _2177_/VPB _1509_/Y sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_11_51 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_0_7 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1791_ _1791_/A _1791_/B VGND VGND _2176_/VPB _2176_/VPB _1791_/Y sky130_fd_sc_hd__nor2_1
+X_1860_ _1943_/A _1846_/X _1847_/Y _1859_/Y _1843_/Y VGND VGND _2144_/VPB _2144_/VPB
++ _2106_/D sky130_fd_sc_hd__o311ai_0
+X_1225_ _2155_/Q _1221_/Y _1224_/Y _2156_/Q VGND VGND _2006_/VPB _2006_/VPB _1225_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1989_ _1672_/Y _1804_/Y _1978_/Y _1988_/Y VGND VGND _2007_/VPB _2007_/VPB _1989_/X
++ sky130_fd_sc_hd__a211o_1
+XTAP_TAPCELL_ROW_22_94 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1087_ _1829_/A _1086_/B VGND VGND _2176_/VPB _2176_/VPB _1813_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1156_ _1533_/B _1533_/C _1550_/A VGND VGND _2144_/VPB _2144_/VPB _1561_/C sky130_fd_sc_hd__a21oi_1
+X_1912_ _2157_/Q _1912_/B _1998_/B VGND VGND _1912_/VPB _2007_/VPB _1912_/Y sky130_fd_sc_hd__nor3_1
+X_1208_ _2186_/Q _2187_/Q _1293_/B VGND VGND _1296_/VPB _2007_/VPB _1573_/B sky130_fd_sc_hd__nand3_1
+X_1139_ _2126_/Q _2158_/Q VGND VGND _2040_/VPB _2040_/VPB _1140_/B sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_2188_ clkload4/A opcode[2] rst_n VGND VGND _2189_/VPB _2189_/VPB _2188_/Q sky130_fd_sc_hd__dfrtp_1
+X_1774_ _1791_/B _1550_/B _1281_/X VGND VGND _2144_/VPB _2144_/VPB _1774_/Y sky130_fd_sc_hd__a21oi_1
+X_1843_ _1846_/A _1169_/Y _1177_/Y _1861_/B _1828_/A VGND VGND _2144_/VPB _2144_/VPB
++ _1843_/Y sky130_fd_sc_hd__o311ai_0
+XTAP_TAPCELL_ROW_17_72 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_4_20 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1490_ _2155_/Q _1554_/B VGND VGND _2036_/VPB _2036_/VPB _1490_/Y sky130_fd_sc_hd__nor2_1
+X_2111_ clkload0/A _2111_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[25] sky130_fd_sc_hd__dfrtp_1
+X_1826_ _1827_/B _1827_/C _1830_/A VGND VGND _2176_/VPB _2176_/VPB _1828_/B sky130_fd_sc_hd__o21ai_0
+X_2042_ _1201_/Y _2028_/X _2041_/Y VGND VGND _2082_/VPB _2177_/VPB _2116_/D sky130_fd_sc_hd__o21ai_0
+X_1757_ _2158_/Q _1757_/B _1757_/C VGND VGND _2006_/VPB _2006_/VPB _1761_/A sky130_fd_sc_hd__nand3_1
+X_1688_ _2155_/Q _1725_/B VGND VGND _2053_/VPB _2053_/VPB _1688_/Y sky130_fd_sc_hd__nor2_1
+X_1542_ _2156_/Q _1540_/B _1515_/Y VGND VGND _2047_/VPB _2047_/VPB _1542_/Y sky130_fd_sc_hd__o21ai_0
+X_1473_ _2156_/Q _1268_/Y _1472_/Y VGND VGND _2048_/VPB _2048_/VPB _1474_/B sky130_fd_sc_hd__a21oi_1
+X_1611_ _1611_/A _1611_/B _1611_/C VGND VGND _2144_/VPB _2144_/VPB _1611_/Y sky130_fd_sc_hd__nor3_1
+X_2025_ _1708_/X _1998_/B _2024_/Y VGND VGND _2025_/VPB _2025_/VPB _2025_/Y sky130_fd_sc_hd__o21ai_0
+X_1809_ _1808_/B _1808_/C _1808_/A VGND VGND _2184_/VPB _2184_/VPB _1827_/C sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_14_62 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_1_10 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_37_155 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1387_ _2157_/Q _1387_/B VGND VGND _2035_/VPB _2035_/VPB _1387_/Y sky130_fd_sc_hd__nor2_1
+X_1525_ _2155_/Q _1523_/Y _1524_/Y VGND VGND _1955_/VPB _1955_/VPB _1525_/Y sky130_fd_sc_hd__o21ai_0
+X_1456_ _1964_/S _1524_/B _1455_/Y VGND VGND _1955_/VPB _1955_/VPB _1584_/B sky130_fd_sc_hd__a21oi_1
+X_2008_ _2013_/B _2049_/B _2040_/A _2000_/Y _2007_/Y VGND VGND _2025_/VPB _2025_/VPB
++ _2008_/Y sky130_fd_sc_hd__o2111ai_1
+X_1310_ _2154_/Q _2146_/Q VGND VGND _2035_/VPB _2035_/VPB _1311_/B sky130_fd_sc_hd__nand2_1
+X_1241_ _2155_/Q _1403_/B VGND VGND _2006_/VPB _2006_/VPB _1241_/Y sky130_fd_sc_hd__nor2_1
+X_1172_ _1791_/A _1171_/X _1170_/X VGND VGND _2184_/VPB _2184_/VPB _1808_/C sky130_fd_sc_hd__a21oi_1
+X_1439_ _2157_/Q _1662_/A _1431_/Y VGND VGND _2033_/VPB _2033_/VPB _1439_/Y sky130_fd_sc_hd__a21oi_1
+X_1508_ _1508_/A _1508_/B _1508_/C VGND VGND _2077_/VPB _2077_/VPB _1509_/C sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_31_128 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1790_ _1769_/B _1769_/C _1791_/A _1769_/A VGND VGND _2184_/VPB _2184_/VPB _1813_/B
++ sky130_fd_sc_hd__a211o_1
+X_1224_ _2123_/Q _2154_/Q _2155_/Q _1223_/B VGND VGND _2036_/VPB _2036_/VPB _1224_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1988_ _1586_/B _1984_/Y _1987_/Y VGND VGND _2007_/VPB _2007_/VPB _1988_/Y sky130_fd_sc_hd__o21ai_0
+X_1155_ _1504_/B _1504_/C _1508_/A VGND VGND _2077_/VPB _2077_/VPB _1533_/C sky130_fd_sc_hd__o21ai_0
+X_1086_ _1829_/A _1086_/B VGND VGND _2144_/VPB _2144_/VPB _1808_/A sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_22_95 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1773_ _1804_/A _1279_/Y _1772_/Y VGND VGND _2053_/VPB _2053_/VPB _1783_/A sky130_fd_sc_hd__a21oi_1
+X_1911_ _1580_/Y _1910_/Y _1804_/A VGND VGND _1955_/VPB _1955_/VPB _1916_/B sky130_fd_sc_hd__o21ai_0
+X_1207_ _2186_/Q _1293_/B VGND VGND _2007_/VPB _2007_/VPB _1284_/B sky130_fd_sc_hd__nand2_1
+X_2187_ clkload3/A opcode[1] rst_n VGND VGND _2187_/VPB _2187_/VPB _2187_/Q sky130_fd_sc_hd__dfrtp_1
+X_1842_ _1943_/A _1830_/Y _1841_/Y _1828_/Y VGND VGND _2176_/VPB _2176_/VPB _2105_/D
++ sky130_fd_sc_hd__o211ai_1
+X_1069_ _2177_/Q _2145_/Q VGND VGND _2040_/VPB _2040_/VPB _1069_/Y sky130_fd_sc_hd__nand2b_1
+X_1138_ _2126_/Q _2158_/Q VGND VGND _2040_/VPB _2040_/VPB _1508_/B sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_17_73 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2041_ _2016_/A _2030_/X _2040_/Y VGND VGND _2041_/VPB _2077_/VPB _2041_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_4_21 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2110_ clkload5/A _2110_/D rst_n VGND VGND _2184_/VPB _2184_/VPB result_o[24] sky130_fd_sc_hd__dfrtp_1
+X_1687_ _1687_/A _1687_/B VGND VGND _2053_/VPB _2053_/VPB _1725_/B sky130_fd_sc_hd__nand2_1
+X_1756_ _2157_/Q _1905_/B _1755_/Y VGND VGND _1912_/VPB _2007_/VPB _1756_/Y sky130_fd_sc_hd__o21ai_0
+X_1825_ _1808_/Y _1810_/Y _1814_/Y _1824_/Y VGND VGND _2184_/VPB _2184_/VPB _2104_/D
++ sky130_fd_sc_hd__a211o_1
+X_1610_ _1593_/A _1462_/A _2049_/B _1616_/B _1609_/Y VGND VGND _2144_/VPB _2144_/VPB
++ _1611_/C sky130_fd_sc_hd__o221ai_1
+X_1541_ _2157_/Q _1734_/A _1539_/Y VGND VGND _2047_/VPB _2047_/VPB _1541_/Y sky130_fd_sc_hd__a21oi_1
+X_1472_ _2156_/Q _1472_/B VGND VGND _2048_/VPB _2048_/VPB _1472_/Y sky130_fd_sc_hd__nor2_1
+X_2024_ _1804_/A _1715_/Y _2017_/Y _2018_/Y _2023_/Y VGND VGND _2025_/VPB _2025_/VPB
++ _2024_/Y sky130_fd_sc_hd__a2111oi_0
+X_1808_ _1808_/A _1808_/B _1808_/C VGND VGND _2184_/VPB _2184_/VPB _1808_/Y sky130_fd_sc_hd__nand3_1
+X_1739_ _2136_/Q _2168_/Q _1281_/X _1738_/Y VGND VGND _2144_/VPB _2144_/VPB _1739_/Y
++ sky130_fd_sc_hd__o22ai_1
+XTAP_TAPCELL_ROW_14_63 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_1_11 VGND _2187_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1386_ _2156_/Q _1385_/Y _1383_/Y VGND VGND _2048_/VPB _2048_/VPB _1387_/B sky130_fd_sc_hd__a21oi_1
+X_1524_ _2155_/Q _1524_/B VGND VGND _1955_/VPB _1955_/VPB _1524_/Y sky130_fd_sc_hd__nand2_1
+X_1455_ _1964_/S _1455_/B VGND VGND _1955_/VPB _1955_/VPB _1455_/Y sky130_fd_sc_hd__nor2_1
+X_2007_ _1367_/B _2001_/X _2006_/Y _1998_/Y VGND VGND _2007_/VPB _2007_/VPB _2007_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_1240_ _2154_/Q _2137_/Q _1238_/X VGND VGND _2006_/VPB _2006_/VPB _1405_/B sky130_fd_sc_hd__a21oi_1
+X_1171_ _2138_/Q _2170_/Q VGND VGND _1785_/VPB _2190_/VPB _1171_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1438_ _2156_/Q _1570_/B _1437_/Y VGND VGND _2033_/VPB _2033_/VPB _1662_/A sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_25_104 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1507_ _1508_/B _1508_/C _1508_/A VGND VGND _2077_/VPB _2077_/VPB _1536_/C sky130_fd_sc_hd__a21o_1
+X_1369_ _2186_/Q _2187_/Q _2188_/Q _2189_/Q VGND VGND _2176_/VPB _2176_/VPB _2016_/A
++ sky130_fd_sc_hd__nor4_1
+XTAP_TAPCELL_ROW_31_129 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_7_32 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1223_ _1964_/S _1223_/B VGND VGND _2036_/VPB _2036_/VPB _1291_/C sky130_fd_sc_hd__nand2_1
+X_1987_ _1987_/A _1987_/B VGND VGND _2007_/VPB _2007_/VPB _1987_/Y sky130_fd_sc_hd__nor2_1
+X_1154_ _1142_/X _1152_/X _1143_/Y _1141_/Y VGND VGND _2040_/VPB _2040_/VPB _1504_/C
++ sky130_fd_sc_hd__o211a_1
+X_1085_ _2140_/Q _2172_/Q VGND VGND _2176_/VPB _2176_/VPB _1086_/B sky130_fd_sc_hd__nor2_1
+X_1772_ _1772_/A _1772_/B VGND VGND _2053_/VPB _2053_/VPB _1772_/Y sky130_fd_sc_hd__nor2_1
+X_1910_ _1905_/Y _1909_/Y _1804_/B VGND VGND _1955_/VPB _1955_/VPB _1910_/Y sky130_fd_sc_hd__a21oi_1
+X_1841_ _1841_/A _1841_/B _1841_/C _1841_/D VGND VGND _2144_/VPB _2144_/VPB _1841_/Y
++ sky130_fd_sc_hd__nor4_1
+X_1068_ _2146_/Q _2178_/Q VGND VGND _2036_/VPB _2036_/VPB _1919_/A sky130_fd_sc_hd__xnor2_1
+X_1206_ _2188_/Q _2189_/Q VGND VGND _2025_/VPB _2025_/VPB _1293_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1137_ _2126_/Q _2158_/Q VGND VGND _2077_/VPB _2077_/VPB _1504_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+XTAP_TAPCELL_ROW_17_74 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2186_ clkload5/A opcode[0] rst_n VGND VGND _2190_/VPB _2190_/VPB _2186_/Q sky130_fd_sc_hd__dfrtp_1
+X_2040_ _2040_/A _2040_/B _2040_/C _2040_/D VGND VGND _2040_/VPB _2040_/VPB _2040_/Y
++ sky130_fd_sc_hd__nand4_1
+XTAP_TAPCELL_ROW_4_22 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1686_ _2157_/Q _1474_/B _1685_/X VGND VGND _2048_/VPB _2048_/VPB _1696_/B sky130_fd_sc_hd__a21oi_1
+X_1755_ _2157_/Q _1912_/B VGND VGND _1912_/VPB _2007_/VPB _1755_/Y sky130_fd_sc_hd__nand2_1
+X_1824_ _2157_/Q _1416_/C _1998_/B _1821_/Y _1823_/Y VGND VGND _2025_/VPB _2025_/VPB
++ _1824_/Y sky130_fd_sc_hd__o311ai_0
+X_2169_ clkload6/A operand_b[15] rst_n VGND VGND _2190_/VPB _2190_/VPB _2169_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1540_ _2156_/Q _1540_/B VGND VGND _2033_/VPB _2033_/VPB _1734_/A sky130_fd_sc_hd__nor2_1
+X_2023_ _2157_/Q _1872_/B _2022_/Y _1586_/B VGND VGND _2053_/VPB _2053_/VPB _2023_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1471_ _2016_/A _1466_/X _1470_/Y _1464_/Y VGND VGND _2025_/VPB _2025_/VPB _2089_/D
++ sky130_fd_sc_hd__a211o_1
+X_1807_ _1807_/A _1807_/B _1807_/C VGND VGND _2184_/VPB _2184_/VPB _2103_/D sky130_fd_sc_hd__nand3_1
+X_1669_ _2155_/Q _1626_/Y _1668_/Y VGND VGND _2036_/VPB _2036_/VPB _1670_/B sky130_fd_sc_hd__a21oi_1
+X_1738_ _2136_/Q _2168_/Q _1462_/A VGND VGND _2144_/VPB _2144_/VPB _1738_/Y sky130_fd_sc_hd__a21oi_1
+X_1523_ _2127_/Q _2126_/Q _2154_/Q VGND VGND _1955_/VPB _1955_/VPB _1523_/Y sky130_fd_sc_hd__mux2i_1
+X_1454_ _2125_/Q _2124_/Q _2154_/Q VGND VGND _1955_/VPB _1955_/VPB _1524_/B sky130_fd_sc_hd__mux2_1
+X_1385_ _2155_/Q _1264_/Y _1384_/Y VGND VGND _2035_/VPB _2035_/VPB _1385_/Y sky130_fd_sc_hd__a21oi_1
+X_2006_ _2156_/Q _2004_/Y _2005_/Y VGND VGND _2006_/VPB _2006_/VPB _2006_/Y sky130_fd_sc_hd__o21ai_0
+X_1170_ _2139_/Q _2171_/Q VGND VGND _2190_/VPB _2190_/VPB _1170_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1437_ _2156_/Q _2153_/Q VGND VGND _2047_/VPB _2047_/VPB _1437_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_25_105 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1368_ _2122_/Q _2154_/Q _1375_/B VGND VGND _1375_/VPB _2007_/VPB _1368_/Y sky130_fd_sc_hd__a21oi_1
+X_1299_ _1203_/Y _1370_/A _1293_/A _1245_/Y _1298_/Y VGND VGND _2025_/VPB _2025_/VPB
++ _2086_/D sky130_fd_sc_hd__a311o_1
+X_1506_ _1508_/B _1508_/C _1508_/A VGND VGND _2077_/VPB _2077_/VPB _1506_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_7_33 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1222_ _2122_/Q _2154_/Q VGND VGND _1955_/VPB _1955_/VPB _1223_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1986_ _1053_/Y _1282_/Y _2040_/A VGND VGND _2007_/VPB _2007_/VPB _1987_/B sky130_fd_sc_hd__o21ai_0
+X_1153_ _1142_/X _1152_/X _1143_/Y VGND VGND _2040_/VPB _2040_/VPB _1153_/X sky130_fd_sc_hd__o21a_1
+X_1084_ _2140_/Q _2172_/Q VGND VGND _2176_/VPB _2176_/VPB _1829_/A sky130_fd_sc_hd__and2_0
+Xclkbuf_3_4__f_clk clkbuf_0_clk/X VGND VGND _2185_/VPB _2185_/VPB clkload3/A sky130_fd_sc_hd__clkbuf_4
+X_1771_ _2016_/A _1771_/B VGND VGND _2176_/VPB _2176_/VPB _1771_/Y sky130_fd_sc_hd__nand2_1
+X_1840_ _1081_/Y _1282_/Y _2040_/A VGND VGND _2144_/VPB _2144_/VPB _1841_/D sky130_fd_sc_hd__o21ai_0
+X_1067_ _1942_/B _1066_/Y VGND VGND _2036_/VPB _2036_/VPB _1067_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1969_ _1058_/B _1282_/Y _2040_/A _1968_/Y VGND VGND _1977_/VPB _2007_/VPB _1969_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1205_ _2187_/Q _2186_/Q VGND VGND _2025_/VPB _2025_/VPB _1293_/A sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1136_ _1136_/A _1134_/X VGND VGND _2077_/VPB _2077_/VPB _1508_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+XTAP_TAPCELL_ROW_17_75 VGND _2177_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2185_ clkload6/A operand_b[31] rst_n VGND VGND _2185_/VPB _2185_/VPB _2185_/Q
++ sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_4_23 VGND _2185_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1685_ _2001_/A _1482_/Y _1214_/Y VGND VGND _2048_/VPB _2048_/VPB _1685_/X sky130_fd_sc_hd__a21o_1
+X_1754_ _1670_/B _1753_/Y _1982_/S VGND VGND _2036_/VPB _2036_/VPB _1905_/B sky130_fd_sc_hd__mux2i_1
+X_1823_ _1808_/A _1550_/B _1854_/C _1829_/A _1822_/Y VGND VGND _2144_/VPB _2144_/VPB
++ _1823_/Y sky130_fd_sc_hd__a221oi_1
+X_1119_ _2131_/Q _2163_/Q VGND VGND _1632_/VPB _2177_/VPB _1635_/B sky130_fd_sc_hd__nand2_1
+X_2099_ clkload3/A _2099_/D rst_n VGND VGND _2182_/VPB _2182_/VPB result_o[13] sky130_fd_sc_hd__dfrtp_1
+X_2168_ clkload2/A operand_b[14] rst_n VGND VGND _2182_/VPB _2182_/VPB _2168_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2022_ _2156_/Q _1947_/X _2021_/Y _2157_/Q VGND VGND _2048_/VPB _2048_/VPB _2022_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1470_ _1804_/A _1440_/X _1469_/Y VGND VGND _2007_/VPB _2007_/VPB _1470_/Y sky130_fd_sc_hd__o21ai_0
+X_1599_ _2156_/Q _1599_/B VGND VGND _2036_/VPB _2036_/VPB _1599_/Y sky130_fd_sc_hd__nand2_1
+X_1668_ _2155_/Q _1704_/B VGND VGND _2036_/VPB _2036_/VPB _1668_/Y sky130_fd_sc_hd__nor2_1
+X_1806_ _2001_/A _1629_/B _1804_/Y _1803_/Y _1800_/Y VGND VGND _1955_/VPB _1955_/VPB
++ _1807_/C sky130_fd_sc_hd__a311oi_1
+X_1737_ _2158_/Q _1737_/B VGND VGND _2144_/VPB _2144_/VPB _1737_/Y sky130_fd_sc_hd__nand2_1
+X_1384_ _2155_/Q _1384_/B VGND VGND _2035_/VPB _2035_/VPB _1384_/Y sky130_fd_sc_hd__nor2_1
+X_1453_ _2157_/Q _1451_/Y _1452_/Y VGND VGND _2035_/VPB _2035_/VPB _1469_/A sky130_fd_sc_hd__a21oi_1
+X_1522_ _2157_/Q _1519_/Y _1521_/Y VGND VGND _2048_/VPB _2048_/VPB _1522_/Y sky130_fd_sc_hd__a21oi_1
+X_2005_ _2156_/Q _1927_/Y _2157_/Q VGND VGND _2006_/VPB _2006_/VPB _2005_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_42_172 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1436_ _2157_/Q _1663_/A _1431_/Y VGND VGND _2033_/VPB _2033_/VPB _1436_/Y sky130_fd_sc_hd__a21oi_1
+X_1367_ _2001_/A _1367_/B _1629_/B VGND VGND _1955_/VPB _1955_/VPB _1367_/Y sky130_fd_sc_hd__nand3_1
+X_1505_ _1533_/C _1828_/A VGND VGND _2077_/VPB _2077_/VPB _1505_/Y sky130_fd_sc_hd__nand2_1
+X_1298_ _1246_/Y _1279_/Y _1297_/Y VGND VGND _2036_/VPB _2036_/VPB _1298_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_25_106 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1221_ _2154_/Q _2125_/Q _1220_/X VGND VGND _1554_/VPB _2053_/VPB _1221_/Y sky130_fd_sc_hd__a21oi_1
+X_1152_ _2124_/Q _1982_/S _1419_/B VGND VGND _1955_/VPB _1955_/VPB _1152_/X sky130_fd_sc_hd__maj3_1
+XTAP_TAPCELL_ROW_7_34 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1083_ _1081_/Y _1846_/B VGND VGND _2144_/VPB _2144_/VPB _1830_/A sky130_fd_sc_hd__nand2b_1
+X_1985_ _1975_/A _1462_/A _2049_/B _1996_/A VGND VGND _1985_/VPB _2025_/VPB _1987_/A
++ sky130_fd_sc_hd__o22ai_1
+X_1419_ _1420_/A _1419_/B VGND VGND _1420_/VPB _2025_/VPB _1419_/Y sky130_fd_sc_hd__xnor2_1
+X_1770_ _1769_/B _1769_/C _1769_/A VGND VGND _2184_/VPB _2184_/VPB _1788_/B sky130_fd_sc_hd__a21oi_1
+X_1066_ _2146_/Q _2178_/Q VGND VGND _2036_/VPB _2036_/VPB _1066_/Y sky130_fd_sc_hd__nor2_1
+X_1968_ _1957_/A _1550_/B _1854_/C _1059_/A VGND VGND _1977_/VPB _2007_/VPB _1968_/Y
++ sky130_fd_sc_hd__a22oi_1
+X_1899_ _2016_/A _1903_/B _1884_/X _1894_/Y _1898_/Y VGND VGND _2040_/VPB _2040_/VPB
++ _1899_/Y sky130_fd_sc_hd__a311oi_1
+X_1204_ _2188_/Q _2189_/Q VGND VGND _2051_/VPB _2040_/VPB _1370_/A sky130_fd_sc_hd__nor2_1
+X_2184_ _2184_/CLK operand_b[30] rst_n VGND VGND _2184_/VPB _2184_/VPB _2184_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1135_ _2127_/Q _2159_/Q VGND VGND _2144_/VPB _2144_/VPB _1536_/B sky130_fd_sc_hd__nand2_1
+X_1753_ _2155_/Q _1703_/Y _1752_/Y VGND VGND _2053_/VPB _2053_/VPB _1753_/Y sky130_fd_sc_hd__a21oi_1
+X_1684_ _1700_/B _1550_/B _1281_/X VGND VGND _1696_/VPB _2040_/VPB _1684_/Y sky130_fd_sc_hd__a21oi_1
+X_1822_ _1086_/B _1282_/Y _2040_/A VGND VGND _2144_/VPB _2144_/VPB _1822_/Y sky130_fd_sc_hd__o21ai_0
+X_1049_ _2150_/Q _2182_/Q VGND VGND _2018_/VPB _2040_/VPB _2013_/B sky130_fd_sc_hd__nand2_1
+X_1118_ _2131_/Q _2163_/Q VGND VGND _2077_/VPB _2077_/VPB _1120_/A sky130_fd_sc_hd__nor2_1
+X_2098_ clkload2/A _2098_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[12] sky130_fd_sc_hd__dfrtp_1
+X_2167_ clkload2/A operand_b[13] rst_n VGND VGND _2184_/VPB _2184_/VPB _2167_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2021_ _1964_/S _2020_/Y _2019_/X _2156_/Q VGND VGND _2033_/VPB _2033_/VPB _2021_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1736_ _1736_/A _1736_/B VGND VGND _2047_/VPB _2047_/VPB _1737_/B sky130_fd_sc_hd__nand2_1
+X_1667_ _2154_/Q _2132_/Q _1347_/X VGND VGND _2036_/VPB _2036_/VPB _1704_/B sky130_fd_sc_hd__a21oi_1
+X_1598_ _2155_/Q _1596_/Y _1597_/Y VGND VGND _2036_/VPB _2036_/VPB _1690_/B sky130_fd_sc_hd__o21ai_0
+X_1805_ _2158_/Q _1805_/B VGND VGND _2007_/VPB _2007_/VPB _1998_/B sky130_fd_sc_hd__nand2_1
+X_2004_ _2155_/Q _2002_/Y _2003_/Y VGND VGND _2033_/VPB _2033_/VPB _2004_/Y sky130_fd_sc_hd__o21ai_0
+X_1521_ _2157_/Q _1520_/Y _1772_/A VGND VGND _2048_/VPB _2048_/VPB _1521_/Y sky130_fd_sc_hd__o21ai_0
+X_1452_ _2157_/Q _1445_/Y _1772_/A VGND VGND _1452_/VPB _2048_/VPB _1452_/Y sky130_fd_sc_hd__o21ai_0
+X_1383_ _2156_/Q _1383_/B VGND VGND _2048_/VPB _2048_/VPB _1383_/Y sky130_fd_sc_hd__nor2_1
+X_1719_ _1719_/A _1719_/B _1719_/C VGND VGND _2177_/VPB _2177_/VPB _2099_/D sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_42_173 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1504_ _1508_/A _1504_/B _1504_/C VGND VGND _2077_/VPB _2077_/VPB _1504_/Y sky130_fd_sc_hd__nor3_1
+X_1435_ _2156_/Q _1570_/B _1434_/Y VGND VGND _2033_/VPB _2033_/VPB _1663_/A sky130_fd_sc_hd__o21ai_0
+X_1297_ _1291_/Y _1367_/B _1296_/Y VGND VGND _2036_/VPB _2036_/VPB _1297_/Y sky130_fd_sc_hd__a21oi_1
+X_1366_ _2156_/Q _1526_/B VGND VGND _1955_/VPB _1955_/VPB _1629_/B sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_25_107 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1220_ _2124_/Q _2154_/Q VGND VGND _2036_/VPB _2036_/VPB _1220_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1151_ _2123_/Q _1964_/S _1375_/A VGND VGND _1955_/VPB _1955_/VPB _1419_/B sky130_fd_sc_hd__maj3_1
+XTAP_TAPCELL_ROW_7_35 VGND _2182_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1349_ _2154_/Q _2134_/Q _1347_/X VGND VGND _2053_/VPB _2053_/VPB _1446_/B sky130_fd_sc_hd__a21oi_1
+X_1984_ _2157_/Q _1834_/Y _1983_/Y VGND VGND _2036_/VPB _2036_/VPB _1984_/Y sky130_fd_sc_hd__a21oi_1
+X_1418_ _1420_/A _1462_/A _2049_/B _1145_/A _1417_/Y VGND VGND _2007_/VPB _2007_/VPB
++ _1424_/B sky130_fd_sc_hd__o221ai_1
+X_1082_ _2141_/Q _2173_/Q VGND VGND _2144_/VPB _2144_/VPB _1846_/B sky130_fd_sc_hd__nand2_1
+X_1065_ _2146_/Q _2178_/Q VGND VGND _2036_/VPB _2036_/VPB _1942_/B sky130_fd_sc_hd__nand2_1
+X_1203_ _2079_/A _2043_/B _2083_/A VGND VGND _2082_/VPB _2177_/VPB _1203_/Y sky130_fd_sc_hd__o21ai_0
+X_1134_ _2127_/Q _2159_/Q VGND VGND _2177_/VPB _2177_/VPB _1134_/X sky130_fd_sc_hd__and2_0
+X_2183_ clkload4/A operand_b[29] rst_n VGND VGND _2185_/VPB _2185_/VPB _2183_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1967_ _2157_/Q _1818_/X _1966_/Y VGND VGND _2036_/VPB _2036_/VPB _1967_/Y sky130_fd_sc_hd__a21oi_1
+X_1898_ _2040_/A _1898_/B _1898_/C _1898_/D VGND VGND _1903_/VPB _2025_/VPB _1898_/Y
++ sky130_fd_sc_hd__nand4_1
+X_1752_ _2155_/Q _1752_/B VGND VGND _2053_/VPB _2053_/VPB _1752_/Y sky130_fd_sc_hd__nor2_1
+X_1821_ _1397_/B _1820_/Y _1804_/A VGND VGND _1835_/VPB _1955_/VPB _1821_/Y sky130_fd_sc_hd__o21ai_0
+X_1683_ _2158_/Q _1683_/B VGND VGND _2025_/VPB _2025_/VPB _1683_/Y sky130_fd_sc_hd__nand2_1
+X_1117_ _2131_/Q _2163_/Q VGND VGND _2077_/VPB _2077_/VPB _1633_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_2166_ clkload6/A operand_b[12] rst_n VGND VGND _2185_/VPB _2185_/VPB _2166_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2097_ clkload0/A _2097_/D rst_n VGND VGND _2176_/VPB _2176_/VPB result_o[11] sky130_fd_sc_hd__dfrtp_1
+X_1048_ _2182_/Q _2150_/Q VGND VGND _2177_/VPB _2177_/VPB _1048_/Y sky130_fd_sc_hd__nand2b_1
+X_2020_ _2154_/Q _2150_/Q _1321_/X VGND VGND _2047_/VPB _2047_/VPB _2020_/Y sky130_fd_sc_hd__a21oi_1
+X_1735_ _1542_/Y _1662_/B _1576_/X VGND VGND _2047_/VPB _2047_/VPB _1736_/B sky130_fd_sc_hd__a21oi_1
+X_1666_ _2157_/Q _1431_/B _1665_/X VGND VGND _2035_/VPB _2035_/VPB _1675_/C sky130_fd_sc_hd__a21oi_1
+X_1597_ _2155_/Q _1597_/B VGND VGND _1597_/VPB _2053_/VPB _1597_/Y sky130_fd_sc_hd__nand2_1
+X_1804_ _1804_/A _1804_/B VGND VGND _1955_/VPB _1955_/VPB _1804_/Y sky130_fd_sc_hd__nor2_1
+X_2149_ clkload1/A operand_a[27] rst_n VGND VGND _2189_/VPB _2189_/VPB _2149_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2003_ _2155_/Q _2003_/B VGND VGND _2033_/VPB _2033_/VPB _2003_/Y sky130_fd_sc_hd__nand2_1
+X_1451_ _2156_/Q _1450_/Y _1448_/Y VGND VGND _1519_/VPB _2035_/VPB _1451_/Y sky130_fd_sc_hd__a21oi_1
+X_1520_ _1338_/Y _1352_/B _2156_/Q VGND VGND _2035_/VPB _2035_/VPB _1520_/Y sky130_fd_sc_hd__mux2i_1
+X_1382_ _1252_/B _1257_/B _2155_/Q VGND VGND _2048_/VPB _2048_/VPB _1383_/B sky130_fd_sc_hd__mux2_1
+X_1649_ _2157_/Q _1410_/B _1648_/Y VGND VGND _2006_/VPB _2006_/VPB _1653_/A sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_28_116 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1718_ _2158_/Q _1715_/Y _1717_/Y VGND VGND _2007_/VPB _2007_/VPB _1719_/C sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_42_174 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1434_ _1964_/S _2156_/Q _1578_/C VGND VGND _2033_/VPB _2033_/VPB _1434_/Y sky130_fd_sc_hd__nand3_1
+X_1365_ _2155_/Q _1455_/B VGND VGND _1955_/VPB _1955_/VPB _1526_/B sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1296_ _1280_/Y _1287_/Y _2049_/B _1283_/Y VGND VGND _1296_/VPB _2007_/VPB _1296_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1503_ _1503_/A _1503_/B _1503_/C _1503_/D VGND VGND _2040_/VPB _2040_/VPB _2090_/D
++ sky130_fd_sc_hd__nand4_1
+X_1983_ _2157_/Q _1983_/B VGND VGND _2048_/VPB _2048_/VPB _1983_/Y sky130_fd_sc_hd__nor2_1
+X_1417_ _2124_/Q _2156_/Q _1281_/X VGND VGND _2007_/VPB _2007_/VPB _1417_/Y sky130_fd_sc_hd__o21ai_0
+X_1150_ _2123_/Q _2155_/Q VGND VGND _1375_/VPB _2007_/VPB _1375_/B sky130_fd_sc_hd__xor2_1
+X_1081_ _2141_/Q _2173_/Q VGND VGND _2144_/VPB _2144_/VPB _1081_/Y sky130_fd_sc_hd__nor2_1
+X_1279_ _2157_/Q _1603_/B _1278_/Y VGND VGND _2006_/VPB _2006_/VPB _1279_/Y sky130_fd_sc_hd__o21ai_0
+X_1348_ _2154_/Q _2134_/Q VGND VGND _2053_/VPB _2053_/VPB _1703_/A sky130_fd_sc_hd__nand2_1
+X_1064_ _1961_/A _1063_/B VGND VGND _1955_/VPB _1955_/VPB _1942_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1202_ _2079_/B _1201_/B _2082_/B VGND VGND _2082_/VPB _2177_/VPB _2043_/B sky130_fd_sc_hd__o21bai_1
+X_1133_ _2127_/Q _2159_/Q VGND VGND _1560_/VPB _2177_/VPB _1136_/A sky130_fd_sc_hd__nor2_1
+X_2182_ _2184_/CLK operand_b[28] rst_n VGND VGND _2182_/VPB _2182_/VPB _2182_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1966_ _2156_/Q _1887_/Y _1965_/Y _2157_/Q VGND VGND _2053_/VPB _2053_/VPB _1966_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1897_ _2144_/Q _2176_/Q _1281_/X VGND VGND _1903_/VPB _2025_/VPB _1898_/D sky130_fd_sc_hd__o21ai_0
+X_1820_ _2157_/Q _1645_/Y _1819_/Y VGND VGND _1835_/VPB _1955_/VPB _1820_/Y sky130_fd_sc_hd__a21oi_1
+X_1682_ _1477_/Y _1662_/B _1757_/B _1475_/Y _1576_/X VGND VGND _2035_/VPB _2035_/VPB
++ _1683_/B sky130_fd_sc_hd__a221o_1
+X_1949_ _2156_/Q _1870_/B _1948_/Y VGND VGND _2053_/VPB _2053_/VPB _1949_/Y sky130_fd_sc_hd__a21oi_1
+X_1751_ _2154_/Q _2136_/Q _1356_/X VGND VGND _2053_/VPB _2053_/VPB _1752_/B sky130_fd_sc_hd__a21oi_1
+X_1116_ _2132_/Q _2164_/Q VGND VGND _2025_/VPB _2025_/VPB _1635_/A sky130_fd_sc_hd__xnor2_1
+X_2096_ clkload1/A _2096_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[10] sky130_fd_sc_hd__dfrtp_1
+X_2165_ clkload2/A operand_b[11] rst_n VGND VGND _2182_/VPB _2182_/VPB _2165_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1047_ _2151_/Q _2183_/Q VGND VGND _2177_/VPB _2177_/VPB _2013_/A sky130_fd_sc_hd__xnor2_1
+X_1734_ _1734_/A _1757_/B VGND VGND _2047_/VPB _2047_/VPB _1736_/A sky130_fd_sc_hd__nand2_1
+X_1665_ _2001_/A _1451_/Y _1214_/Y VGND VGND _2035_/VPB _2035_/VPB _1665_/X sky130_fd_sc_hd__a21o_1
+X_1596_ _1596_/A _1596_/B VGND VGND _2053_/VPB _2053_/VPB _1596_/Y sky130_fd_sc_hd__nand2_1
+X_1803_ _1791_/A _1462_/A _2040_/A _1801_/Y _1802_/Y VGND VGND _1803_/VPB _2144_/VPB
++ _1803_/Y sky130_fd_sc_hd__o2111ai_1
+X_2079_ _2079_/A _2079_/B _2079_/C _2079_/D VGND VGND _2177_/VPB _2177_/VPB _2079_/Y
++ sky130_fd_sc_hd__nor4_1
+X_2148_ clkload4/A operand_a[26] rst_n VGND VGND _2189_/VPB _2189_/VPB _2148_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1450_ _2155_/Q _1358_/Y _1449_/Y VGND VGND _2035_/VPB _2035_/VPB _1450_/Y sky130_fd_sc_hd__o21ai_0
+X_1381_ _1804_/A _1332_/Y _1363_/Y _1367_/Y _1380_/Y VGND VGND _1955_/VPB _1955_/VPB
++ _2087_/D sky130_fd_sc_hd__o2111ai_1
+X_2002_ _2002_/A _2002_/B VGND VGND _2047_/VPB _2047_/VPB _2002_/Y sky130_fd_sc_hd__nand2_1
+X_1579_ _2157_/Q _1209_/Y _1757_/C _1576_/X VGND VGND _1663_/VPB _2035_/VPB _1579_/Y
++ sky130_fd_sc_hd__a31oi_1
+X_1648_ _2157_/Q _1387_/B _1214_/Y VGND VGND _2048_/VPB _2048_/VPB _1648_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_28_117 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1717_ _1586_/B _1708_/X _1716_/Y VGND VGND _2007_/VPB _2007_/VPB _1717_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_36_150 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_42_175 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1433_ _2155_/Q _1319_/X _1432_/Y VGND VGND _2047_/VPB _2047_/VPB _1570_/B sky130_fd_sc_hd__o21ai_0
+X_1295_ _1804_/A _1805_/B VGND VGND _1955_/VPB _1955_/VPB _1586_/B sky130_fd_sc_hd__nand2_1
+X_1364_ _2122_/Q _2154_/Q _1339_/X VGND VGND _1955_/VPB _1955_/VPB _1455_/B sky130_fd_sc_hd__a21oi_1
+X_1502_ _1498_/Y _1499_/Y _1501_/Y VGND VGND _2025_/VPB _2025_/VPB _1503_/D sky130_fd_sc_hd__o21a_1
+X_1982_ _1907_/Y _1981_/Y _1982_/S VGND VGND _2048_/VPB _2048_/VPB _1983_/B sky130_fd_sc_hd__mux2_1
+X_1080_ _2142_/Q _2174_/Q VGND VGND _2144_/VPB _2144_/VPB _1846_/A sky130_fd_sc_hd__xnor2_1
+X_1278_ _2157_/Q _1278_/B VGND VGND _2048_/VPB _2048_/VPB _1278_/Y sky130_fd_sc_hd__nand2_1
+X_1347_ _2133_/Q _2154_/Q VGND VGND _2053_/VPB _2053_/VPB _1347_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1416_ _2157_/Q _1586_/B _1416_/C VGND VGND _2007_/VPB _2007_/VPB _1424_/A sky130_fd_sc_hd__nor3_1
+X_1201_ _2079_/B _1201_/B VGND VGND _2082_/VPB _2177_/VPB _1201_/Y sky130_fd_sc_hd__nor2_1
+X_1965_ _2156_/Q _2034_/B VGND VGND _1965_/VPB _2035_/VPB _1965_/Y sky130_fd_sc_hd__nor2_1
+X_1063_ _1961_/A _1063_/B VGND VGND _1955_/VPB _1955_/VPB _1937_/A sky130_fd_sc_hd__nor2_1
+X_1896_ _1884_/A _1550_/B _1895_/Y VGND VGND _1903_/VPB _2025_/VPB _1898_/C sky130_fd_sc_hd__a21oi_1
+X_2181_ clkload2/A operand_b[27] rst_n VGND VGND _2190_/VPB _2190_/VPB _2181_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1132_ _2159_/Q _2127_/Q VGND VGND _2177_/VPB _2177_/VPB _1533_/B sky130_fd_sc_hd__nand2b_1
+X_1750_ _2001_/A _1567_/Y _1214_/Y VGND VGND _1762_/VPB _2048_/VPB _1750_/Y sky130_fd_sc_hd__a21oi_1
+X_1115_ _2132_/Q _2164_/Q VGND VGND _2025_/VPB _2025_/VPB _1660_/B sky130_fd_sc_hd__nand2_1
+X_1046_ _2029_/A _1045_/Y VGND VGND _2077_/VPB _2077_/VPB _2079_/C sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1681_ _2016_/A _1700_/C VGND VGND _2077_/VPB _2077_/VPB _1681_/Y sky130_fd_sc_hd__nand2_1
+X_2164_ clkload1/A operand_b[10] rst_n VGND VGND _2189_/VPB _2189_/VPB _2164_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2095_ clkload6/A _2095_/D rst_n VGND VGND _2187_/VPB _2187_/VPB result_o[9] sky130_fd_sc_hd__dfrtp_1
+X_1948_ _2156_/Q _1947_/X _2001_/A VGND VGND _2048_/VPB _2048_/VPB _1948_/Y sky130_fd_sc_hd__o21ai_0
+X_1879_ _1804_/A _1518_/Y _1878_/Y VGND VGND _2040_/VPB _2040_/VPB _1879_/Y sky130_fd_sc_hd__a21oi_1
+X_1733_ _1730_/Y _1732_/Y _1804_/A VGND VGND _2025_/VPB _2025_/VPB _1733_/Y sky130_fd_sc_hd__o21ai_0
+X_1802_ _2139_/Q _2171_/Q _1281_/X VGND VGND _1803_/VPB _2144_/VPB _1802_/Y sky130_fd_sc_hd__o21ai_0
+X_1029_ _2156_/Q VGND VGND _1029_/VPB _2048_/VPB _1982_/S sky130_fd_sc_hd__clkinv_1
+X_1664_ _1577_/Y _1662_/Y _1663_/Y _1804_/A VGND VGND _2006_/VPB _2006_/VPB _1675_/B
++ sky130_fd_sc_hd__a31oi_1
+X_2147_ clkload4/A operand_a[25] rst_n VGND VGND _2187_/VPB _2187_/VPB _2147_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1595_ _2016_/A _1595_/B _1616_/C VGND VGND _2144_/VPB _2144_/VPB _1595_/Y sky130_fd_sc_hd__nand3_1
+X_2078_ _2079_/A _2079_/B VGND VGND _2177_/VPB _2177_/VPB _2081_/A sky130_fd_sc_hd__nor2_1
+X_1380_ _1380_/A _1380_/B VGND VGND _1955_/VPB _1955_/VPB _1380_/Y sky130_fd_sc_hd__nor2_1
+X_1578_ _1964_/S _1982_/S _1578_/C VGND VGND _2035_/VPB _2035_/VPB _1757_/C sky130_fd_sc_hd__and3_1
+X_1716_ _1711_/Y _1712_/Y _1710_/Y VGND VGND _2048_/VPB _2048_/VPB _1716_/Y sky130_fd_sc_hd__a21oi_1
+X_1647_ _2001_/A _1645_/Y _1646_/Y VGND VGND _1955_/VPB _1955_/VPB _1647_/Y sky130_fd_sc_hd__a21oi_1
+X_2001_ _2001_/A _1851_/Y VGND VGND _2007_/VPB _2007_/VPB _2001_/X sky130_fd_sc_hd__lpflow_inputiso1p_1
+XTAP_TAPCELL_ROW_36_151 VGND _2035_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_28_118 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1432_ _2155_/Q _1432_/B VGND VGND _1432_/VPB _2032_/VPWR _1432_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_42_176 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1363_ _1342_/Y _1343_/Y _1362_/Y VGND VGND _2048_/VPB _2048_/VPB _1363_/Y sky130_fd_sc_hd__o21ai_0
+X_1294_ _2158_/Q _1804_/B VGND VGND _1955_/VPB _1955_/VPB _1367_/B sky130_fd_sc_hd__nor2_1
+X_1501_ _1804_/A _1500_/X _1486_/Y VGND VGND _2007_/VPB _2007_/VPB _1501_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_11_48 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1981_ _2155_/Q _1945_/X _1980_/Y VGND VGND _1981_/VPB _2035_/VPB _1981_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_30_124 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1277_ _2156_/Q _1268_/Y _1276_/Y VGND VGND _2035_/VPB _2035_/VPB _1278_/B sky130_fd_sc_hd__o21ai_0
+X_1346_ _1626_/B _1346_/B VGND VGND _1346_/VPB _2053_/VPB _1346_/Y sky130_fd_sc_hd__nand2_1
+X_1415_ _1982_/S _1415_/B VGND VGND _2007_/VPB _2007_/VPB _1416_/C sky130_fd_sc_hd__nand2_1
+X_1964_ _1925_/Y _2003_/B _1964_/S VGND VGND _1965_/VPB _2035_/VPB _2034_/B sky130_fd_sc_hd__mux2i_1
+X_1062_ _2147_/Q _2179_/Q VGND VGND _2007_/VPB _2007_/VPB _1063_/B sky130_fd_sc_hd__nor2_1
+X_1895_ _1903_/A _2049_/B VGND VGND _1903_/VPB _2025_/VPB _1895_/Y sky130_fd_sc_hd__nor2_1
+X_1200_ _2013_/A _1199_/B _1043_/Y VGND VGND _2177_/VPB _2177_/VPB _1201_/B sky130_fd_sc_hd__a21boi_0
+X_2180_ clkload1/A operand_b[26] rst_n VGND VGND _2187_/VPB _2187_/VPB _2180_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1131_ _2128_/Q _2160_/Q VGND VGND _2144_/VPB _2144_/VPB _1550_/A sky130_fd_sc_hd__xor2_1
+X_1329_ _1510_/B _1328_/Y _2156_/Q VGND VGND _2047_/VPB _2047_/VPB _1329_/Y sky130_fd_sc_hd__mux2i_1
+X_1114_ _2132_/Q _2164_/Q VGND VGND _2077_/VPB _2077_/VPB _1655_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_2163_ clkload6/A operand_b[9] rst_n VGND VGND _2182_/VPB _2182_/VPB _2163_/Q sky130_fd_sc_hd__dfrtp_1
+X_1680_ _1680_/A _1680_/B _1680_/C _1680_/D VGND VGND _2177_/VPB _2177_/VPB _1680_/Y
++ sky130_fd_sc_hd__nor4_1
+X_1947_ _1964_/S _1945_/X _1946_/Y VGND VGND _1981_/VPB _2035_/VPB _1947_/X sky130_fd_sc_hd__a21o_1
+X_1878_ _1079_/Y _1462_/A _2040_/A _1877_/Y VGND VGND _2077_/VPB _2077_/VPB _1878_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1045_ _2151_/Q _2183_/Q VGND VGND _2077_/VPB _2077_/VPB _1045_/Y sky130_fd_sc_hd__nor2_1
+X_2094_ clkload0/A _2094_/D rst_n VGND VGND _2185_/VPB _2185_/VPB result_o[8] sky130_fd_sc_hd__dfrtp_1
+X_1663_ _1663_/A _1757_/B VGND VGND _1663_/VPB _2035_/VPB _1663_/Y sky130_fd_sc_hd__nand2_1
+X_1732_ _2157_/Q _1539_/B _1731_/Y VGND VGND _2006_/VPB _2006_/VPB _1732_/Y sky130_fd_sc_hd__a21oi_1
+X_1028_ _2129_/Q VGND VGND _1582_/VPB _2036_/VPB _1125_/A sky130_fd_sc_hd__clkinv_1
+X_2077_ _2077_/A _2077_/B _2077_/C VGND VGND _2077_/VPB _2077_/VPB _2077_/Y sky130_fd_sc_hd__nor3_1
+X_2146_ clkload1/A operand_a[24] rst_n VGND VGND _2187_/VPB _2187_/VPB _2146_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1801_ _2139_/Q _2171_/Q _1854_/C VGND VGND _2176_/VPB _2176_/VPB _1801_/Y sky130_fd_sc_hd__nand3_1
+X_1594_ _1593_/B _1593_/C _1593_/A VGND VGND _2144_/VPB _2144_/VPB _1616_/C sky130_fd_sc_hd__a21o_1
+XTAP_TAPCELL_ROW_39_160 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1715_ _1715_/A _1715_/B VGND VGND _2033_/VPB _2033_/VPB _1715_/Y sky130_fd_sc_hd__nand2_1
+X_1646_ _1982_/S _1415_/B _2001_/A VGND VGND _1955_/VPB _1955_/VPB _1646_/Y sky130_fd_sc_hd__a21oi_1
+X_2000_ _2150_/Q _2182_/Q _1281_/X _1999_/Y VGND VGND _2018_/VPB _2040_/VPB _2000_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1577_ _2157_/Q _1772_/B VGND VGND _2006_/VPB _2006_/VPB _1577_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_28_119 VGND _2036_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2129_ clkload0/A operand_a[7] rst_n VGND VGND _2187_/VPB _2187_/VPB _2129_/Q sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_42_177 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1431_ _2157_/Q _1431_/B VGND VGND _2033_/VPB _2033_/VPB _1431_/Y sky130_fd_sc_hd__nor2_1
+X_1362_ _2157_/Q _1361_/Y _1214_/Y VGND VGND _2048_/VPB _2048_/VPB _1362_/Y sky130_fd_sc_hd__a21oi_1
+X_1293_ _1293_/A _1293_/B VGND VGND _2007_/VPB _2007_/VPB _1804_/B sky130_fd_sc_hd__nand2_1
+X_1500_ _2001_/A _1805_/B _1500_/C VGND VGND _2007_/VPB _2007_/VPB _1500_/X sky130_fd_sc_hd__and3_1
+XTAP_TAPCELL_ROW_11_49 VGND _2184_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1629_ _2157_/Q _1629_/B VGND VGND _1955_/VPB _1955_/VPB _1629_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_24_100 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1980_ _2155_/Q _2019_/B VGND VGND _2033_/VPB _2033_/VPB _1980_/Y sky130_fd_sc_hd__nor2_1
+X_1276_ _2156_/Q _1475_/B VGND VGND _2048_/VPB _2048_/VPB _1276_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_30_125 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1345_ _2154_/Q _2132_/Q VGND VGND _1346_/VPB _2053_/VPB _1346_/B sky130_fd_sc_hd__nand2_1
+X_1414_ _2155_/Q _1223_/B _1413_/Y VGND VGND _2036_/VPB _2036_/VPB _1415_/B sky130_fd_sc_hd__a21o_1
+X_1963_ _2154_/Q _2147_/Q _1265_/X VGND VGND _2033_/VPB _2033_/VPB _2003_/B sky130_fd_sc_hd__a21oi_1
+X_1061_ _2147_/Q _2179_/Q VGND VGND _1955_/VPB _1955_/VPB _1961_/A sky130_fd_sc_hd__and2_0
+X_1894_ _1894_/A _1998_/B VGND VGND _2025_/VPB _2025_/VPB _1894_/Y sky130_fd_sc_hd__nor2_1
+X_1130_ _2128_/Q _2160_/Q VGND VGND _2176_/VPB _2176_/VPB _1130_/Y sky130_fd_sc_hd__nand2_1
+X_1328_ _2155_/Q _2153_/Q _1323_/Y VGND VGND _2047_/VPB _2047_/VPB _1328_/Y sky130_fd_sc_hd__a21oi_1
+X_1259_ _2154_/Q _2145_/Q VGND VGND _2048_/VPB _2048_/VPB _1260_/B sky130_fd_sc_hd__nand2_1
+X_1946_ _1307_/Y _1311_/A _1964_/S VGND VGND _2048_/VPB _2048_/VPB _1946_/Y sky130_fd_sc_hd__a21oi_1
+X_1113_ _1113_/A _1680_/B VGND VGND _1673_/VPB _2025_/VPB _1660_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_1877_ _1877_/A _1877_/B _1877_/C VGND VGND _2040_/VPB _2040_/VPB _1877_/Y sky130_fd_sc_hd__nor3_1
+X_1044_ _2151_/Q _2183_/Q VGND VGND _2077_/VPB _2077_/VPB _2029_/A sky130_fd_sc_hd__nand2_1
+X_2093_ clkload0/A _2093_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[7] sky130_fd_sc_hd__dfrtp_1
+X_2162_ clkload2/A operand_b[8] rst_n VGND VGND _2176_/VPB _2176_/VPB _2162_/Q sky130_fd_sc_hd__dfrtp_1
+X_1662_ _1662_/A _1662_/B VGND VGND _1663_/VPB _2035_/VPB _1662_/Y sky130_fd_sc_hd__nand2_1
+X_1731_ _2157_/Q _1548_/Y _1605_/A VGND VGND _2006_/VPB _2006_/VPB _1731_/Y sky130_fd_sc_hd__o21ai_0
+X_1027_ _2127_/Q VGND VGND _2006_/VPB _2006_/VPB _1027_/Y sky130_fd_sc_hd__clkinv_1
+X_1800_ _1332_/Y _1799_/Y _2158_/Q VGND VGND _1955_/VPB _1955_/VPB _1800_/Y sky130_fd_sc_hd__a21oi_1
+X_2076_ _1036_/Y _1042_/A _2070_/A VGND VGND _2077_/VPB _2077_/VPB _2077_/C sky130_fd_sc_hd__o21ai_0
+Xclkbuf_3_5__f_clk clkbuf_0_clk/X VGND VGND _2189_/VPB _2189_/VPB clkload4/A sky130_fd_sc_hd__clkbuf_4
+X_2145_ clkload6/A operand_a[23] rst_n VGND VGND _2182_/VPB _2182_/VPB _2145_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1593_ _1593_/A _1593_/B _1593_/C VGND VGND _2144_/VPB _2144_/VPB _1595_/B sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_39_161 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1929_ _1982_/S _1927_/Y _1928_/Y VGND VGND _2053_/VPB _2053_/VPB _1929_/Y sky130_fd_sc_hd__a21oi_1
+X_1714_ _1516_/Y _1662_/B _1576_/X VGND VGND _2047_/VPB _2047_/VPB _1715_/B sky130_fd_sc_hd__a21oi_1
+X_1576_ _2157_/Q _1772_/B VGND VGND _2048_/VPB _2048_/VPB _1576_/X sky130_fd_sc_hd__and2_0
+X_1645_ _2156_/Q _1555_/Y _1644_/Y VGND VGND _2036_/VPB _2036_/VPB _1645_/Y sky130_fd_sc_hd__a21oi_1
+X_2059_ _2093_/D _2096_/D _2059_/C _2058_/Y VGND VGND _2185_/VPB _2185_/VPB _2060_/D
++ sky130_fd_sc_hd__or4b_1
+X_2128_ _2184_/CLK operand_a[6] rst_n VGND VGND _2190_/VPB _2190_/VPB _2128_/Q sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_42_178 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1430_ _2156_/Q _1429_/Y _1427_/Y VGND VGND _2033_/VPB _2033_/VPB _1431_/B sky130_fd_sc_hd__a21oi_1
+X_1361_ _2156_/Q _1360_/Y _1352_/Y VGND VGND _2035_/VPB _2035_/VPB _1361_/Y sky130_fd_sc_hd__a21oi_1
+X_1628_ _1525_/Y _1627_/X _1982_/S VGND VGND _1955_/VPB _1955_/VPB _1628_/Y sky130_fd_sc_hd__mux2i_1
+X_1292_ _1293_/A _1293_/B VGND VGND _1296_/VPB _2007_/VPB _1805_/B sky130_fd_sc_hd__and2_0
+X_1559_ _2158_/Q _1544_/Y _1552_/Y _1558_/Y _1534_/Y VGND VGND _1560_/VPB _2177_/VPB
++ _1559_/Y sky130_fd_sc_hd__a2111oi_0
+XTAP_TAPCELL_ROW_24_101 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1275_ _2155_/Q _1389_/B _1274_/Y VGND VGND _2047_/VPB _2047_/VPB _1475_/B sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_30_126 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1344_ _2154_/Q _2131_/Q VGND VGND _1346_/VPB _2053_/VPB _1626_/B sky130_fd_sc_hd__nand2b_1
+X_1413_ _2155_/Q _1413_/B VGND VGND _2036_/VPB _2036_/VPB _1413_/Y sky130_fd_sc_hd__nor2_1
+X_1962_ _1962_/A _1962_/B VGND VGND _2007_/VPB _2007_/VPB _1962_/Y sky130_fd_sc_hd__xnor2_1
+X_1060_ _1975_/A _1962_/A VGND VGND _2025_/VPB _2025_/VPB _1060_/Y sky130_fd_sc_hd__nand2_1
+X_1327_ _2157_/Q _1326_/Y _1315_/Y VGND VGND _2047_/VPB _2047_/VPB _1327_/Y sky130_fd_sc_hd__a21oi_1
+X_1258_ _2154_/Q _2144_/Q VGND VGND _2048_/VPB _2048_/VPB _1885_/B sky130_fd_sc_hd__nand2b_1
+X_1893_ _1544_/Y _1892_/Y _1804_/A VGND VGND _1955_/VPB _1955_/VPB _1898_/B sky130_fd_sc_hd__o21ai_0
+X_1189_ _1183_/A _1187_/Y _1186_/Y _1937_/A _1067_/X VGND VGND _2025_/VPB _2025_/VPB
++ _1957_/B sky130_fd_sc_hd__a2111o_1
+X_1945_ _2154_/Q _2146_/Q _1316_/X VGND VGND _1981_/VPB _2035_/VPB _1945_/X sky130_fd_sc_hd__a21o_1
+X_1112_ _2133_/Q _2165_/Q VGND VGND _1673_/VPB _2025_/VPB _1680_/B sky130_fd_sc_hd__and2_0
+X_1876_ _1882_/A _2049_/B _1875_/Y VGND VGND _2077_/VPB _2077_/VPB _1877_/C sky130_fd_sc_hd__o21ai_0
+X_2092_ clkload1/A _2092_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[6] sky130_fd_sc_hd__dfrtp_1
+X_2161_ clkload5/A operand_b[7] rst_n VGND VGND _2176_/VPB _2176_/VPB _2161_/Q sky130_fd_sc_hd__dfrtp_1
+X_1043_ _2183_/Q _2151_/Q VGND VGND _2177_/VPB _2177_/VPB _1043_/Y sky130_fd_sc_hd__nand2b_1
+X_1730_ _2157_/Q _1556_/Y _1729_/Y VGND VGND _1955_/VPB _1955_/VPB _1730_/Y sky130_fd_sc_hd__a21oi_1
+X_1661_ _1943_/A _1661_/B _1680_/C _1680_/D VGND VGND _2040_/VPB _2040_/VPB _1675_/A
++ sky130_fd_sc_hd__nor4_1
+X_1592_ _1613_/C _1828_/A VGND VGND _2176_/VPB _2176_/VPB _1592_/Y sky130_fd_sc_hd__nand2_1
+X_2144_ clkload5/A operand_a[22] rst_n VGND VGND _2144_/VPB _2144_/VPB _2144_/Q
++ sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_39_162 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1026_ _2155_/Q VGND VGND _1026_/VPB _2033_/VPB _1964_/S sky130_fd_sc_hd__clkinv_1
+X_1928_ _1982_/S _1849_/X _2001_/A VGND VGND _2053_/VPB _2053_/VPB _1928_/Y sky130_fd_sc_hd__o21ai_0
+X_1859_ _1804_/A _1480_/B _1858_/Y VGND VGND _2040_/VPB _2040_/VPB _1859_/Y sky130_fd_sc_hd__a21oi_1
+X_2075_ _2029_/A _2029_/C _2074_/B VGND VGND _2077_/VPB _2077_/VPB _2077_/B sky130_fd_sc_hd__a21oi_1
+X_1713_ _1713_/A _1757_/B VGND VGND _1713_/VPB _2032_/VPWR _1715_/A sky130_fd_sc_hd__nand2_1
+X_1575_ _2153_/Q _1572_/B VGND VGND _2048_/VPB _2048_/VPB _1772_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1644_ _2156_/Q _1644_/B VGND VGND _2036_/VPB _2036_/VPB _1644_/Y sky130_fd_sc_hd__nor2_1
+X_2127_ clkload0/A operand_a[5] rst_n VGND VGND _2189_/VPB _2189_/VPB _2127_/Q sky130_fd_sc_hd__dfrtp_1
+X_2058_ _2094_/D _2095_/D VGND VGND _2182_/VPB _2182_/VPB _2058_/Y sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_42_179 VGND _2032_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1360_ _2155_/Q _1358_/Y _1359_/Y VGND VGND _1360_/VPB _2048_/VPB _1360_/Y sky130_fd_sc_hd__a21oi_1
+X_1291_ _2156_/Q _2157_/Q _1291_/C VGND VGND _2036_/VPB _2036_/VPB _1291_/Y sky130_fd_sc_hd__nor3_1
+X_1558_ _1214_/Y _1549_/Y _1894_/A _1586_/B VGND VGND _2053_/VPB _2053_/VPB _1558_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_1489_ _2126_/Q _2125_/Q _2154_/Q VGND VGND _1554_/VPB _2053_/VPB _1554_/B sky130_fd_sc_hd__mux2_1
+X_1627_ _1582_/B _1626_/Y _1964_/S VGND VGND _2036_/VPB _2036_/VPB _1627_/X sky130_fd_sc_hd__mux2_1
+XTAP_TAPCELL_ROW_24_102 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1343_ _1982_/S _1338_/Y _2001_/A VGND VGND _2048_/VPB _2048_/VPB _1343_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_30_127 VGND _2053_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1412_ _2123_/Q _2154_/Q _1220_/X VGND VGND _1554_/VPB _2053_/VPB _1413_/B sky130_fd_sc_hd__a21oi_1
+X_1274_ _2155_/Q _1274_/B VGND VGND _2047_/VPB _2047_/VPB _1274_/Y sky130_fd_sc_hd__nand2_1
+X_1326_ _1510_/B _1513_/B _2156_/Q VGND VGND _2047_/VPB _2047_/VPB _1326_/Y sky130_fd_sc_hd__mux2i_1
+X_1257_ _2155_/Q _1257_/B VGND VGND _2048_/VPB _2048_/VPB _1257_/Y sky130_fd_sc_hd__nor2_1
+X_1892_ _1892_/A _1892_/B VGND VGND _1955_/VPB _1955_/VPB _1892_/Y sky130_fd_sc_hd__nor2_1
+X_1961_ _1961_/A _1961_/B _1961_/C VGND VGND _2007_/VPB _2007_/VPB _1962_/B sky130_fd_sc_hd__nor3_1
+X_1188_ _1919_/B _1919_/C _1919_/A VGND VGND _2007_/VPB _2007_/VPB _1937_/B sky130_fd_sc_hd__o21ai_0
+X_1944_ _1923_/Y _1941_/Y _1943_/Y VGND VGND _2007_/VPB _2007_/VPB _1956_/B sky130_fd_sc_hd__o21ai_0
+X_1111_ _2133_/Q _2165_/Q VGND VGND _1673_/VPB _2025_/VPB _1113_/A sky130_fd_sc_hd__nor2_1
+X_1875_ _2143_/Q _2175_/Q _1281_/X VGND VGND _2077_/VPB _2077_/VPB _1875_/Y sky130_fd_sc_hd__o21ai_0
+X_1042_ _1042_/A _1041_/Y VGND VGND _2077_/VPB _2077_/VPB _2079_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_2091_ clkload4/A _2091_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[5] sky130_fd_sc_hd__dfrtp_1
+X_2160_ _2184_/CLK operand_b[6] rst_n VGND VGND _2184_/VPB _2184_/VPB _2160_/Q sky130_fd_sc_hd__dfrtp_1
+X_1309_ _2154_/Q _2145_/Q VGND VGND _2035_/VPB _2035_/VPB _1311_/A sky130_fd_sc_hd__nand2b_1
+X_1660_ _1660_/A _1660_/B VGND VGND _2025_/VPB _2025_/VPB _1680_/D sky130_fd_sc_hd__nor2_1
+X_1591_ _1593_/A _1591_/B _1591_/C VGND VGND _2176_/VPB _2176_/VPB _1591_/Y sky130_fd_sc_hd__nor3_1
+X_1927_ _2155_/Q _1925_/Y _1926_/Y VGND VGND _2048_/VPB _2048_/VPB _1927_/Y sky130_fd_sc_hd__o21ai_0
+X_1858_ _2040_/A _1858_/B _1858_/C VGND VGND _2025_/VPB _2025_/VPB _1858_/Y sky130_fd_sc_hd__nand3_1
+X_2074_ _2074_/A _2074_/B VGND VGND _2074_/VPB _2040_/VPB _2077_/A sky130_fd_sc_hd__nor2_1
+X_2143_ clkload6/A operand_a[21] rst_n VGND VGND _2185_/VPB _2185_/VPB _2143_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1789_ _1791_/B _1789_/B VGND VGND _2176_/VPB _2176_/VPB _1789_/Y sky130_fd_sc_hd__nand2_1
+XTAP_TAPCELL_ROW_39_163 VGND _2033_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1574_ _1662_/B _1757_/B VGND VGND _1663_/VPB _2035_/VPB _1574_/Y sky130_fd_sc_hd__nor2_1
+X_1712_ _2001_/A _1519_/Y _1214_/Y VGND VGND _2048_/VPB _2048_/VPB _1712_/Y sky130_fd_sc_hd__a21oi_1
+X_1643_ _2155_/Q _1596_/Y _1642_/Y VGND VGND _1643_/VPB _2036_/VPB _1644_/B sky130_fd_sc_hd__a21oi_1
+X_2057_ _2091_/D _2092_/D _2057_/C VGND VGND _2182_/VPB _2182_/VPB _2059_/C sky130_fd_sc_hd__or3_1
+X_2126_ _2184_/CLK operand_a[4] rst_n VGND VGND _2190_/VPB _2190_/VPB _2126_/Q sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_33_136 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1290_ _2186_/Q _2187_/Q _1370_/A VGND VGND _2025_/VPB _2025_/VPB _2049_/B sky130_fd_sc_hd__nand3_1
+X_1626_ _1626_/A _1626_/B VGND VGND _2036_/VPB _2036_/VPB _1626_/Y sky130_fd_sc_hd__nand2_1
+X_1557_ _2157_/Q _1556_/Y VGND VGND _1955_/VPB _1955_/VPB _1894_/A sky130_fd_sc_hd__lpflow_inputiso1p_1
+XTAP_TAPCELL_ROW_24_103 VGND _2007_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1488_ _1141_/A _1550_/B _1487_/Y _1140_/B VGND VGND _2040_/VPB _2040_/VPB _1503_/B
++ sky130_fd_sc_hd__a22oi_1
+X_2109_ clkload6/A _2109_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[23] sky130_fd_sc_hd__dfrtp_1
+X_1273_ _2154_/Q _2153_/Q _1272_/X VGND VGND _2047_/VPB _2047_/VPB _1274_/B sky130_fd_sc_hd__a21oi_1
+X_1342_ _2155_/Q _1441_/B _1341_/Y _2156_/Q VGND VGND _2048_/VPB _2048_/VPB _1342_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1411_ _1401_/Y _1402_/Y _2157_/Q VGND VGND _1545_/VPB _2006_/VPB _1411_/Y sky130_fd_sc_hd__a21oi_1
+X_1609_ _2130_/Q _2162_/Q _1281_/X VGND VGND _2144_/VPB _2144_/VPB _1609_/Y sky130_fd_sc_hd__o21ai_0
+X_1325_ _2155_/Q _1578_/C _1323_/Y VGND VGND _1325_/VPB _2032_/VPWR _1513_/B sky130_fd_sc_hd__a21oi_1
+X_1256_ _2154_/Q _2143_/Q _1254_/X VGND VGND _2006_/VPB _2006_/VPB _1257_/B sky130_fd_sc_hd__a21oi_1
+X_1891_ _2157_/Q _1889_/Y _1805_/B VGND VGND _1955_/VPB _1955_/VPB _1892_/B sky130_fd_sc_hd__o21ai_0
+X_1960_ _1960_/A _1960_/B VGND VGND _2040_/VPB _2040_/VPB _1960_/Y sky130_fd_sc_hd__nand2_1
+X_1187_ _1919_/B _1183_/B VGND VGND _2040_/VPB _2040_/VPB _1187_/Y sky130_fd_sc_hd__nor2b_1
+X_1110_ _2165_/Q _2133_/Q VGND VGND _2077_/VPB _2077_/VPB _1677_/B sky130_fd_sc_hd__nand2b_1
+X_1041_ _2152_/Q _2184_/Q VGND VGND _2077_/VPB _2077_/VPB _1041_/Y sky130_fd_sc_hd__nor2_1
+X_2090_ clkload0/A _2090_/D rst_n VGND VGND _2187_/VPB _2187_/VPB result_o[4] sky130_fd_sc_hd__dfrtp_1
+X_1308_ _2143_/Q _2144_/Q _2154_/Q VGND VGND _2048_/VPB _2048_/VPB _1308_/Y sky130_fd_sc_hd__mux2i_1
+X_1239_ _2154_/Q _2137_/Q VGND VGND _2006_/VPB _2006_/VPB _1776_/A sky130_fd_sc_hd__nand2_1
+X_1943_ _1943_/A _1961_/B _1961_/C VGND VGND _2007_/VPB _2007_/VPB _1943_/Y sky130_fd_sc_hd__nor3_1
+X_1874_ _2157_/Q _1874_/B _1998_/B VGND VGND _2040_/VPB _2040_/VPB _1877_/B sky130_fd_sc_hd__nor3_1
+X_1926_ _2155_/Q _1926_/B VGND VGND _2006_/VPB _2006_/VPB _1926_/Y sky130_fd_sc_hd__nand2_1
+X_1857_ _2158_/Q _1500_/X _1856_/Y VGND VGND _2025_/VPB _2025_/VPB _1858_/C sky130_fd_sc_hd__a21oi_1
+X_2073_ _2079_/A _2079_/B VGND VGND _2077_/VPB _2077_/VPB _2074_/B sky130_fd_sc_hd__nand2_1
+X_2142_ clkload6/A operand_a[20] rst_n VGND VGND _2185_/VPB _2185_/VPB _2142_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_1788_ _1788_/A _1788_/B VGND VGND _2176_/VPB _2176_/VPB _1789_/B sky130_fd_sc_hd__nor2_1
+X_1590_ _1593_/C _1564_/Y _1589_/Y _1562_/Y VGND VGND _2176_/VPB _2176_/VPB _2093_/D
++ sky130_fd_sc_hd__a211o_1
+XTAP_TAPCELL_ROW_20_84 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1573_ _2157_/Q _1573_/B VGND VGND _2033_/VPB _2033_/VPB _1757_/B sky130_fd_sc_hd__nor2_1
+X_1711_ _2157_/Q _1711_/B VGND VGND _2033_/VPB _2033_/VPB _1711_/Y sky130_fd_sc_hd__nand2_1
+X_1642_ _2155_/Q _1642_/B VGND VGND _2053_/VPB _2053_/VPB _1642_/Y sky130_fd_sc_hd__nor2_1
+X_1909_ _2001_/A _1909_/B VGND VGND _2006_/VPB _2006_/VPB _1909_/Y sky130_fd_sc_hd__nand2_1
+X_2056_ _2087_/D _2088_/D _2089_/D _2090_/D VGND VGND _2185_/VPB _2185_/VPB _2057_/C
++ sky130_fd_sc_hd__or4_1
+X_2125_ clkload5/A operand_a[3] rst_n VGND VGND _2176_/VPB _2176_/VPB _2125_/Q sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_27_112 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_41_170 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_33_137 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1556_ _1415_/B _1555_/Y _1982_/S VGND VGND _1955_/VPB _1955_/VPB _1556_/Y sky130_fd_sc_hd__mux2i_1
+X_2039_ _2079_/B _1550_/B _1737_/B _1804_/A VGND VGND _2040_/VPB _2040_/VPB _2040_/D
++ sky130_fd_sc_hd__a22oi_1
+X_1625_ _1621_/Y _1622_/Y _1623_/Y _1624_/Y VGND VGND _2040_/VPB _2040_/VPB _1632_/C
++ sky130_fd_sc_hd__a211oi_1
+X_1487_ _1508_/B _2049_/B _1282_/Y VGND VGND _2077_/VPB _2077_/VPB _1487_/Y sky130_fd_sc_hd__o21ai_0
+X_2108_ clkload0/A _2108_/D rst_n VGND VGND _2189_/VPB _2189_/VPB result_o[22] sky130_fd_sc_hd__dfrtp_1
+X_1272_ _2152_/Q _2154_/Q VGND VGND _2047_/VPB _2047_/VPB _1272_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1410_ _2001_/A _1410_/B VGND VGND _2006_/VPB _2006_/VPB _1410_/Y sky130_fd_sc_hd__nor2_1
+X_1341_ _2154_/Q _2124_/Q _2155_/Q _1339_/X VGND VGND _2036_/VPB _2036_/VPB _1341_/Y
++ sky130_fd_sc_hd__a211oi_1
+X_1539_ _2157_/Q _1539_/B VGND VGND _2033_/VPB _2033_/VPB _1539_/Y sky130_fd_sc_hd__nor2_1
+X_1608_ _1608_/A _1246_/Y VGND VGND _2036_/VPB _2036_/VPB _1611_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+XTAP_TAPCELL_ROW_12_52 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1890_ _2001_/A _1890_/B VGND VGND _1955_/VPB _1955_/VPB _1892_/A sky130_fd_sc_hd__nor2_1
+X_1324_ _2153_/Q _2154_/Q VGND VGND _2047_/VPB _2047_/VPB _1578_/C sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1255_ _2154_/Q _2143_/Q VGND VGND _2006_/VPB _2006_/VPB _1885_/A sky130_fd_sc_hd__nand2_1
+X_1186_ _1919_/B _1186_/B VGND VGND _2025_/VPB _2025_/VPB _1186_/Y sky130_fd_sc_hd__nor2_1
+X_1040_ _2152_/Q _2184_/Q VGND VGND _2077_/VPB _2077_/VPB _1042_/A sky130_fd_sc_hd__nand2_1
+X_1307_ _2154_/Q _2144_/Q VGND VGND _2048_/VPB _2048_/VPB _1307_/Y sky130_fd_sc_hd__nand2_1
+X_1238_ _2136_/Q _2154_/Q VGND VGND _2053_/VPB _2053_/VPB _1238_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1873_ _2157_/Q _1707_/Y _1872_/X _1586_/B VGND VGND _2036_/VPB _2036_/VPB _1877_/A
++ sky130_fd_sc_hd__a211oi_1
+X_1942_ _1942_/A _1942_/B VGND VGND _1955_/VPB _1955_/VPB _1961_/C sky130_fd_sc_hd__nor2_1
+X_1169_ _1766_/B _1766_/C _1173_/A _1788_/A _1766_/A VGND VGND _2184_/VPB _2184_/VPB
++ _1169_/Y sky130_fd_sc_hd__a2111oi_0
+Xclkbuf_3_0__f_clk clkbuf_0_clk/X VGND VGND _2189_/VPB _2189_/VPB clkload0/A sky130_fd_sc_hd__clkbuf_4
+X_1925_ _2154_/Q _2145_/Q _1263_/X VGND VGND _2035_/VPB _2035_/VPB _1925_/Y sky130_fd_sc_hd__a21oi_1
+X_2141_ clkload5/A operand_a[19] rst_n VGND VGND _2184_/VPB _2184_/VPB _2141_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2072_ _2068_/X _2069_/Y _2070_/X _2071_/Y VGND VGND _2144_/VPB _2144_/VPB _2120_/D
++ sky130_fd_sc_hd__o22ai_1
+XTAP_TAPCELL_ROW_20_85 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1856_ _1846_/A _1462_/A _1854_/Y _1855_/Y VGND VGND _2077_/VPB _2077_/VPB _1856_/Y
++ sky130_fd_sc_hd__o211ai_1
+X_1787_ _1171_/X _1785_/Y _1786_/Y _1808_/B VGND VGND _2184_/VPB _2184_/VPB _1807_/A
++ sky130_fd_sc_hd__o211ai_1
+X_1572_ _2157_/Q _1572_/B VGND VGND _2033_/VPB _2033_/VPB _1662_/B sky130_fd_sc_hd__nor2_1
+X_1641_ _2154_/Q _2131_/Q _1229_/X VGND VGND _2053_/VPB _2053_/VPB _1642_/B sky130_fd_sc_hd__a21oi_1
+X_1710_ _1700_/A _1462_/A _2049_/B _1103_/Y _1709_/Y VGND VGND _2144_/VPB _2144_/VPB
++ _1710_/Y sky130_fd_sc_hd__o221ai_1
+X_1908_ _1833_/Y _1907_/Y _1982_/S VGND VGND _2048_/VPB _2048_/VPB _1909_/B sky130_fd_sc_hd__mux2i_1
+X_2124_ _2184_/CLK operand_a[2] rst_n VGND VGND _2155_/VPB _2144_/VPB _2124_/Q sky130_fd_sc_hd__dfrtp_1
+X_2055_ _1959_/A _2043_/X _2054_/Y VGND VGND _2144_/VPB _2144_/VPB _2117_/D sky130_fd_sc_hd__o21ai_0
+X_1839_ _1830_/A _1462_/A _2049_/B _1846_/B VGND VGND _2144_/VPB _2144_/VPB _1841_/C
++ sky130_fd_sc_hd__o22ai_1
+XTAP_TAPCELL_ROW_27_113 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_41_171 VGND _2047_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_33_138 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1486_ _2157_/Q _1482_/Y _1485_/Y VGND VGND _2006_/VPB _2006_/VPB _1486_/Y sky130_fd_sc_hd__a21oi_1
+X_1555_ _2155_/Q _1597_/B _1554_/Y VGND VGND _2036_/VPB _2036_/VPB _1555_/Y sky130_fd_sc_hd__o21ai_0
+X_1624_ _1120_/A _1282_/Y _1462_/A _1616_/A VGND VGND _2077_/VPB _2077_/VPB _1624_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_2107_ clkload5/A _2107_/D rst_n VGND VGND _2190_/VPB _2190_/VPB result_o[21] sky130_fd_sc_hd__dfrtp_1
+X_2038_ _2158_/Q _1730_/Y _2037_/Y VGND VGND _2040_/VPB _2040_/VPB _2040_/C sky130_fd_sc_hd__a21oi_1
+X_1271_ _2002_/B _1271_/B VGND VGND _2047_/VPB _2047_/VPB _1389_/B sky130_fd_sc_hd__nand2_1
+X_1340_ _2125_/Q _2126_/Q _2154_/Q VGND VGND _2006_/VPB _2006_/VPB _1441_/B sky130_fd_sc_hd__mux2i_1
+X_1538_ _1385_/Y _1391_/B _2156_/Q VGND VGND _2035_/VPB _2035_/VPB _1539_/B sky130_fd_sc_hd__mux2i_1
+X_1607_ _2157_/Q _1278_/B _1577_/Y VGND VGND _2006_/VPB _2006_/VPB _1608_/A sky130_fd_sc_hd__o21ai_0
+X_1469_ _1469_/A _1469_/B VGND VGND _2007_/VPB _2007_/VPB _1469_/Y sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_12_53 VGND _2176_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1323_ _2155_/Q _1432_/B VGND VGND _2047_/VPB _2047_/VPB _1323_/Y sky130_fd_sc_hd__nor2_1
+X_1254_ _2142_/Q _2154_/Q VGND VGND _1848_/VPB _2053_/VPB _1254_/X sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1185_ _1904_/A _1884_/A VGND VGND _2025_/VPB _2025_/VPB _1186_/B sky130_fd_sc_hd__nor2_1
+XTAP_TAPCELL_ROW_23_96 VGND _2025_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1306_ _2155_/Q _1304_/Y _1305_/Y VGND VGND _2035_/VPB _2035_/VPB _1306_/Y sky130_fd_sc_hd__a21oi_1
+X_1872_ _2001_/A _1872_/B VGND VGND _2036_/VPB _2036_/VPB _1872_/X sky130_fd_sc_hd__and2_0
+X_1941_ _1942_/A _1942_/B VGND VGND _1955_/VPB _1955_/VPB _1941_/Y sky130_fd_sc_hd__nand2_1
+X_1237_ _1687_/B _1237_/B VGND VGND _2053_/VPB _2053_/VPB _1403_/B sky130_fd_sc_hd__nand2_1
+X_1099_ _2136_/Q _2168_/Q VGND VGND _2184_/VPB _2184_/VPB _1743_/B sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_1168_ _1766_/B _1766_/C _1788_/A _1766_/A VGND VGND _2184_/VPB _2184_/VPB _1808_/B
++ sky130_fd_sc_hd__a211o_1
+X_2140_ clkload3/A operand_a[18] rst_n VGND VGND _2187_/VPB _2187_/VPB _2140_/Q
++ sky130_fd_sc_hd__dfrtp_1
+X_2071_ _1036_/Y _2070_/B _2016_/A VGND VGND _2144_/VPB _2144_/VPB _2071_/Y sky130_fd_sc_hd__o21ai_0
+X_1924_ _1067_/X _1922_/Y _2016_/A VGND VGND _2007_/VPB _2007_/VPB _1924_/Y sky130_fd_sc_hd__o21ai_0
+XTAP_TAPCELL_ROW_20_86 VGND _2040_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1855_ _2142_/Q _2174_/Q _1281_/X VGND VGND _2077_/VPB _2077_/VPB _1855_/Y sky130_fd_sc_hd__o21ai_0
+X_1786_ _1791_/A _1171_/X _1959_/A VGND VGND _2184_/VPB _2184_/VPB _1786_/Y sky130_fd_sc_hd__a21oi_1
+X_1571_ _2156_/Q _1429_/Y _1570_/Y VGND VGND _2033_/VPB _2033_/VPB _1749_/B sky130_fd_sc_hd__o21ai_0
+X_1640_ _1640_/A _1640_/B VGND VGND _2035_/VPB _2035_/VPB _1640_/Y sky130_fd_sc_hd__nand2_1
+X_1907_ _2155_/Q _1867_/X _1906_/Y VGND VGND _2048_/VPB _2048_/VPB _1907_/Y sky130_fd_sc_hd__a21oi_1
+X_1838_ _2157_/Q _1838_/B _1998_/B VGND VGND _2025_/VPB _2025_/VPB _1841_/B sky130_fd_sc_hd__nor3_1
+X_2123_ _2184_/CLK operand_a[1] rst_n VGND VGND _2176_/VPB _2176_/VPB _2123_/Q sky130_fd_sc_hd__dfrtp_1
+XTAP_TAPCELL_ROW_15_64 VGND _2144_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_2054_ _2016_/A _2045_/Y _2053_/Y VGND VGND _2144_/VPB _2144_/VPB _2054_/Y sky130_fd_sc_hd__a21oi_1
+XTAP_TAPCELL_ROW_27_114 VGND _1955_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+XTAP_TAPCELL_ROW_2_12 VGND _2189_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1769_ _1769_/A _1769_/B _1769_/C VGND VGND _2184_/VPB _2184_/VPB _1771_/B sky130_fd_sc_hd__nand3_1
+XTAP_TAPCELL_ROW_33_139 VGND _2006_/VPB sky130_fd_sc_hd__tapvpwrvgnd_1
+X_1485_ _2157_/Q _1484_/Y _1772_/A VGND VGND _1545_/VPB _2006_/VPB _1485_/Y sky130_fd_sc_hd__o21ai_0
+X_1554_ _2155_/Q _1554_/B VGND VGND _1554_/VPB _2053_/VPB _1554_/Y sky130_fd_sc_hd__nand2_1
+X_1623_ _1635_/B _2049_/B VGND VGND _2040_/VPB _2040_/VPB _1623_/Y sky130_fd_sc_hd__nor2_1
+.ends
+

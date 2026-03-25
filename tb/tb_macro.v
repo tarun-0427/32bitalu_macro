@@ -37,7 +37,7 @@ alu_32bit dut (
 //////////////////////////////////////
 
 initial clk = 0;
-always #5 clk = ~clk;
+always #5.555 clk = ~clk;
 
 
 //////////////////////////////////////
@@ -109,7 +109,7 @@ integer error_count;
 // CHECKER
 //////////////////////////////////////
 
-always @(posedge clk)
+always @(posedge clk or negedge rst_n)
 begin
 
 if(!rst_n)
@@ -164,12 +164,12 @@ $dumpvars(0,tb_alu_32bit);
 // INITIAL VALUES
 //////////////////////////////////////
 
-rst_n = 0;
+#3 rst_n = 0;
 valid_i = 0;
 repeat(20) @(posedge clk); // Hold reset long
 
 @(negedge clk); // align release
-rst_n = 1; 
+#7 rst_n = 1; 
 repeat(10) @(posedge clk); // pipeline to flush
 
 
@@ -234,6 +234,12 @@ $display("TEST FAILED");
 $display("Errors = %0d",error_count);
 $display("=================================");
 end
+
+// Async reset demonstration
+// --------------------------------
+
+#3 rst_n = 0;       // assert async reset
+#20 rst_n = 1;      // release reset
 
 $finish;
 

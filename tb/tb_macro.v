@@ -152,9 +152,9 @@ initial
 begin
 
 `ifdef GLS
-$dumpfile("gls_wave.vcd");
+$dumpfile("sim/gls_wave.vcd");
 `else
-$dumpfile("rtl_wave.vcd");
+$dumpfile("sim/rtl_wave.vcd");
 `endif
 
 $dumpvars(0,tb_alu_32bit);

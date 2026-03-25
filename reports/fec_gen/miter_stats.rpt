@@ -1,0 +1,29 @@
+
+21. Printing statistics.
+
+=== equiv ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1011 wires
+     4961 wire bits
+      496 public wires
+     3232 public wire bits
+       11 ports
+      107 port bits
+     3998 cells
+      551   $_AND_
+      508   $_MUX_
+       48   $_NOT_
+      429   $_OR_
+      105   $_SDFF_PN0_
+      161   $_XOR_
+      550   $and
+      394   $equiv
+      508   $mux
+       48   $not
+      429   $or
+        1   $reduce_and
+      105   $sdff
+      161   $xor
+
